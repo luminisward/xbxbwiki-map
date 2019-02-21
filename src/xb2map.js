@@ -4,6 +4,7 @@ import 'leaflet/dist/images/marker-icon-2x.png'
 import 'leaflet/dist/images/marker-shadow.png'
 
 import mapinfo from './data/mapinfo'
+import collectionIconUrl from './collection-icon.png'
 
 class Xb2map extends L.Map {
   constructor (element, option, imageUrl, imageBounds) {
@@ -28,15 +29,21 @@ class Xb2map extends L.Map {
     super(element, option)
 
     this.bounds = imageBoundsRotate180
-    this.XOffest = Math.abs(imageBounds[0][0] + imageBounds[1][0])
+    this.XOffest = imageBounds[0][0] + imageBounds[1][0]
     this.addLayer(L.imageOverlay(imageUrl, imageBoundsRotate180YX))
     this.fitBounds(imageBoundsRotate180YX)
+
+    this.collectionIcon = L.icon({
+      iconUrl: collectionIconUrl,
+      iconSize: [22, 32],
+      iconAnchor: [11, 16]
+    })
   }
 
   addMarker (x, y) {
     this.addLayer(
       L.marker(
-        xy([x - this.XOffest, -y]), { riseOnHover: true }
+        xy([x - this.XOffest, -y]), { riseOnHover: true, icon: this.collectionIcon }
       ).on('click', function (e) { console.log([e.latlng.lng, e.latlng.lat]) })
     )
   }
