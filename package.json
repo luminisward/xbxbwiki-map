@@ -11,9 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "leaflet": "^1.4.0",
-    "leaflet.chinatmsproviders": "^2.0.2",
-    "lodash": "^4.17.11"
+    "leaflet": "^1.4.0"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
