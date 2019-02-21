@@ -3,30 +3,42 @@ import 'leaflet/dist/leaflet.css'
 import 'leaflet/dist/images/marker-icon-2x.png'
 import 'leaflet/dist/images/marker-shadow.png'
 
+import mapinfo from './data/mapinfo'
+
 class Xb2map extends L.Map {
   constructor (element, option, imageUrl, imageBounds) {
-    imageBounds = [
-      [imageBounds[1][1], imageBounds[0][0]],
-      [imageBounds[0][1], imageBounds[1][0]]
+    const imageBoundsRotate180 = [
+      [-imageBounds[1][0], -imageBounds[1][1]],
+      [-imageBounds[0][0], -imageBounds[0][1]]
     ]
+    const imageBoundsRotate180YX = [
+      [imageBoundsRotate180[0][1], imageBoundsRotate180[0][0]],
+      [imageBoundsRotate180[1][1], imageBoundsRotate180[1][0]]
+    ]
+
     option = Object.assign({
       zoomSnap: 0.25,
       zoom: 0,
-      // maxBounds: imageBounds,
+      minZoom: -5,
+      maxBounds: imageBoundsRotate180YX,
       crs: L.CRS.Simple
     },
     option
     )
-
     super(element, option)
 
-    this.heightOffest = Math.abs(imageBounds[0][0] - imageBounds[1][0]) * 2
-    this.addLayer(L.imageOverlay(imageUrl, imageBounds))
-    this.fitBounds(imageBounds)
+    this.bounds = imageBoundsRotate180
+    this.XOffest = Math.abs(imageBounds[0][0] + imageBounds[1][0])
+    this.addLayer(L.imageOverlay(imageUrl, imageBoundsRotate180YX))
+    this.fitBounds(imageBoundsRotate180YX)
   }
 
   addMarker (x, y) {
-    this.addLayer(L.marker(xy([x, y - this.heightOffest])))
+    this.addLayer(
+      L.marker(
+        xy([x - this.XOffest, -y]), { riseOnHover: true }
+      ).on('click', function (e) { console.log([e.latlng.lng, e.latlng.lat]) })
+    )
   }
 
   addMarkers (markers) {
@@ -43,6 +55,25 @@ function xy ([x, y]) {
   return L.latLng(y, x) // When doing xy(x, y);
 };
 
+function getMapByDebugName (debugName) {
+  if (debugName in mapinfo) {
+    const imageBounds = [
+      [mapinfo[debugName].LowerX, mapinfo[debugName].LowerY],
+      [mapinfo[debugName].UpperX, mapinfo[debugName].UpperY]
+    ]
+
+    const imageUrl = require('./images/' + debugName + '_map_0.png')
+
+    const map = new Xb2map('map', {}, imageUrl, imageBounds)
+    map.xInterval = [mapinfo[debugName].LowerX, mapinfo[debugName].UpperX]
+    map.yInterval = [mapinfo[debugName].LowerY, mapinfo[debugName].UpperY]
+    map.zInterval = [mapinfo[debugName].LowerZ, mapinfo[debugName].UpperZ]
+
+    return map
+  }
+  throw Error('Invalid map.')
+}
+
 export {
-  Xb2map
+  Xb2map, getMapByDebugName
 }

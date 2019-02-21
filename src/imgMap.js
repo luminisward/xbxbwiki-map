@@ -1,28 +1,32 @@
-import { Xb2map } from './xb2map'
+import {
+  getMapByDebugName
+} from './xb2map'
+import collections from './data/collections.json'
 
-import imageUrl from './images/ma21a_a_floor_02_map_0.png'
+const mapName = 'ma05a_f02'
+const mapId = mapName.split('_')[0]
 
-const imageBounds = [
-  [-150, -1050],
-  [302, -350]
-]
+const map = getMapByDebugName(mapName)
 
-const map = new Xb2map('map', {}, imageUrl, imageBounds)
+const collectionsOnMap = collections
+  .filter(point =>
+    point.Map === mapId &&
+    between(point.PosX, map.xInterval) &&
+    between(point.PosY, map.yInterval) &&
+    between(point.PosZ, map.zInterval)
+  )
 
-map.addMarkers([
-  [-31.19032, 498.4538],
-  [-81.37274, 595.0247],
-  [-111.1726, 733.8743],
-  [188.966, 907.981],
-  [21.61831, 905.9102],
-  [-33.78973, 854.564],
-  [231.9399, 798.4176],
-  [79.69092, 523.4773],
-  [130.0751, 522.4558]
-])
+const coordinates = collectionsOnMap.map(point => [point.PosX, point.PosY])
+map.addMarkers(coordinates)
+
+function between (number, interval) {
+  if (number >= interval[0] && number <= interval[1]) return true
+  return false
+}
 
 // debug
 console.log(map)
+console.log(collectionsOnMap)
 map.on('click', function (e) {
   console.log([e.latlng.lng, e.latlng.lat])
 })
