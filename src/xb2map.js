@@ -35,8 +35,7 @@ class Xb2map extends L.Map {
 
     this.collectionIcon = L.icon({
       iconUrl: collectionIconUrl,
-      iconSize: [22, 32],
-      iconAnchor: [11, 16]
+      iconSize: [22, 32]
     })
   }
 
