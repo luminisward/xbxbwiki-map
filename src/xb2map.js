@@ -2,6 +2,7 @@ import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 
 import { collectionIcon as markerIcon } from './markerIcon'
+import collectionPop from './data/collectionPop'
 
 class Xb2map extends L.Map {
   constructor (element, option, imageUrl, mapinfo) {
@@ -22,7 +23,7 @@ class Xb2map extends L.Map {
       zoomSnap: 0.25,
       zoom: 0,
       minZoom: -5,
-      maxBounds: imageBoundsRotate180YX,
+      // maxBounds: imageBoundsRotate180YX,
       crs: L.CRS.Simple
     },
     option
@@ -41,7 +42,14 @@ class Xb2map extends L.Map {
   addMarker (point, icon = markerIcon) {
     const [x, y] = [point.PosX, point.PosZ]
     const tooltip = L.tooltip({ direction: 'bottom', offset: L.point(0, 18) })
-    tooltip.setContent(point.Name)
+    const collectionInfo = collectionPop[point.Name]
+    let content = `<pre>${point.Name}
+${collectionInfo.itm1ID}
+${collectionInfo.itm2ID}
+${collectionInfo.itm3ID}
+${collectionInfo.itm4ID}
+</pre>`
+    tooltip.setContent(content)
 
     this.addLayer(
       L.marker(
