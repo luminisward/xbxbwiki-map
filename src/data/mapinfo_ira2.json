@@ -1,0 +1,122 @@
+{
+  "dlc3_ma40a_c01": {
+    "DisplayName": "全区域",
+    "Priority": 80,
+    "Width": 776,
+    "Height": 1022,
+    "LowerX": -185.5,
+    "LowerY": -133.4078,
+    "LowerZ": -830.2693,
+    "UpperX": 202.5,
+    "UpperY": 48.1062,
+    "UpperZ": -319.1569
+  },
+  "dlc3_ma40a_f01": {
+    "DisplayName": "全区域",
+    "Priority": 55,
+    "Width": 1296,
+    "Height": 1969,
+    "LowerX": -738,
+    "LowerY": -159.2979,
+    "LowerZ": 132.6135,
+    "UpperX": -90,
+    "UpperY": -46.58629,
+    "UpperZ": 1117.249
+  },
+  "dlc3_ma40a_f02": {
+    "DisplayName": "全区域",
+    "Priority": 60,
+    "Width": 792,
+    "Height": 1056,
+    "LowerX": 50.5,
+    "LowerY": -132.5015,
+    "LowerZ": 146.4537,
+    "UpperX": 446.5,
+    "UpperY": -70.62611,
+    "UpperZ": 674.0855
+  },
+  "dlc3_ma40a_f03": {
+    "DisplayName": "全区域",
+    "Priority": 57,
+    "Width": 1200,
+    "Height": 1356,
+    "LowerX": -329.5,
+    "LowerY": -133.4078,
+    "LowerZ": -321.792,
+    "UpperX": 270.5,
+    "UpperY": -20.56323,
+    "UpperZ": 355.5883
+  },
+  "dlc3_ma40a_d01": {
+    "DisplayName": "全区域",
+    "Priority": 10,
+    "Width": 440,
+    "Height": 1061,
+    "LowerX": -120,
+    "LowerY": -11.79302,
+    "LowerZ": 277.8997,
+    "UpperX": 100,
+    "UpperY": 44.80244,
+    "UpperZ": 808.0006
+  },
+  "dlc3_ma40a_d02": {
+    "DisplayName": "全区域",
+    "Priority": 20,
+    "Width": 464,
+    "Height": 579,
+    "LowerX": -136.5,
+    "LowerY": 45.11617,
+    "LowerZ": 601.9156,
+    "UpperX": 95.5,
+    "UpperY": 119.4168,
+    "UpperZ": 891.2993
+  },
+  "dlc3_ma40a_d03": {
+    "DisplayName": "全区域",
+    "Priority": 30,
+    "Width": 504,
+    "Height": 915,
+    "LowerX": -137,
+    "LowerY": 118.7472,
+    "LowerZ": 433.8996,
+    "UpperX": 115,
+    "UpperY": 154.6073,
+    "UpperZ": 891.2993
+  },
+  "dlc3_ma40a_d04": {
+    "DisplayName": "全区域",
+    "Priority": 40,
+    "Width": 576,
+    "Height": 766,
+    "LowerX": -67,
+    "LowerY": 154.3559,
+    "LowerZ": 414.1317,
+    "UpperX": 221,
+    "UpperY": 190.216,
+    "UpperZ": 797.3349
+  },
+  "dlc3_ma41a_f01": {
+    "DisplayName": "全区域",
+    "Priority": 2147483647,
+    "Width": 2880,
+    "Height": 2282,
+    "LowerX": -596.5,
+    "LowerY": -64.55937,
+    "LowerZ": -561.1492,
+    "UpperX": 843.5,
+    "UpperY": 140.9266,
+    "UpperZ": 579.234
+  },
+  "dlc3_ma41a_f01_shipoff": {
+    "DisplayName": "全区域",
+    "Priority": 10,
+    "Width": 2880,
+    "Height": 2282,
+    "LowerX": -596.5,
+    "LowerY": -64.55937,
+    "LowerZ": -561.1492,
+    "UpperX": 843.5,
+    "UpperY": 140.9266,
+    "UpperZ": 579.234
+  }
+}
