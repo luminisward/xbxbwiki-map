@@ -38,17 +38,24 @@ class Xb2map extends L.Map {
     this.zInterval = [mapinfo.LowerZ, mapinfo.UpperZ]
   }
 
-  addMarker (x, y, icon = markerIcon) {
+  addMarker (point, icon = markerIcon) {
+    const [x, y] = [point.PosX, point.PosZ]
+    const tooltip = L.tooltip({ direction: 'bottom', offset: L.point(0, 18) })
+    tooltip.setContent(point.Name)
+
     this.addLayer(
       L.marker(
-        xy([x - this.XOffest, -y]), { riseOnHover: true, icon: markerIcon }
-      ).on('click', function (e) { console.log([e.latlng.lng, e.latlng.lat]) })
+        xy([x - this.XOffest, -y]), { riseOnHover: true, icon: icon }
+      ).on('click', function (e) {
+        console.log([e.latlng.lng, e.latlng.lat])
+      }
+      ).bindTooltip(tooltip).openTooltip()
     )
   }
 
   addMarkers (markers) {
     markers.forEach(marker => {
-      this.addMarker(...marker)
+      this.addMarker(marker)
     })
   }
 }

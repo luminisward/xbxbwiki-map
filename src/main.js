@@ -4,7 +4,7 @@ import { getMapByDebugName } from './xb2map'
 import gmk from './data/gmk.json'
 import mapinfo from './data/mapinfo'
 
-const mapName = 'ma17a_f01'
+const mapName = 'ma05a_f02'
 const mapId = mapName.split('_')[0]
 
 const map = getMapByDebugName(mapName, mapinfo)
@@ -18,8 +18,7 @@ const collectionsOnMap = gmk
     between(point.PosZ, map.zInterval)
   )
 
-const coordinates = collectionsOnMap.map(point => [point.PosX, point.PosZ])
-map.addMarkers(coordinates)
+map.addMarkers(collectionsOnMap)
 
 function between (number, interval) {
   if (number >= interval[0] && number <= interval[1]) return true
