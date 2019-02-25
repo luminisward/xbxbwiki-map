@@ -1,13 +1,14 @@
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
-import 'leaflet/dist/images/marker-icon-2x.png'
-import 'leaflet/dist/images/marker-shadow.png'
 
-import mapinfo from './data/mapinfo'
-import collectionIconUrl from './collection-icon.png'
+import { collectionIcon as markerIcon } from './markerIcon'
 
 class Xb2map extends L.Map {
-  constructor (element, option, imageUrl, imageBounds) {
+  constructor (element, option, imageUrl, mapinfo) {
+    const imageBounds = [
+      [mapinfo.LowerX, mapinfo.LowerZ],
+      [mapinfo.UpperX, mapinfo.UpperZ]
+    ]
     const imageBoundsRotate180 = [
       [-imageBounds[1][0], -imageBounds[1][1]],
       [-imageBounds[0][0], -imageBounds[0][1]]
@@ -32,17 +33,15 @@ class Xb2map extends L.Map {
     this.XOffest = imageBounds[0][0] + imageBounds[1][0]
     this.addLayer(L.imageOverlay(imageUrl, imageBoundsRotate180YX))
     this.fitBounds(imageBoundsRotate180YX)
-
-    this.collectionIcon = L.icon({
-      iconUrl: collectionIconUrl,
-      iconSize: [22, 32]
-    })
+    this.xInterval = [mapinfo.LowerX, mapinfo.UpperX]
+    this.yInterval = [mapinfo.LowerY, mapinfo.UpperY]
+    this.zInterval = [mapinfo.LowerZ, mapinfo.UpperZ]
   }
 
-  addMarker (x, y) {
+  addMarker (x, y, icon = markerIcon) {
     this.addLayer(
       L.marker(
-        xy([x - this.XOffest, -y]), { riseOnHover: true, icon: this.collectionIcon }
+        xy([x - this.XOffest, -y]), { riseOnHover: true, icon: markerIcon }
       ).on('click', function (e) { console.log([e.latlng.lng, e.latlng.lat]) })
     )
   }
@@ -61,19 +60,15 @@ function xy ([x, y]) {
   return L.latLng(y, x) // When doing xy(x, y);
 };
 
-function getMapByDebugName (debugName) {
-  if (debugName in mapinfo) {
-    const imageBounds = [
-      [mapinfo[debugName].LowerX, mapinfo[debugName].LowerY],
-      [mapinfo[debugName].UpperX, mapinfo[debugName].UpperY]
-    ]
+function getMapByDebugName (debugName, mapinfos, game = 'base') {
+  if (debugName in mapinfos) {
+    const themapinfo = mapinfos[debugName]
 
-    const imageUrl = require('./images/' + debugName + '_map_0.png')
+    let imageUrl
+    if (game === 'base') imageUrl = require('./images/base/' + debugName + '_map_0.png')
+    else if (game === 'torna') imageUrl = require('./images/torna/' + debugName + '_map_0.png')
 
-    const map = new Xb2map('map', {}, imageUrl, imageBounds)
-    map.xInterval = [mapinfo[debugName].LowerX, mapinfo[debugName].UpperX]
-    map.yInterval = [mapinfo[debugName].LowerY, mapinfo[debugName].UpperY]
-    map.zInterval = [mapinfo[debugName].LowerZ, mapinfo[debugName].UpperZ]
+    const map = new Xb2map('map', {}, imageUrl, themapinfo)
 
     return map
   }
