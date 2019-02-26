@@ -144,7 +144,7 @@
     "UpperZ": 384.9143
   },
   "ma05a_c_02": {
-    "DisplayName": "ma05a_c_02",
+    "DisplayName": "树梢小径",
     "Priority": 20,
     "Width": 296,
     "Height": 461,
@@ -156,7 +156,7 @@
     "UpperZ": 405.1484
   },
   "ma05a_c_03": {
-    "DisplayName": "ma05a_c_03",
+    "DisplayName": "托里格镇",
     "Priority": 30,
     "Width": 1240,
     "Height": 730,
@@ -168,7 +168,7 @@
     "UpperZ": 488.6898
   },
   "ma05a_c_03_shipoff": {
-    "DisplayName": "ma05a_c_03_shipoff",
+    "DisplayName": "托里格镇",
     "Priority": 2147483647,
     "Width": 1240,
     "Height": 730,
@@ -192,7 +192,7 @@
     "UpperZ": 257.9187
   },
   "ma05a_f02": {
-    "DisplayName": "古拉 上层",
+    "DisplayName": "古拉 上层 右半身",
     "Priority": 50,
     "Width": 3176,
     "Height": 2122,
@@ -204,7 +204,7 @@
     "UpperZ": 507.7294
   },
   "ma05a_f02_shipoff": {
-    "DisplayName": "古拉 上层",
+    "DisplayName": "古拉 上层 右半身",
     "Priority": 2147483647,
     "Width": 3176,
     "Height": 2122,
@@ -216,7 +216,7 @@
     "UpperZ": 507.7294
   },
   "ma05a_f05": {
-    "DisplayName": "ma05a_f05",
+    "DisplayName": "古拉 上层 左半身",
     "Priority": 60,
     "Width": 2360,
     "Height": 1128,
@@ -408,7 +408,7 @@
     "UpperZ": 628.7662
   },
   "ma08a_city_f_3": {
-    "DisplayName": "ma08a_city_f_3",
+    "DisplayName": "帝都阿尔巴马格",
     "Priority": 20,
     "Width": 832,
     "Height": 560,
@@ -420,7 +420,7 @@
     "UpperZ": 351.6782
   },
   "ma08a_city_f_4": {
-    "DisplayName": "ma08a_city_f_4",
+    "DisplayName": "皇宫哈达夏尔 上层",
     "Priority": 30,
     "Width": 1000,
     "Height": 600,
@@ -432,7 +432,7 @@
     "UpperZ": 650
   },
   "ma08a_newplant_out": {
-    "DisplayName": "ma08a_newplant_out",
+    "DisplayName": "废弃工厂",
     "Priority": 15,
     "Width": 968,
     "Height": 809,
@@ -468,7 +468,7 @@
     "UpperZ": 128.4448
   },
   "ma10a_f01": {
-    "DisplayName": "檀佩兰提亚 全区域",
+    "DisplayName": "岬",
     "Priority": 10,
     "Width": 1240,
     "Height": 970,
@@ -480,7 +480,7 @@
     "UpperZ": 490.511
   },
   "ma10a_f02": {
-    "DisplayName": "ma10a_f02",
+    "DisplayName": "中央平原",
     "Priority": 20,
     "Width": 2104,
     "Height": 3435,
@@ -492,7 +492,7 @@
     "UpperZ": 1356.118
   },
   "ma10a_f03": {
-    "DisplayName": "ma10a_f03",
+    "DisplayName": "尤迪肯姆遗址",
     "Priority": 15,
     "Width": 1144,
     "Height": 699,
@@ -624,7 +624,7 @@
     "UpperZ": 60
   },
   "ma13a_b_floor_05": {
-    "DisplayName": "ma13a_b_floor_05",
+    "DisplayName": "王宫 上层",
     "Priority": 40,
     "Width": 400,
     "Height": 240,
@@ -636,7 +636,7 @@
     "UpperZ": 60
   },
   "ma15a_f01": {
-    "DisplayName": "利贝拉里塔斯岛屿群 全区域",
+    "DisplayName": "里吉特海域",
     "Priority": 20,
     "Width": 2528,
     "Height": 2015,
@@ -660,7 +660,7 @@
     "UpperZ": -260.4552
   },
   "ma15a_f03": {
-    "DisplayName": "ma15a_f03",
+    "DisplayName": "弥先岛",
     "Priority": 10,
     "Width": 664,
     "Height": 800,
@@ -672,7 +672,7 @@
     "UpperZ": -1561.837
   },
   "ma15a_f04": {
-    "DisplayName": "ma15a_f04",
+    "DisplayName": "弥先海域",
     "Priority": 25,
     "Width": 2528,
     "Height": 2091,
@@ -684,7 +684,7 @@
     "UpperZ": -966.1076
   },
   "ma16a_floor_01": {
-    "DisplayName": "艾尔皮斯灵洞 上层",
+    "DisplayName": "艾尔皮斯灵洞 上层1",
     "Priority": 5,
     "Width": 360,
     "Height": 758,
@@ -696,7 +696,7 @@
     "UpperZ": 64.95607
   },
   "ma16a_floor_01b": {
-    "DisplayName": "ma16a_floor_01b",
+    "DisplayName": "艾尔皮斯灵洞 上层2",
     "Priority": 10,
     "Width": 360,
     "Height": 1775,
@@ -708,7 +708,7 @@
     "UpperZ": 947.4779
   },
   "ma16a_floor_02": {
-    "DisplayName": "拉比亚地下水流 下层",
+    "DisplayName": "艾尔皮斯灵洞 中层1",
     "Priority": 15,
     "Width": 688,
     "Height": 857,
@@ -720,7 +720,7 @@
     "UpperZ": 1353.927
   },
   "ma16a_floor_08": {
-    "DisplayName": "艾尔皮斯灵洞 下层",
+    "DisplayName": "艾尔皮斯灵洞 中层2",
     "Priority": 20,
     "Width": 992,
     "Height": 1475,
@@ -732,7 +732,7 @@
     "UpperZ": 1876.512
   },
   "ma16a_floor_11": {
-    "DisplayName": "ma16a_floor_11",
+    "DisplayName": "艾尔皮斯灵洞 下层",
     "Priority": 25,
     "Width": 472,
     "Height": 1098,
@@ -744,7 +744,7 @@
     "UpperZ": 2424.126
   },
   "ma17a_f01": {
-    "DisplayName": "莫尔斯断崖 全区域",
+    "DisplayName": "莫尔斯断崖 上层",
     "Priority": 5,
     "Width": 768,
     "Height": 1347,
@@ -756,7 +756,7 @@
     "UpperZ": 350.3212
   },
   "ma17a_f03": {
-    "DisplayName": "下层 外壁",
+    "DisplayName": "莫尔斯断崖 下层",
     "Priority": 15,
     "Width": 696,
     "Height": 484,
@@ -768,7 +768,7 @@
     "UpperZ": 503.7892
   },
   "ma17a_f03_lodoff": {
-    "DisplayName": "下层 外壁",
+    "DisplayName": "莫尔斯断崖 下层",
     "Priority": 2147483647,
     "Width": 696,
     "Height": 484,
@@ -780,7 +780,7 @@
     "UpperZ": 503.7892
   },
   "ma17a_f03b": {
-    "DisplayName": "ma17a_f03b",
+    "DisplayName": "莫尔斯断崖 下层b",
     "Priority": 10,
     "Width": 248,
     "Height": 197,
@@ -792,7 +792,7 @@
     "UpperZ": 375.6281
   },
   "ma18a_f01": {
-    "DisplayName": "莫尔斯之地 全区域",
+    "DisplayName": "莫尔斯之地 街区",
     "Priority": 5,
     "Width": 520,
     "Height": 1243,
@@ -816,7 +816,7 @@
     "UpperZ": -505.5183
   },
   "ma18a_f11": {
-    "DisplayName": "ma18a_f11",
+    "DisplayName": "世界树前",
     "Priority": 15,
     "Width": 872,
     "Height": 1130,
@@ -876,7 +876,7 @@
     "UpperZ": 406.2031
   },
   "ma20a_f08_1": {
-    "DisplayName": "ma20a_f08_1",
+    "DisplayName": "中层外围",
     "Priority": 35,
     "Width": 1944,
     "Height": 841,
@@ -958,17 +958,5 @@
     "UpperX": 595,
     "UpperY": -300,
     "UpperZ": -1059.762
-  },
-  "ma30a_area": {
-    "DisplayName": "全区域",
-    "Priority": 0,
-    "Width": 1232,
-    "Height": 1262,
-    "LowerX": -344,
-    "LowerY": -62.85911,
-    "LowerZ": -203.8312,
-    "UpperX": 272,
-    "UpperY": 54.16752,
-    "UpperZ": 426.6193
   }
 }
