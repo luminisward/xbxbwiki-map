@@ -1,7 +1,7 @@
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
+import $ from 'jquery'
 
-import { collectionIcon as markerIcon } from './markerIcon'
 import collectionPop from './data/collectionPop'
 
 class Xb2map extends L.Map {
@@ -30,6 +30,8 @@ class Xb2map extends L.Map {
     )
     super(element, option)
 
+    this.Name = mapinfo.Name
+    this.mapId = mapinfo.Name.split('_')[0]
     this.bounds = imageBoundsRotate180
     this.XOffest = imageBounds[0][0] + imageBounds[1][0]
     this.addLayer(L.imageOverlay(imageUrl, imageBoundsRotate180YX))
@@ -39,7 +41,7 @@ class Xb2map extends L.Map {
     this.zInterval = [mapinfo.LowerZ, mapinfo.UpperZ]
   }
 
-  addMarker (point, icon = markerIcon) {
+  addMarker (point, icon) {
     const [x, y] = [point.PosX, point.PosZ]
     const tooltip = L.tooltip({ direction: 'bottom', offset: L.point(0, 18) })
     const collectionInfo = collectionPop[point.Name]
@@ -48,22 +50,24 @@ ${collectionInfo.itm1ID}
 ${collectionInfo.itm2ID}
 ${collectionInfo.itm3ID}
 ${collectionInfo.itm4ID}
+${point.areas}
 </pre>`
     tooltip.setContent(content)
 
-    this.addLayer(
-      L.marker(
-        xy([x - this.XOffest, -y]), { riseOnHover: true, icon: icon }
-      ).on('click', function (e) {
-        console.log([e.latlng.lng, e.latlng.lat])
-      }
-      ).bindTooltip(tooltip).openTooltip()
-    )
+    const marker = L.marker(
+      xy([x - this.XOffest, -y]),
+      { riseOnHover: true, icon: icon }
+    ).on('click', function (e) {
+      console.log([e.latlng.lng, e.latlng.lat])
+      $('.btn').text(point.Name).attr('data-clipboard-text', point.Name)
+      $('.btn').click()
+    }).bindTooltip(tooltip).openTooltip()
+    this.addLayer(marker)
   }
 
-  addMarkers (markers) {
+  addMarkers (markers, icon) {
     markers.forEach(marker => {
-      this.addMarker(marker)
+      this.addMarker(marker, icon)
     })
   }
 }
@@ -78,6 +82,7 @@ function xy ([x, y]) {
 function getMapByDebugName (debugName, mapinfos, game = 'base') {
   if (debugName in mapinfos) {
     const themapinfo = mapinfos[debugName]
+    themapinfo.Name = debugName
 
     let imageUrl
     if (game === 'base') imageUrl = require('./images/base/' + debugName + '_map_0.png')
