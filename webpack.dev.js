@@ -50,8 +50,8 @@ module.exports = {
   },
 
   output: {
-    chunkFilename: '[name].[chunkhash].js',
-    filename: '[name].[chunkhash].js'
+    chunkFilename: '[name].js',
+    filename: '[name].js'
   },
 
   plugins: [
@@ -60,8 +60,8 @@ module.exports = {
       template: 'index.html'
     }),
     new MiniCssExtractPlugin({
-      filename: devMode ? '[name].css' : '[name].[hash].css',
-      chunkFilename: devMode ? '[id].css' : '[id].[hash].css'
+      filename: '[name].css',
+      chunkFilename: '[id].css'
     })
   ],
 
