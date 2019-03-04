@@ -1,8 +1,7 @@
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
-import $ from 'jquery'
 
-import collectionPop from './data/collectionPop'
+import collectionPop from './data/collection_pop'
 
 class Xb2map extends L.Map {
   constructor (element, option, imageUrl, mapinfo) {
@@ -59,8 +58,6 @@ ${point.areas}
       { riseOnHover: true, icon: icon }
     ).on('click', function (e) {
       console.log([e.latlng.lng, e.latlng.lat])
-      $('.btn').text(point.Name).attr('data-clipboard-text', point.Name)
-      $('.btn').click()
     }).bindTooltip(tooltip).openTooltip()
     this.addLayer(marker)
   }
@@ -79,16 +76,21 @@ function xy ([x, y]) {
   return L.latLng(y, x) // When doing xy(x, y);
 };
 
-function getMapByDebugName (debugName, mapinfos, game = 'base') {
-  if (debugName in mapinfos) {
-    const themapinfo = mapinfos[debugName]
-    themapinfo.Name = debugName
+function getXb2mapByName (element, name, game = 'base') {
+  let imageUrl, mapinfos
+  if (game === 'base') {
+    mapinfos = require('./data/mapinfo')
+    imageUrl = require('./images/base/' + name + '_map_0.png')
+  } else if (game === 'torna') {
+    mapinfos = require('./data/mapinfo_ira')
+    imageUrl = require('./images/torna/' + name + '_map_0.png')
+  }
 
-    let imageUrl
-    if (game === 'base') imageUrl = require('./images/base/' + debugName + '_map_0.png')
-    else if (game === 'torna') imageUrl = require('./images/torna/' + debugName + '_map_0.png')
+  if (name in mapinfos) {
+    const themapinfo = mapinfos[name]
+    themapinfo.Name = name
 
-    const map = new Xb2map('map', {}, imageUrl, themapinfo)
+    const map = new Xb2map(element, {}, imageUrl, themapinfo)
 
     return map
   }
@@ -96,5 +98,5 @@ function getMapByDebugName (debugName, mapinfos, game = 'base') {
 }
 
 export {
-  Xb2map, getMapByDebugName
+  Xb2map, getXb2mapByName
 }

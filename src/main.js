@@ -1,33 +1,18 @@
-import ClipboardJS from 'clipboard'
-
 import './main.scss'
 
-import { getMapByDebugName } from './xb2map'
+import { getXb2mapByName } from './xb2map'
 import { collectionIcon, collectionCurrent } from './markerIcon'
-import gmk from './data/gmk.json'
-import mapinfo from './data/mapinfo'
-import collectionPop from './data/collectionPop'
+import gmk from './data/gmk_collection.json'
+import collectionPop from './data/collection_pop'
 
-const mapName = 'ma07a_b_floor_01'
-const map = getMapByDebugName(mapName, mapinfo)
+const mapName = 'ma05a_f02'
+const map = getXb2mapByName('map', mapName)
+const pointsOnMap = onMapSpace(gmk, map)
 
-let currentPoints = gmk.filter(point =>
-  point.GmkType === 'GmkCollection').filter(point => {
-  const collectionInfo = collectionPop[point.Name]
-  return collectionInfo &&
-    // point.Name === 'colle_ma02a_c003'
-    collectionInfo.itm1ID === '苔藓绒棉' &&
-    collectionInfo.itm1Per === 35 &&
-    collectionInfo.randitmPopMin === 3
+pointsOnMap.forEach(point => {
+  const icon = highlight(point) ? collectionCurrent : collectionIcon
+  map.addMarker(point, icon)
 })
-
-let collectionsOnMap = gmk.filter(point =>
-  point.GmkType === 'GmkCollection' &&
-  !currentPoints.map(point => point.Name).includes(point.Name)
-)
-
-map.addMarkers(onMapSpace(currentPoints, map), collectionCurrent)
-map.addMarkers(onMapSpace(collectionsOnMap, map), collectionIcon)
 
 function between (number, interval) {
   if (number >= interval[0] && number <= interval[1]) return true
@@ -36,24 +21,20 @@ function between (number, interval) {
 
 function onMapSpace (gmkPoints, map) {
   return gmkPoints.filter(point =>
-    point.Map === map.mapId &&
+    point.areas.map(area => area.toLowerCase()).includes(map.Name) &&
     between(point.PosX, map.xInterval) &&
     between(point.PosY, map.yInterval) &&
     between(point.PosZ, map.zInterval)
   )
 }
 
-// debug
-console.log(map)
-// console.log(collectionsOnMap)
-map.on('click', function (e) {
-  console.log([e.latlng.lng, e.latlng.lat])
-})
+function highlight (gmkPoint) {
+  const collectionInfo = collectionPop[gmkPoint.Name]
+  return collectionInfo &&
+  collectionInfo.Subpage === '植物学1'
+}
 
-const areasAvalible = new Set()
-currentPoints.forEach(point => {
-  point.areas.forEach(area => areasAvalible.add(area))
-})
-console.log(areasAvalible)
-console.log(currentPoints)
-new ClipboardJS('.btn')
+// debug
+// map.on('click', function (e) {
+//   console.log([e.latlng.lng, e.latlng.lat])
+// })
