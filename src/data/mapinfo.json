@@ -1,7 +1,5 @@
 {
   "ma02a_f01": {
-    "DisplayName": "阿伐利缇亚商会1F",
-    "Priority": 20,
     "Width": 440,
     "Height": 481,
     "LowerX": -91.5,
@@ -12,8 +10,6 @@
     "UpperZ": 118.5157
   },
   "ma02a_f03": {
-    "DisplayName": "阿伐利缇亚商会2F",
-    "Priority": 10,
     "Width": 304,
     "Height": 160,
     "LowerX": -57,
@@ -24,8 +20,6 @@
     "UpperZ": 40.57231
   },
   "ma02a_f05": {
-    "DisplayName": "阿伐利缇亚商会4F",
-    "Priority": 30,
     "Width": 512,
     "Height": 277,
     "LowerX": -120.5,
@@ -36,8 +30,6 @@
     "UpperZ": 67.65265
   },
   "ma02a_f06": {
-    "DisplayName": "阿伐利缇亚商会5F",
-    "Priority": 40,
     "Width": 176,
     "Height": 105,
     "LowerX": -2,
@@ -48,8 +40,6 @@
     "UpperZ": 26.37169
   },
   "ma02a_f07": {
-    "DisplayName": "阿伐利缇亚商会6F",
-    "Priority": 50,
     "Width": 104,
     "Height": 66,
     "LowerX": 5,
@@ -60,8 +50,6 @@
     "UpperZ": 14.0367
   },
   "ma02a_f08": {
-    "DisplayName": "阿伐利缇亚商会屋顶",
-    "Priority": 60,
     "Width": 192,
     "Height": 84,
     "LowerX": -8,
@@ -72,8 +60,6 @@
     "UpperZ": 20.11966
   },
   "ma03a_floor_01": {
-    "DisplayName": "涡潮号1F",
-    "Priority": 0,
     "Width": 160,
     "Height": 100,
     "LowerX": -35.5,
@@ -84,8 +70,6 @@
     "UpperZ": 25
   },
   "ma03a_floor_03": {
-    "DisplayName": "涡潮号3F",
-    "Priority": 0,
     "Width": 160,
     "Height": 100,
     "LowerX": -35.5,
@@ -96,8 +80,6 @@
     "UpperZ": 25
   },
   "ma04a_f02": {
-    "DisplayName": "古代船1F",
-    "Priority": 30,
     "Width": 440,
     "Height": 296,
     "LowerX": -84.5,
@@ -108,8 +90,6 @@
     "UpperZ": 74.78842
   },
   "ma04a_f03": {
-    "DisplayName": "古代船B1F",
-    "Priority": 10,
     "Width": 392,
     "Height": 76,
     "LowerX": -30.5,
@@ -120,8 +100,6 @@
     "UpperZ": 19.29882
   },
   "ma04a_f06": {
-    "DisplayName": "古代船B4F",
-    "Priority": 20,
     "Width": 392,
     "Height": 180,
     "LowerX": -21.5,
@@ -132,8 +110,6 @@
     "UpperZ": 45.818
   },
   "ma05a_c_01": {
-    "DisplayName": "居住区 下层",
-    "Priority": 10,
     "Width": 296,
     "Height": 407,
     "LowerX": 298.5,
@@ -144,8 +120,6 @@
     "UpperZ": 384.9143
   },
   "ma05a_c_02": {
-    "DisplayName": "树梢小径",
-    "Priority": 20,
     "Width": 296,
     "Height": 461,
     "LowerX": 436.5,
@@ -156,8 +130,6 @@
     "UpperZ": 405.1484
   },
   "ma05a_c_03": {
-    "DisplayName": "托里格镇",
-    "Priority": 30,
     "Width": 1240,
     "Height": 730,
     "LowerX": 135,
@@ -168,8 +140,6 @@
     "UpperZ": 488.6898
   },
   "ma05a_c_03_shipoff": {
-    "DisplayName": "托里格镇",
-    "Priority": 2147483647,
     "Width": 1240,
     "Height": 730,
     "LowerX": 135,
@@ -180,8 +150,6 @@
     "UpperZ": 488.6898
   },
   "ma05a_f01": {
-    "DisplayName": "古拉 下层",
-    "Priority": 5,
     "Width": 1464,
     "Height": 1092,
     "LowerX": -628,
@@ -192,8 +160,6 @@
     "UpperZ": 257.9187
   },
   "ma05a_f02": {
-    "DisplayName": "古拉 上层 右半身",
-    "Priority": 50,
     "Width": 3176,
     "Height": 2122,
     "LowerX": -680.5,
@@ -204,8 +170,6 @@
     "UpperZ": 507.7294
   },
   "ma05a_f02_shipoff": {
-    "DisplayName": "古拉 上层 右半身",
-    "Priority": 2147483647,
     "Width": 3176,
     "Height": 2122,
     "LowerX": -680.5,
@@ -216,8 +180,6 @@
     "UpperZ": 507.7294
   },
   "ma05a_f05": {
-    "DisplayName": "古拉 上层 左半身",
-    "Priority": 60,
     "Width": 2360,
     "Height": 1128,
     "LowerX": -892,
@@ -228,8 +190,6 @@
     "UpperZ": -488.9182
   },
   "ma05a_ship_f01": {
-    "DisplayName": "巨神兽战舰1F",
-    "Priority": 19,
     "Width": 120,
     "Height": 170,
     "LowerX": 546.5,
@@ -240,8 +200,6 @@
     "UpperZ": 464.4447
   },
   "ma05a_ship_f02": {
-    "DisplayName": "巨神兽战舰2F",
-    "Priority": 28,
     "Width": 336,
     "Height": 534,
     "LowerX": 472,
@@ -252,8 +210,6 @@
     "UpperZ": 554.2673
   },
   "ma05a_ship_f03": {
-    "DisplayName": "巨神兽战舰3F",
-    "Priority": 27,
     "Width": 584,
     "Height": 356,
     "LowerX": 495.5,
@@ -264,8 +220,6 @@
     "UpperZ": 508.1782
   },
   "ma05a_ship_f04": {
-    "DisplayName": "巨神兽战舰4F",
-    "Priority": 26,
     "Width": 520,
     "Height": 270,
     "LowerX": 473,
@@ -276,8 +230,6 @@
     "UpperZ": 486.2259
   },
   "ma07a_a_floor_01": {
-    "DisplayName": "英维迪亚 头部",
-    "Priority": 30,
     "Width": 488,
     "Height": 1460,
     "LowerX": -123.5,
@@ -288,8 +240,6 @@
     "UpperZ": 573.6713
   },
   "ma07a_a_floor_03": {
-    "DisplayName": "大喷气孔1F",
-    "Priority": 20,
     "Width": 968,
     "Height": 435,
     "LowerX": -185.5,
@@ -300,8 +250,6 @@
     "UpperZ": 373.8963
   },
   "ma07a_a_floor_04": {
-    "DisplayName": "大喷气孔2F",
-    "Priority": 15,
     "Width": 728,
     "Height": 503,
     "LowerX": -163.5,
@@ -312,8 +260,6 @@
     "UpperZ": 325.8233
   },
   "ma07a_a_floor_05": {
-    "DisplayName": "龙之胃",
-    "Priority": 10,
     "Width": 184,
     "Height": 654,
     "LowerX": -46,
@@ -324,8 +270,6 @@
     "UpperZ": 547.2471
   },
   "ma07a_a_floor_06": {
-    "DisplayName": "弗雷斯贝古",
-    "Priority": 10,
     "Width": 400,
     "Height": 432,
     "LowerX": -270,
@@ -336,8 +280,6 @@
     "UpperZ": 559.5
   },
   "ma07a_b_floor_01": {
-    "DisplayName": "英维迪亚 腹部下层",
-    "Priority": 100,
     "Width": 1968,
     "Height": 2649,
     "LowerX": -489,
@@ -348,8 +290,6 @@
     "UpperZ": 1869.646
   },
   "ma07a_b_floor_b01": {
-    "DisplayName": "拉葛鲁多水中庭院",
-    "Priority": 5,
     "Width": 200,
     "Height": 789,
     "LowerX": -50,
@@ -360,8 +300,6 @@
     "UpperZ": 1396.958
   },
   "ma07a_c_floor_01": {
-    "DisplayName": "英维迪亚 腹部上层",
-    "Priority": 90,
     "Width": 1712,
     "Height": 911,
     "LowerX": -380.5,
@@ -372,8 +310,6 @@
     "UpperZ": 2123.843
   },
   "ma07a_d_floor_01": {
-    "DisplayName": "英维迪亚 背部",
-    "Priority": 0,
     "Width": 344,
     "Height": 1440,
     "LowerX": -86,
@@ -384,8 +320,6 @@
     "UpperZ": 2767.444
   },
   "ma07a_d_floor_01lodoff": {
-    "DisplayName": "英维迪亚 背部",
-    "Priority": 2147483647,
     "Width": 344,
     "Height": 1440,
     "LowerX": -86,
@@ -396,8 +330,6 @@
     "UpperZ": 2767.444
   },
   "ma08a_city_f_1": {
-    "DisplayName": "皇宫哈达夏尔 下层",
-    "Priority": 10,
     "Width": 120,
     "Height": 540,
     "LowerX": 48,
@@ -408,8 +340,6 @@
     "UpperZ": 628.7662
   },
   "ma08a_city_f_3": {
-    "DisplayName": "帝都阿尔巴马格",
-    "Priority": 20,
     "Width": 832,
     "Height": 560,
     "LowerX": -157,
@@ -420,8 +350,6 @@
     "UpperZ": 351.6782
   },
   "ma08a_city_f_4": {
-    "DisplayName": "皇宫哈达夏尔 上层",
-    "Priority": 30,
     "Width": 1000,
     "Height": 600,
     "LowerX": -155,
@@ -432,8 +360,6 @@
     "UpperZ": 650
   },
   "ma08a_newplant_out": {
-    "DisplayName": "废弃工厂",
-    "Priority": 15,
     "Width": 968,
     "Height": 809,
     "LowerX": -432.5,
@@ -444,8 +370,6 @@
     "UpperZ": -540.7715
   },
   "ma08a_rowf_1": {
-    "DisplayName": "斯佩比亚 下层",
-    "Priority": 25,
     "Width": 1632,
     "Height": 1979,
     "LowerX": -512,
@@ -456,8 +380,6 @@
     "UpperZ": 447.5938
   },
   "ma08a_upf_1": {
-    "DisplayName": "斯佩比亚 上层",
-    "Priority": 30,
     "Width": 1664,
     "Height": 1213,
     "LowerX": -363,
@@ -468,8 +390,6 @@
     "UpperZ": 128.4448
   },
   "ma10a_f01": {
-    "DisplayName": "岬",
-    "Priority": 10,
     "Width": 1240,
     "Height": 970,
     "LowerX": -239.5,
@@ -480,8 +400,6 @@
     "UpperZ": 490.511
   },
   "ma10a_f02": {
-    "DisplayName": "中央平原",
-    "Priority": 20,
     "Width": 2104,
     "Height": 3435,
     "LowerX": -1234,
@@ -492,8 +410,6 @@
     "UpperZ": 1356.118
   },
   "ma10a_f03": {
-    "DisplayName": "尤迪肯姆遗址",
-    "Priority": 15,
     "Width": 1144,
     "Height": 699,
     "LowerX": -341.5,
@@ -504,8 +420,6 @@
     "UpperZ": 1087.704
   },
   "ma11a_a_floor_01": {
-    "DisplayName": "阿卡狄亚 全区域",
-    "Priority": 10,
     "Width": 600,
     "Height": 920,
     "LowerX": -325,
@@ -516,8 +430,6 @@
     "UpperZ": 502.6986
   },
   "ma11a_a_floor_02": {
-    "DisplayName": "ma11a_a_floor_02",
-    "Priority": 20,
     "Width": 1600,
     "Height": 600,
     "LowerX": -150,
@@ -528,8 +440,6 @@
     "UpperZ": 145
   },
   "ma11a_b_floor_01": {
-    "DisplayName": "巨神兽战舰",
-    "Priority": 30,
     "Width": 224,
     "Height": 501,
     "LowerX": -431.5,
@@ -540,8 +450,6 @@
     "UpperZ": 560.4053
   },
   "ma13a_a_floor_01": {
-    "DisplayName": "洛修利亚 上层",
-    "Priority": 65,
     "Width": 2720,
     "Height": 3400,
     "LowerX": -395.5,
@@ -552,8 +460,6 @@
     "UpperZ": 1150
   },
   "ma13a_a_floor_06": {
-    "DisplayName": "洛修利亚 下层",
-    "Priority": 60,
     "Width": 2960,
     "Height": 2840,
     "LowerX": -317,
@@ -564,8 +470,6 @@
     "UpperZ": 658.5623
   },
   "ma13a_a_floor_07": {
-    "DisplayName": "圣战遗址",
-    "Priority": 55,
     "Width": 1800,
     "Height": 440,
     "LowerX": -1199.5,
@@ -576,8 +480,6 @@
     "UpperZ": 110
   },
   "ma13a_b_floor_01": {
-    "DisplayName": "王都特奥斯奥莱 上层",
-    "Priority": 50,
     "Width": 464,
     "Height": 456,
     "LowerX": 210,
@@ -588,8 +490,6 @@
     "UpperZ": 114
   },
   "ma13a_b_floor_02": {
-    "DisplayName": "王都特奥斯奥莱 下层",
-    "Priority": 30,
     "Width": 400,
     "Height": 240,
     "LowerX": 420,
@@ -600,8 +500,6 @@
     "UpperZ": 60
   },
   "ma13a_b_floor_03": {
-    "DisplayName": "王宫 中层",
-    "Priority": 10,
     "Width": 264,
     "Height": 240,
     "LowerX": 488,
@@ -612,8 +510,6 @@
     "UpperZ": 60
   },
   "ma13a_b_floor_04": {
-    "DisplayName": "王宫 下层",
-    "Priority": 20,
     "Width": 680,
     "Height": 240,
     "LowerX": 280,
@@ -624,8 +520,6 @@
     "UpperZ": 60
   },
   "ma13a_b_floor_05": {
-    "DisplayName": "王宫 上层",
-    "Priority": 40,
     "Width": 400,
     "Height": 240,
     "LowerX": 420,
@@ -636,8 +530,6 @@
     "UpperZ": 60
   },
   "ma15a_f01": {
-    "DisplayName": "里吉特海域",
-    "Priority": 20,
     "Width": 2528,
     "Height": 2015,
     "LowerX": -670,
@@ -648,8 +540,6 @@
     "UpperZ": 674.4122
   },
   "ma15a_f02": {
-    "DisplayName": "云海隧道",
-    "Priority": 30,
     "Width": 1840,
     "Height": 1751,
     "LowerX": -517.5,
@@ -660,8 +550,6 @@
     "UpperZ": -260.4552
   },
   "ma15a_f03": {
-    "DisplayName": "弥先岛",
-    "Priority": 10,
     "Width": 664,
     "Height": 800,
     "LowerX": -554,
@@ -672,8 +560,6 @@
     "UpperZ": -1561.837
   },
   "ma15a_f04": {
-    "DisplayName": "弥先海域",
-    "Priority": 25,
     "Width": 2528,
     "Height": 2091,
     "LowerX": -670,
@@ -684,8 +570,6 @@
     "UpperZ": -966.1076
   },
   "ma16a_floor_01": {
-    "DisplayName": "艾尔皮斯灵洞 上层1",
-    "Priority": 5,
     "Width": 360,
     "Height": 758,
     "LowerX": -95,
@@ -696,8 +580,6 @@
     "UpperZ": 64.95607
   },
   "ma16a_floor_01b": {
-    "DisplayName": "艾尔皮斯灵洞 上层2",
-    "Priority": 10,
     "Width": 360,
     "Height": 1775,
     "LowerX": -95,
@@ -708,8 +590,6 @@
     "UpperZ": 947.4779
   },
   "ma16a_floor_02": {
-    "DisplayName": "艾尔皮斯灵洞 中层1",
-    "Priority": 15,
     "Width": 688,
     "Height": 857,
     "LowerX": -269,
@@ -720,8 +600,6 @@
     "UpperZ": 1353.927
   },
   "ma16a_floor_08": {
-    "DisplayName": "艾尔皮斯灵洞 中层2",
-    "Priority": 20,
     "Width": 992,
     "Height": 1475,
     "LowerX": -381.5,
@@ -732,8 +610,6 @@
     "UpperZ": 1876.512
   },
   "ma16a_floor_11": {
-    "DisplayName": "艾尔皮斯灵洞 下层",
-    "Priority": 25,
     "Width": 472,
     "Height": 1098,
     "LowerX": -435,
@@ -744,8 +620,6 @@
     "UpperZ": 2424.126
   },
   "ma17a_f01": {
-    "DisplayName": "莫尔斯断崖 上层",
-    "Priority": 5,
     "Width": 768,
     "Height": 1347,
     "LowerX": -234,
@@ -756,8 +630,6 @@
     "UpperZ": 350.3212
   },
   "ma17a_f03": {
-    "DisplayName": "莫尔斯断崖 下层",
-    "Priority": 15,
     "Width": 696,
     "Height": 484,
     "LowerX": 32.5,
@@ -768,8 +640,6 @@
     "UpperZ": 503.7892
   },
   "ma17a_f03_lodoff": {
-    "DisplayName": "莫尔斯断崖 下层",
-    "Priority": 2147483647,
     "Width": 696,
     "Height": 484,
     "LowerX": 32.5,
@@ -780,8 +650,6 @@
     "UpperZ": 503.7892
   },
   "ma17a_f03b": {
-    "DisplayName": "莫尔斯断崖 下层b",
-    "Priority": 10,
     "Width": 248,
     "Height": 197,
     "LowerX": 177,
@@ -792,8 +660,6 @@
     "UpperZ": 375.6281
   },
   "ma18a_f01": {
-    "DisplayName": "莫尔斯之地 街区",
-    "Priority": 5,
     "Width": 520,
     "Height": 1243,
     "LowerX": -83,
@@ -804,8 +670,6 @@
     "UpperZ": 84.83372
   },
   "ma18a_f07": {
-    "DisplayName": "伊拉巨神兽1F",
-    "Priority": 10,
     "Width": 768,
     "Height": 1015,
     "LowerX": -55,
@@ -816,8 +680,6 @@
     "UpperZ": -505.5183
   },
   "ma18a_f11": {
-    "DisplayName": "世界树前",
-    "Priority": 15,
     "Width": 872,
     "Height": 1130,
     "LowerX": 170.5,
@@ -828,8 +690,6 @@
     "UpperZ": -1004.245
   },
   "ma20a_f01": {
-    "DisplayName": "低轨道站",
-    "Priority": 5,
     "Width": 560,
     "Height": 367,
     "LowerX": -529,
@@ -840,8 +700,6 @@
     "UpperZ": 241.9005
   },
   "ma20a_f02": {
-    "DisplayName": "低轨道区域1F",
-    "Priority": 10,
     "Width": 296,
     "Height": 260,
     "LowerX": -293.5,
@@ -852,8 +710,6 @@
     "UpperZ": 253.2498
   },
   "ma20a_f03": {
-    "DisplayName": "低轨道区域2F",
-    "Priority": 15,
     "Width": 552,
     "Height": 657,
     "LowerX": -176.5,
@@ -864,8 +720,6 @@
     "UpperZ": 380.1805
   },
   "ma20a_f05": {
-    "DisplayName": "天空桥",
-    "Priority": 20,
     "Width": 632,
     "Height": 1020,
     "LowerX": -55.5,
@@ -876,8 +730,6 @@
     "UpperZ": 406.2031
   },
   "ma20a_f08_1": {
-    "DisplayName": "中层外围",
-    "Priority": 35,
     "Width": 1944,
     "Height": 841,
     "LowerX": 164.5,
@@ -888,8 +740,6 @@
     "UpperZ": 408.1248
   },
   "ma20a_f09": {
-    "DisplayName": "中层2F",
-    "Priority": 25,
     "Width": 680,
     "Height": 561,
     "LowerX": -176,
@@ -900,8 +750,6 @@
     "UpperZ": 236.6292
   },
   "ma20a_f10": {
-    "DisplayName": "静止轨道站",
-    "Priority": 30,
     "Width": 816,
     "Height": 218,
     "LowerX": -522,
@@ -912,8 +760,6 @@
     "UpperZ": 152.0587
   },
   "ma21a_a_floor_01": {
-    "DisplayName": "轨道电梯",
-    "Priority": 20,
     "Width": 240,
     "Height": 860,
     "LowerX": -60,
@@ -924,8 +770,6 @@
     "UpperZ": 50
   },
   "ma21a_a_floor_02": {
-    "DisplayName": "乐园",
-    "Priority": 10,
     "Width": 904,
     "Height": 1400,
     "LowerX": -150,
@@ -936,8 +780,6 @@
     "UpperZ": -350
   },
   "ma21a_b_floor_02": {
-    "DisplayName": "神的房间",
-    "Priority": 30,
     "Width": 904,
     "Height": 800,
     "LowerX": -13.5,
@@ -948,8 +790,6 @@
     "UpperZ": -990.5143
   },
   "ma21a_b_floor_03": {
-    "DisplayName": "下层",
-    "Priority": 40,
     "Width": 1240,
     "Height": 1300,
     "LowerX": -25,

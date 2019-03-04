@@ -1,8 +1,6 @@
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 
-import collectionPop from './data/collection_pop'
-
 class Xb2map extends L.Map {
   constructor (element, option, imageUrl, mapinfo) {
     const imageBounds = [
@@ -43,12 +41,8 @@ class Xb2map extends L.Map {
   addMarker (point, icon) {
     const [x, y] = [point.PosX, point.PosZ]
     const tooltip = L.tooltip({ direction: 'bottom', offset: L.point(0, 18) })
-    const collectionInfo = collectionPop[point.Name]
     let content = `<pre>${point.Name}
-${collectionInfo.itm1ID}
-${collectionInfo.itm2ID}
-${collectionInfo.itm3ID}
-${collectionInfo.itm4ID}
+${point.Subpage}
 ${point.areas}
 </pre>`
     tooltip.setContent(content)

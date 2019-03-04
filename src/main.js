@@ -3,7 +3,6 @@ import './main.scss'
 import { getXb2mapByName } from './xb2map'
 import { collectionIcon, collectionCurrent } from './markerIcon'
 import gmk from './data/gmk_collection.json'
-import collectionPop from './data/collection_pop'
 
 const mapName = 'ma05a_f02'
 const map = getXb2mapByName('map', mapName)
@@ -29,9 +28,7 @@ function onMapSpace (gmkPoints, map) {
 }
 
 function highlight (gmkPoint) {
-  const collectionInfo = collectionPop[gmkPoint.Name]
-  return collectionInfo &&
-  collectionInfo.Subpage === '植物学1'
+  return gmkPoint.Subpage === '植物学1'
 }
 
 // debug
