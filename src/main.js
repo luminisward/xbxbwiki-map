@@ -36,11 +36,19 @@ function highlight (gmkPoint, subpage) {
   return gmkPoint.Subpage === subpage
 }
 
+function setContainerHeight (element) {
+  $(element).height($(element).width() * 0.618)
+  $(window).resize(function () {
+    $(element).height($(element).width() * 0.618)
+  })
+}
+
 // debug
 // map.on('click', function (e) {
 //   console.log([e.latlng.lng, e.latlng.lat])
 // })
 
 $('.xb2map').each((index, element) => {
+  setContainerHeight(element)
   draw(element)
 })

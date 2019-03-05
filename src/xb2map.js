@@ -1,5 +1,5 @@
 import L from 'leaflet'
-import 'leaflet/dist/leaflet.css'
+import $ from 'jquery'
 
 class Xb2map extends L.Map {
   constructor (element, option, imageUrl, mapinfo) {
@@ -19,7 +19,8 @@ class Xb2map extends L.Map {
     option = Object.assign({
       zoomSnap: 0.25,
       zoom: 0,
-      minZoom: -5,
+      minZoom: -1,
+      maxZoom: 3,
       // maxBounds: imageBoundsRotate180YX,
       crs: L.CRS.Simple
     },
@@ -51,9 +52,12 @@ ${point.areas}
       xy([x - this.XOffest, -y]),
       { riseOnHover: true, icon: icon }
     ).on('click', function (e) {
-      console.log([e.latlng.lng, e.latlng.lat])
+      // console.log([e.latlng.lng, e.latlng.lat])
+      $(`#${point.Name}`).slideToggle()
+      console.log(point.Name)
     }).bindTooltip(tooltip).openTooltip()
     this.addLayer(marker)
+    // L.DomUtil.addClass(marker._icon, 'mw-customtoggle-' + point.Name)
   }
 
   addMarkers (markers, icon) {
