@@ -1,4 +1,5 @@
 const path = require('path')
+const md5 = require('md5')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
@@ -40,7 +41,12 @@ module.exports = {
       use: [{
         loader: 'file-loader',
         options: {
-          name: 'images/[name].[ext]'
+          name (file) {
+            const filename = path.basename(file)
+            const filenameInMw = filename.charAt(0).toUpperCase() + filename.slice(1)
+            const filenameMd5 = md5(filenameInMw)
+            return `images/${filenameMd5.slice(0, 1)}/${filenameMd5.slice(0, 2)}/${filenameInMw}`
+          }
         }
       }]
     }
