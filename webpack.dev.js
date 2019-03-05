@@ -34,8 +34,9 @@ module.exports = {
               const filename = path.basename(file)
               const filenameInMw = filename.charAt(0).toUpperCase() + filename.slice(1)
               const filenameMd5 = md5(filenameInMw)
-              return `images/${filenameMd5.slice(0, 1)}/${filenameMd5.slice(0, 2)}/${filenameInMw}`
-            }
+              return `${filenameMd5.slice(0, 1)}/${filenameMd5.slice(0, 2)}/${filenameInMw}`
+            },
+            outputPath: 'images'
           }
         }]
       }

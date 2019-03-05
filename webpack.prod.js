@@ -2,7 +2,8 @@ const config = require('./webpack.dev')
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 config.externals = {
-  jquery: 'jQuery'
+  jquery: 'jQuery',
+  leaflet: 'L'
 }
 config.plugins.push(...[
   new UglifyJsPlugin({
