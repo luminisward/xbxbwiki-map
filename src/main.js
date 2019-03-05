@@ -4,7 +4,10 @@ import './main.scss'
 
 import { getXb2mapByName } from './xb2map'
 import { collectionIcon, collectionCurrent } from './markerIcon'
-import gmk from './data/gmk_collection.json'
+import gmkBase from './data/gmk_collection.json'
+import gmkIra from './data/gmk_ira.json'
+
+const gmk = [...gmkBase, ...gmkIra]
 
 function draw (element) {
   const mapName = $(element).data('mapName')
@@ -14,7 +17,11 @@ function draw (element) {
   const pointsOnMap = onMapSpace(gmk, map)
   pointsOnMap.forEach(point => {
     const icon = highlight(point, highlightCollectionType) ? collectionCurrent : collectionIcon
-    map.addMarker(point, icon)
+    const content = `<pre>${point.Name}
+${point.Subpage}
+${point.areas}
+</pre>`
+    map.addMarker(point, icon, content)
   })
 }
 
@@ -25,7 +32,8 @@ function between (number, interval) {
 
 function onMapSpace (gmkPoints, map) {
   return gmkPoints.filter(point =>
-    point.areas.map(area => area.toLowerCase()).includes(map.Name) &&
+    // point.areas.map(area => area.toLowerCase()).includes(map.Name) &&
+    point.Name.split('_')[1] === map.mapId &&
     between(point.PosX, map.xInterval) &&
     between(point.PosY, map.yInterval) &&
     between(point.PosZ, map.zInterval)

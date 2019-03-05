@@ -1,6 +1,10 @@
 import L from 'leaflet'
 import $ from 'jquery'
 
+import mapinfosBase from './data/mapinfo'
+import mapinfosIra from './data/mapinfo_ira'
+const mapinfos = { ...mapinfosBase, ...mapinfosIra }
+
 class Xb2map extends L.Map {
   constructor (element, option, imageUrl, mapinfo) {
     const imageBounds = [
@@ -19,7 +23,7 @@ class Xb2map extends L.Map {
     option = Object.assign({
       zoomSnap: 0.25,
       zoom: 0,
-      minZoom: -1,
+      minZoom: -0.5,
       maxZoom: 3,
       // maxBounds: imageBoundsRotate180YX,
       crs: L.CRS.Simple,
@@ -30,7 +34,8 @@ class Xb2map extends L.Map {
     super(element, option)
 
     this.Name = mapinfo.Name
-    this.mapId = mapinfo.Name.split('_')[0]
+    const mapId = mapinfo.Name.split('_')[0]
+    this.mapId = mapId === 'dlc3' ? mapinfo.Name.split('_')[1] : mapId
     this.bounds = imageBoundsRotate180
     this.XOffest = imageBounds[0][0] + imageBounds[1][0]
     this.addLayer(L.imageOverlay(imageUrl, imageBoundsRotate180YX))
@@ -40,31 +45,22 @@ class Xb2map extends L.Map {
     this.zInterval = [mapinfo.LowerZ, mapinfo.UpperZ]
   }
 
-  addMarker (point, icon) {
-    const [x, y] = [point.PosX, point.PosZ]
-    const tooltip = L.tooltip({ direction: 'bottom', offset: L.point(0, 18) })
-    let content = `<pre>${point.Name}
-${point.Subpage}
-${point.areas}
-</pre>`
-    tooltip.setContent(content)
+  addMarker (point, icon, tooltipContent) {
+    const coordinate = xy([point.PosX - this.XOffest, -point.PosZ])
 
-    const marker = L.marker(
-      xy([x - this.XOffest, -y]),
-      { riseOnHover: true, icon: icon }
-    ).on('click', function (e) {
-      // console.log([e.latlng.lng, e.latlng.lat])
+    const tooltip = L.tooltip({
+      direction: 'bottom',
+      offset: L.point(0, 18)
+    }).setContent(tooltipContent)
+
+    const marker = L.marker(coordinate, {
+      riseOnHover: true,
+      icon
+    }).on('click', () => {
       $(`#${point.Name}`).slideToggle()
-      console.log(point.Name)
-    }).bindTooltip(tooltip).openTooltip()
-    this.addLayer(marker)
-    // L.DomUtil.addClass(marker._icon, 'mw-customtoggle-' + point.Name)
-  }
+    }).bindTooltip(tooltip)
 
-  addMarkers (markers, icon) {
-    markers.forEach(marker => {
-      this.addMarker(marker, icon)
-    })
+    this.addLayer(marker)
   }
 }
 
@@ -73,25 +69,16 @@ function xy ([x, y]) {
     return L.latLng(x[1], x[0])
   }
   return L.latLng(y, x) // When doing xy(x, y);
-};
+}
 
-function getXb2mapByName (element, name, game = 'base') {
-  let imageUrl, mapinfos
-  if (game === 'base') {
-    mapinfos = require('./data/mapinfo')
-    imageUrl = require('./images/base/' + name + '_map_0.png')
-  } else if (game === 'torna') {
-    mapinfos = require('./data/mapinfo_ira')
-    imageUrl = require('./images/torna/' + name + '_map_0.png')
-  }
-
+function getXb2mapByName (element, name) {
   if (name in mapinfos) {
     const themapinfo = mapinfos[name]
     themapinfo.Name = name
 
-    const map = new Xb2map(element, {}, imageUrl, themapinfo)
+    const imageUrl = require('./images/' + name + '_map_0.png')
 
-    return map
+    return new Xb2map(element, {}, imageUrl, themapinfo)
   }
   throw Error('Invalid map.')
 }
