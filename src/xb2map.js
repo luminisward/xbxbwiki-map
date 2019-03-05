@@ -22,7 +22,8 @@ class Xb2map extends L.Map {
       minZoom: -1,
       maxZoom: 3,
       // maxBounds: imageBoundsRotate180YX,
-      crs: L.CRS.Simple
+      crs: L.CRS.Simple,
+      attributionControl: false
     },
     option
     )
