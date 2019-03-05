@@ -5,7 +5,7 @@ import './main.scss'
 import { getXb2mapByName } from './xb2map'
 import { collectionIcon, collectionCurrent } from './markerIcon'
 import gmkBase from './data/gmk_collection.json'
-import gmkIra from './data/gmk_ira.json'
+import gmkIra from './data/gmk_collection_ira.json'
 
 const gmk = [...gmkBase, ...gmkIra]
 
@@ -41,7 +41,7 @@ function onMapSpace (gmkPoints, map) {
 }
 
 function highlight (gmkPoint, subpage) {
-  return gmkPoint.Subpage === subpage
+  return gmkPoint.Subpage === subpage || gmkPoint.Name === 'colle_ma41a_f301'
 }
 
 function setContainerHeight (element) {

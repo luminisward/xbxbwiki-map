@@ -23,7 +23,7 @@ class Xb2map extends L.Map {
     option = Object.assign({
       zoomSnap: 0.25,
       zoom: 0,
-      minZoom: -0.5,
+      minZoom: -1,
       maxZoom: 3,
       // maxBounds: imageBoundsRotate180YX,
       crs: L.CRS.Simple,

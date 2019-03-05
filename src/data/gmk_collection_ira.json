@@ -1,0 +1,3494 @@
+[{
+  "Name": "colle_ma40a_shouki_sq7201",
+  "PosX": -297.15,
+  "PosY": -57.00712,
+  "PosZ": 323.83,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 44
+}, {
+  "Name": "colle_ma40a_shouki_1",
+  "PosX": 390.1408,
+  "PosY": -103.2184,
+  "PosZ": 465.7878,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 45
+}, {
+  "Name": "colle_ma40a_shouki_2",
+  "PosX": 190.2367,
+  "PosY": -58.18073,
+  "PosZ": 548.1599,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 46
+}, {
+  "Name": "colle_ma40a_shouki_3",
+  "PosX": 36.00448,
+  "PosY": -40.34253,
+  "PosZ": 145.9384,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 47
+}, {
+  "Name": "colle_ma40a_shouki_4",
+  "PosX": 63.22798,
+  "PosY": -13.95205,
+  "PosZ": -19.55596,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 48
+}, {
+  "Name": "colle_ma40a_m_n_1",
+  "PosX": -263.6441,
+  "PosY": -76.78662,
+  "PosZ": 586.5246,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 38
+}, {
+  "Name": "colle_ma40a_m_r_1",
+  "PosX": -258.2415,
+  "PosY": -66.7,
+  "PosZ": 414.2837,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 39
+}, {
+  "Name": "colle_ma40a_m_n_2",
+  "PosX": -331.5737,
+  "PosY": -54.92136,
+  "PosZ": 176.7601,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 38
+}, {
+  "Name": "colle_ma40a_m_r_2",
+  "PosX": 383.814,
+  "PosY": -155,
+  "PosZ": 449.5833,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 41
+}, {
+  "Name": "colle_ma40a_m_n_3",
+  "PosX": 371.3269,
+  "PosY": -91.99505,
+  "PosZ": 316.6924,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 40
+}, {
+  "Name": "colle_ma40a_m_n_4",
+  "PosX": 134.1991,
+  "PosY": -45.4,
+  "PosZ": 453.0034,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 40
+}, {
+  "Name": "colle_ma40a_m_r_3",
+  "PosX": 22.32434,
+  "PosY": -26.99459,
+  "PosZ": 136.3771,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 43
+}, {
+  "Name": "colle_ma40a_m_n_5",
+  "PosX": 83.14762,
+  "PosY": -36.3,
+  "PosZ": -156.6853,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 42
+}, {
+  "Name": "colle_ma40a_m_n_6",
+  "PosX": 30.67985,
+  "PosY": -15.08017,
+  "PosZ": -469.0891,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 42
+}, {
+  "Name": "colle_ma40a_rock_n_2",
+  "PosX": -297.3103,
+  "PosY": -69.22424,
+  "PosZ": 562.7078,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 32
+}, {
+  "Name": "colle_ma40a_rock_n_4",
+  "PosX": -342.4876,
+  "PosY": -63.69756,
+  "PosZ": 627.9811,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 32
+}, {
+  "Name": "colle_ma40a_rock_n_5",
+  "PosX": -224.7278,
+  "PosY": -75.77924,
+  "PosZ": 551.1971,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 32
+}, {
+  "Name": "colle_ma40a_rock_n_6",
+  "PosX": -210.1315,
+  "PosY": -65.31938,
+  "PosZ": 650.8329,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 32
+}, {
+  "Name": "colle_ma40a_rock_n_7",
+  "PosX": -312.3943,
+  "PosY": -55.64534,
+  "PosZ": 345.1535,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 32
+}, {
+  "Name": "colle_ma40a_rock_r_6",
+  "PosX": -571.0782,
+  "PosY": -81.29092,
+  "PosZ": 879.5685,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 33
+}, {
+  "Name": "colle_ma40a_rock_n_9",
+  "PosX": -289.2111,
+  "PosY": -50.5556,
+  "PosZ": 208.0319,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 32
+}, {
+  "Name": "colle_ma40a_rock_r_1",
+  "PosX": -310.6189,
+  "PosY": -64.97562,
+  "PosZ": 661.3494,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 33
+}, {
+  "Name": "colle_ma40a_rock_r_2",
+  "PosX": -268.8385,
+  "PosY": -71.48506,
+  "PosZ": 786.6707,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 33
+}, {
+  "Name": "colle_ma40a_rock_r_3",
+  "PosX": -137.8002,
+  "PosY": -75.34685,
+  "PosZ": 575.95,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 33
+}, {
+  "Name": "colle_ma40a_rock_r_4",
+  "PosX": -403.121,
+  "PosY": -55.33117,
+  "PosZ": 605.3683,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 33
+}, {
+  "Name": "colle_ma40a_rock_r_5",
+  "PosX": -597.1729,
+  "PosY": -83.47812,
+  "PosZ": 1020.405,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 33
+}, {
+  "Name": "colle_ma40a_rock_n_13",
+  "PosX": -375.681,
+  "PosY": -58.15985,
+  "PosZ": 640.1213,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 32
+}, {
+  "Name": "colle_ma40a_rock_n_14",
+  "PosX": -368.8038,
+  "PosY": -59.42333,
+  "PosZ": 531.6389,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 32
+}, {
+  "Name": "colle_ma40a_hana_n_2",
+  "PosX": -631.9665,
+  "PosY": -84.17402,
+  "PosZ": 943.1554,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 8
+}, {
+  "Name": "colle_ma40a_hana_n_3",
+  "PosX": -604.4567,
+  "PosY": -87,
+  "PosZ": 884.5888,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 8
+}, {
+  "Name": "colle_ma40a_hana_n_4",
+  "PosX": -506.2886,
+  "PosY": -72.31647,
+  "PosZ": 786.1014,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 8
+}, {
+  "Name": "colle_ma40a_hana_n_7",
+  "PosX": -444.5757,
+  "PosY": -68.28958,
+  "PosZ": 632.9814,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 8
+}, {
+  "Name": "colle_ma40a_hana_r_5",
+  "PosX": -180.9569,
+  "PosY": -65.21395,
+  "PosZ": 533.7595,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 9
+}, {
+  "Name": "colle_ma40a_hana_r_1",
+  "PosX": -566.0103,
+  "PosY": -85.2487,
+  "PosZ": 1025.801,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 9
+}, {
+  "Name": "colle_ma40a_hana_n_12",
+  "PosX": -225.3469,
+  "PosY": -64.53432,
+  "PosZ": 420.9317,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 8
+}, {
+  "Name": "colle_ma40a_hana_r_2",
+  "PosX": -285.6095,
+  "PosY": -64.38467,
+  "PosZ": 388.8273,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 9
+}, {
+  "Name": "colle_ma40a_hana_r_4",
+  "PosX": -317.5309,
+  "PosY": -56.13142,
+  "PosZ": 161.534,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 9
+}, {
+  "Name": "colle_ma40a_hana_n_5",
+  "PosX": -438.8076,
+  "PosY": -58.5949,
+  "PosZ": 721.0693,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 8
+}, {
+  "Name": "colle_ma40a_musi_n_1",
+  "PosX": -328.1413,
+  "PosY": -72.63036,
+  "PosZ": 599.4537,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 20
+}, {
+  "Name": "colle_ma40a_musi_n_2",
+  "PosX": -406.0357,
+  "PosY": -64.58411,
+  "PosZ": 779.3347,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 20
+}, {
+  "Name": "colle_ma40a_musi_n_3",
+  "PosX": -355.8863,
+  "PosY": -66.49659,
+  "PosZ": 546.6407,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 20
+}, {
+  "Name": "colle_ma40a_musi_n_5",
+  "PosX": -272.0676,
+  "PosY": -72.28004,
+  "PosZ": 623.5283,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 20
+}, {
+  "Name": "colle_ma40a_musi_n_6",
+  "PosX": -251.1737,
+  "PosY": -74.83685,
+  "PosZ": 608.633,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 20
+}, {
+  "Name": "colle_ma40a_musi_n_7",
+  "PosX": -226.7923,
+  "PosY": -68.36221,
+  "PosZ": 655.8876,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 20
+}, {
+  "Name": "colle_ma40a_musi_r_1",
+  "PosX": -211.0231,
+  "PosY": -64,
+  "PosZ": 464.1526,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 21
+}, {
+  "Name": "colle_ma40a_musi_r_2",
+  "PosX": -556.2783,
+  "PosY": -83.6993,
+  "PosZ": 852.5546,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 21
+}, {
+  "Name": "colle_ma40a_musi_n_4",
+  "PosX": -330.6496,
+  "PosY": -65.71222,
+  "PosZ": 660.6721,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 20
+}, {
+  "Name": "colle_ma40a_musi_n_8",
+  "PosX": -396.4695,
+  "PosY": -65.95905,
+  "PosZ": 576.701,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 20
+}, {
+  "Name": "colle_ma40a_sakana_n_3",
+  "PosX": -267.9721,
+  "PosY": -73.86997,
+  "PosZ": 678.208,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 26
+}, {
+  "Name": "colle_ma40a_sakana_r_1",
+  "PosX": -260.7744,
+  "PosY": -73.69362,
+  "PosZ": 776.5347,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 27
+}, {
+  "Name": "colle_ma40a_sakana_r_2",
+  "PosX": -162.1503,
+  "PosY": -76.83229,
+  "PosZ": 585.8075,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 27
+}, {
+  "Name": "colle_ma40a_sakana_n_4",
+  "PosX": -248.8147,
+  "PosY": -77.24538,
+  "PosZ": 562.0435,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 26
+}, {
+  "Name": "colle_ma40a_sakana_n_5",
+  "PosX": -228.2042,
+  "PosY": -74.5,
+  "PosZ": 621.6993,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 26
+}, {
+  "Name": "colle_ma40a_sakana_n_6",
+  "PosX": -265.0491,
+  "PosY": -77.08975,
+  "PosZ": 539.5329,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 26
+}, {
+  "Name": "colle_ma40a_sakana_n_8",
+  "PosX": -244.6852,
+  "PosY": -66.2276,
+  "PosZ": 389.0495,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 26
+}, {
+  "Name": "colle_ma40a_sakana_n_1",
+  "PosX": -441.9746,
+  "PosY": -73.39034,
+  "PosZ": 594.5717,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 26
+}, {
+  "Name": "colle_ma40a_yasai_n_1",
+  "PosX": -243.0757,
+  "PosY": -60.47321,
+  "PosZ": 347.4971,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 14
+}, {
+  "Name": "colle_ma40a_yasai_n_2",
+  "PosX": -212.47,
+  "PosY": -62.39999,
+  "PosZ": 351.4303,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 14
+}, {
+  "Name": "colle_ma40a_yasai_r_1",
+  "PosX": -189.5914,
+  "PosY": -62.8,
+  "PosZ": 362.5621,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 15
+}, {
+  "Name": "colle_ma40a_yasai_n_3",
+  "PosX": -318.6313,
+  "PosY": -51.88376,
+  "PosZ": 282.4387,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 14
+}, {
+  "Name": "colle_ma40a_yasai_r_2",
+  "PosX": -460.6296,
+  "PosY": -65.25262,
+  "PosZ": 768.5076,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 15
+}, {
+  "Name": "colle_ma40a_yasai_n_4",
+  "PosX": -398.4885,
+  "PosY": -67.04672,
+  "PosZ": 651.124,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 14
+}, {
+  "Name": "colle_ma40a_yasai_n_5",
+  "PosX": -358.5134,
+  "PosY": -69.4024,
+  "PosZ": 577.0818,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 14
+}, {
+  "Name": "colle_ma40a_yasai_r_3",
+  "PosX": -344.8378,
+  "PosY": -62.2109,
+  "PosZ": 263.2648,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 15
+}, {
+  "Name": "colle_ma40a_ki_n_1",
+  "PosX": -607.8674,
+  "PosY": -86.67997,
+  "PosZ": 978.2545,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 2
+}, {
+  "Name": "colle_ma40a_ki_n_2",
+  "PosX": -579.387,
+  "PosY": -82.46999,
+  "PosZ": 915.6578,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 2
+}, {
+  "Name": "colle_ma40a_ki_n_3",
+  "PosX": -452.3117,
+  "PosY": -67.90572,
+  "PosZ": 785.0115,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 2
+}, {
+  "Name": "colle_ma40a_ki_n_4",
+  "PosX": -418.8264,
+  "PosY": -63.54959,
+  "PosZ": 559.5077,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 2
+}, {
+  "Name": "colle_ma40a_ki_n_5",
+  "PosX": -389.1919,
+  "PosY": -62.30985,
+  "PosZ": 604.7851,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 2
+}, {
+  "Name": "colle_ma40a_ki_r_3",
+  "PosX": -333.9719,
+  "PosY": -68.39994,
+  "PosZ": 559.0806,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 3
+}, {
+  "Name": "colle_ma40a_ki_n_7",
+  "PosX": -192.5019,
+  "PosY": -64.90159,
+  "PosZ": 492.2489,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 2
+}, {
+  "Name": "colle_ma40a_ki_n_8",
+  "PosX": -218.1557,
+  "PosY": -64.22476,
+  "PosZ": 537.6847,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 2
+}, {
+  "Name": "colle_ma40a_ki_r_1",
+  "PosX": -408.7956,
+  "PosY": -64.68636,
+  "PosZ": 755.8882,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 3
+}, {
+  "Name": "colle_ma40a_ki_r_2",
+  "PosX": -560.8994,
+  "PosY": -86.2457,
+  "PosZ": 976.6786,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 3
+}, {
+  "Name": "colle_ma40a_ki_n_9",
+  "PosX": -298.2343,
+  "PosY": -58.01665,
+  "PosZ": 364.9952,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 2
+}, {
+  "Name": "colle_ma40a_rock2_n_1",
+  "PosX": 361.5205,
+  "PosY": -93.26804,
+  "PosZ": 364.8198,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 34
+}, {
+  "Name": "colle_ma40a_rock2_n_2",
+  "PosX": 254.6902,
+  "PosY": -97.13997,
+  "PosZ": 408.0212,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 34
+}, {
+  "Name": "colle_ma40a_rock2_n_3",
+  "PosX": 404.4133,
+  "PosY": -95.528,
+  "PosZ": 437.8577,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 34
+}, {
+  "Name": "colle_ma40a_rock2_n_4",
+  "PosX": 392.715,
+  "PosY": -102.8478,
+  "PosZ": 502.976,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 34
+}, {
+  "Name": "colle_ma40a_rock2_r_1",
+  "PosX": 256.2464,
+  "PosY": -94.18833,
+  "PosZ": 440.4369,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 35
+}, {
+  "Name": "colle_ma40a_rock2_n_5",
+  "PosX": 243.6344,
+  "PosY": -94.03368,
+  "PosZ": 590.2918,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 34
+}, {
+  "Name": "colle_ma40a_rock2_n_6",
+  "PosX": 182.5316,
+  "PosY": -93.17307,
+  "PosZ": 598.0961,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 34
+}, {
+  "Name": "colle_ma40a_rock2_r_2",
+  "PosX": 174.9334,
+  "PosY": -89.31621,
+  "PosZ": 505.7045,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 35
+}, {
+  "Name": "colle_ma40a_rock2_n_7",
+  "PosX": 196.5357,
+  "PosY": -73.92548,
+  "PosZ": 477.1002,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 34
+}, {
+  "Name": "colle_ma40a_rock2_n_8",
+  "PosX": 143.5298,
+  "PosY": -53.53312,
+  "PosZ": 525.6196,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 34
+}, {
+  "Name": "colle_ma40a_rock2_n_9",
+  "PosX": 144.5019,
+  "PosY": -49.77797,
+  "PosZ": 388.7745,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 34
+}, {
+  "Name": "colle_ma40a_rock2_r_3",
+  "PosX": 214.9501,
+  "PosY": -79.82274,
+  "PosZ": 382.8576,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 35
+}, {
+  "Name": "colle_ma40a_hana2_n_1",
+  "PosX": 414.1914,
+  "PosY": -94.22461,
+  "PosZ": 410.8116,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 10
+}, {
+  "Name": "colle_ma40a_hana2_n_2",
+  "PosX": 288.5162,
+  "PosY": -98.89424,
+  "PosZ": 376.813,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 10
+}, {
+  "Name": "colle_ma40a_hana2_n_3",
+  "PosX": 327.4838,
+  "PosY": -100.1454,
+  "PosZ": 466.9739,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 10
+}, {
+  "Name": "colle_ma40a_hana2_r_1",
+  "PosX": 265.0796,
+  "PosY": -85.59949,
+  "PosZ": 601.867,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 11
+}, {
+  "Name": "colle_ma40a_hana2_n_5",
+  "PosX": 300.8446,
+  "PosY": -87.85384,
+  "PosZ": 594.8259,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 10
+}, {
+  "Name": "colle_ma40a_hana2_n_4",
+  "PosX": 360.9099,
+  "PosY": -90.10966,
+  "PosZ": 593.7553,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 10
+}, {
+  "Name": "colle_ma40a_hana2_n_6",
+  "PosX": 387.2471,
+  "PosY": -111.284,
+  "PosZ": 523.8965,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 10
+}, {
+  "Name": "colle_ma40a_hana2_r_2",
+  "PosX": 197.3102,
+  "PosY": -77.80139,
+  "PosZ": 442.5324,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 11
+}, {
+  "Name": "colle_ma40a_hana2_n_8",
+  "PosX": 124.6025,
+  "PosY": -40.64578,
+  "PosZ": 549.9417,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 10
+}, {
+  "Name": "colle_ma40a_hana2_n_9",
+  "PosX": 97.35378,
+  "PosY": -42.14488,
+  "PosZ": 509.0742,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 10
+}, {
+  "Name": "colle_ma40a_hana2_r_3",
+  "PosX": 171.2679,
+  "PosY": -91.8,
+  "PosZ": 472.128,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 11
+}, {
+  "Name": "colle_ma40a_hana2_n_7",
+  "PosX": 321.5016,
+  "PosY": -98.62886,
+  "PosZ": 400.32,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 10
+}, {
+  "Name": "colle_ma40a_hana2_r_4",
+  "PosX": 95.62556,
+  "PosY": -41.46928,
+  "PosZ": 403.6397,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 11
+}, {
+  "Name": "colle_ma40a_hana2_n_10",
+  "PosX": 124.9871,
+  "PosY": -47.53778,
+  "PosZ": 428.9435,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 10
+}, {
+  "Name": "colle_ma40a_musi2_n_1",
+  "PosX": 294.6953,
+  "PosY": -99.37884,
+  "PosZ": 441.942,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 22
+}, {
+  "Name": "colle_ma40a_musi2_n_2",
+  "PosX": 348.4021,
+  "PosY": -99.31206,
+  "PosZ": 549.4194,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 22
+}, {
+  "Name": "colle_ma40a_musi2_n_3",
+  "PosX": 209.2346,
+  "PosY": -99.54296,
+  "PosZ": 573.1024,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 22
+}, {
+  "Name": "colle_ma40a_musi2_r_1",
+  "PosX": 271.0292,
+  "PosY": -98.39301,
+  "PosZ": 604.3742,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 23
+}, {
+  "Name": "colle_ma40a_musi2_n_4",
+  "PosX": 306.9513,
+  "PosY": -99.76221,
+  "PosZ": 526.0356,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 22
+}, {
+  "Name": "colle_ma40a_musi2_n_5",
+  "PosX": 283.4944,
+  "PosY": -97.47321,
+  "PosZ": 451.2369,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 22
+}, {
+  "Name": "colle_ma40a_musi2_n_6",
+  "PosX": 140.7176,
+  "PosY": -94.42438,
+  "PosZ": 587.0123,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 22
+}, {
+  "Name": "colle_ma40a_musi2_r_2",
+  "PosX": 82.71629,
+  "PosY": -40.82087,
+  "PosZ": 387.1067,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 23
+}, {
+  "Name": "colle_ma40a_musi2_n_7",
+  "PosX": 123.4379,
+  "PosY": -47.64222,
+  "PosZ": 359.9004,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 22
+}, {
+  "Name": "colle_ma40a_musi2_n_8",
+  "PosX": 101.8695,
+  "PosY": -38.27808,
+  "PosZ": 304.4304,
+  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"],
+  "CollectionTable": 22
+}, {
+  "Name": "colle_ma40a_musi2_r_3",
+  "PosX": 252.4405,
+  "PosY": -73.63657,
+  "PosZ": 247.508,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 23
+}, {
+  "Name": "colle_ma40a_sakana2_n_2",
+  "PosX": 257.1273,
+  "PosY": -100.8445,
+  "PosZ": 487.958,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 28
+}, {
+  "Name": "colle_ma40a_sakana2_n_3",
+  "PosX": 283.7063,
+  "PosY": -100.911,
+  "PosZ": 516.7764,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 28
+}, {
+  "Name": "colle_ma40a_sakana2_n_4",
+  "PosX": 233.3846,
+  "PosY": -100.5,
+  "PosZ": 534.4794,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 28
+}, {
+  "Name": "colle_ma40a_sakana2_n_5",
+  "PosX": 175.4237,
+  "PosY": -100.7971,
+  "PosZ": 551.3367,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 28
+}, {
+  "Name": "colle_ma40a_sakana2_r_1",
+  "PosX": 156.9177,
+  "PosY": -92.23053,
+  "PosZ": 478.5348,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 29
+}, {
+  "Name": "colle_ma40a_sakana2_n_6",
+  "PosX": 246.3796,
+  "PosY": -100.3447,
+  "PosZ": 356.33,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 28
+}, {
+  "Name": "colle_ma40a_sakana2_n_7",
+  "PosX": 207.5795,
+  "PosY": -100.1663,
+  "PosZ": 359.5154,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 28
+}, {
+  "Name": "colle_ma40a_sakana2_r_2",
+  "PosX": 189.3891,
+  "PosY": -99.8,
+  "PosZ": 535.3531,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 29
+}, {
+  "Name": "colle_ma40a_yasai2_n_1",
+  "PosX": 206.6409,
+  "PosY": -96.05073,
+  "PosZ": 440.3496,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 16
+}, {
+  "Name": "colle_ma40a_yasai2_n_2",
+  "PosX": 380.3608,
+  "PosY": -93.2,
+  "PosZ": 402.915,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 16
+}, {
+  "Name": "colle_ma40a_yasai2_n_3",
+  "PosX": 368.5077,
+  "PosY": -155,
+  "PosZ": 436.6013,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 16
+}, {
+  "Name": "colle_ma40a_yasai2_r_1",
+  "PosX": 359.4526,
+  "PosY": -142,
+  "PosZ": 503.3236,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 17
+}, {
+  "Name": "colle_ma40a_yasai2_n_4",
+  "PosX": 90.90296,
+  "PosY": -44.46913,
+  "PosZ": 466.1297,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 16
+}, {
+  "Name": "colle_ma40a_yasai2_n_5",
+  "PosX": 142.8899,
+  "PosY": -45.4,
+  "PosZ": 466.0752,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 16
+}, {
+  "Name": "colle_ma40a_yasai2_r_2",
+  "PosX": 109.1453,
+  "PosY": -41.1,
+  "PosZ": 404.129,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 17
+}, {
+  "Name": "colle_ma40a_yasai2_n_7",
+  "PosX": 287.4192,
+  "PosY": -94.10895,
+  "PosZ": 577.9826,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 16
+}, {
+  "Name": "colle_ma40a_yasai2_n_6",
+  "PosX": 341.7355,
+  "PosY": -98.41383,
+  "PosZ": 420.0556,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 16
+}, {
+  "Name": "colle_ma40a_yasai2_n_8",
+  "PosX": 353.1906,
+  "PosY": -100.7878,
+  "PosZ": 499.1725,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 16
+}, {
+  "Name": "colle_ma40a_yasai2_r_3",
+  "PosX": 422.2166,
+  "PosY": -99.96263,
+  "PosZ": 461.593,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 17
+}, {
+  "Name": "colle_ma40a_yasai2_n_9",
+  "PosX": 190.751,
+  "PosY": -68.67148,
+  "PosZ": 515.6874,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 16
+}, {
+  "Name": "colle_ma40a_ki2_n_1",
+  "PosX": 291.1344,
+  "PosY": -98.42541,
+  "PosZ": 362.1608,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 4
+}, {
+  "Name": "colle_ma40a_ki2_n_2",
+  "PosX": 327.0772,
+  "PosY": -93.66003,
+  "PosZ": 354.1846,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 4
+}, {
+  "Name": "colle_ma40a_ki2_n_3",
+  "PosX": 403.3268,
+  "PosY": -116.0295,
+  "PosZ": 475.7443,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 4
+}, {
+  "Name": "colle_ma40a_ki2_n_4",
+  "PosX": 128.3831,
+  "PosY": -47,
+  "PosZ": 492.0296,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 4
+}, {
+  "Name": "colle_ma40a_ki2_r_1",
+  "PosX": 173.9476,
+  "PosY": -95.46305,
+  "PosZ": 371.904,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 5
+}, {
+  "Name": "colle_ma40a_ki2_n_5",
+  "PosX": 410.2256,
+  "PosY": -78,
+  "PosZ": 278.2726,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 4
+}, {
+  "Name": "colle_ma40a_ki2_n_6",
+  "PosX": 399.5919,
+  "PosY": -91.75935,
+  "PosZ": 353.7721,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 4
+}, {
+  "Name": "colle_ma40a_ki2_n_7",
+  "PosX": 389.1913,
+  "PosY": -94,
+  "PosZ": 258.0024,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 4
+}, {
+  "Name": "colle_ma40a_ki2_r_2",
+  "PosX": 160.2038,
+  "PosY": -95.4427,
+  "PosZ": 586.8311,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 5
+}, {
+  "Name": "colle_ma40a_ki2_r_3",
+  "PosX": 423.3761,
+  "PosY": -84.8,
+  "PosZ": 318.3998,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 5
+}, {
+  "Name": "colle_ma40a_rock3_n_1",
+  "PosX": 33.10316,
+  "PosY": -31.03947,
+  "PosZ": 201.622,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 36
+}, {
+  "Name": "colle_ma40a_rock3_n_2",
+  "PosX": 150.6199,
+  "PosY": -20.94118,
+  "PosZ": 213.6552,
+  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"],
+  "CollectionTable": 36
+}, {
+  "Name": "colle_ma40a_rock3_n_3",
+  "PosX": 160.8254,
+  "PosY": -28.85755,
+  "PosZ": 177.3577,
+  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"],
+  "CollectionTable": 36
+}, {
+  "Name": "colle_ma40a_rock3_n_4",
+  "PosX": 237.184,
+  "PosY": -18.63951,
+  "PosZ": 142.729,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 36
+}, {
+  "Name": "colle_ma40a_rock3_n_5",
+  "PosX": 184.9267,
+  "PosY": -22.68305,
+  "PosZ": -3.984901,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 36
+}, {
+  "Name": "colle_ma40a_rock3_n_6",
+  "PosX": 107.4622,
+  "PosY": -30.33353,
+  "PosZ": -60.29195,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 36
+}, {
+  "Name": "colle_ma40a_rock3_r_1",
+  "PosX": 12.05899,
+  "PosY": -1.031656,
+  "PosZ": -97.49525,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 37
+}, {
+  "Name": "colle_ma40a_rock3_r_2",
+  "PosX": -89.20212,
+  "PosY": -1.817649,
+  "PosZ": -106.6416,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 37
+}, {
+  "Name": "colle_ma40a_rock3_n_7",
+  "PosX": -136.3437,
+  "PosY": -52.92841,
+  "PosZ": 76.23279,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 36
+}, {
+  "Name": "colle_ma40a_rock3_n_8",
+  "PosX": -52.64219,
+  "PosY": -45.52959,
+  "PosZ": 189.6475,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 36
+}, {
+  "Name": "colle_ma40a_rock3_n_9",
+  "PosX": -231.4299,
+  "PosY": -36.37904,
+  "PosZ": 234.3247,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 36
+}, {
+  "Name": "colle_ma40a_rock3_n_10",
+  "PosX": -273.8097,
+  "PosY": -28.44572,
+  "PosZ": 243.3052,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 36
+}, {
+  "Name": "colle_ma40a_rock3_r_3",
+  "PosX": 51.12855,
+  "PosY": -29.29323,
+  "PosZ": -23.58411,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 37
+}, {
+  "Name": "colle_ma40a_rock3_n_11",
+  "PosX": 102.4808,
+  "PosY": -13.06249,
+  "PosZ": -18.70185,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 36
+}, {
+  "Name": "colle_ma40a_rock3_n_12",
+  "PosX": -58.40742,
+  "PosY": -28.37629,
+  "PosZ": 289.5768,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 36
+}, {
+  "Name": "colle_ma40a_rock3_n_13",
+  "PosX": 13.8963,
+  "PosY": -18.69713,
+  "PosZ": -388.4926,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 36
+}, {
+  "Name": "colle_ma40a_rock3_n_14",
+  "PosX": -62.97723,
+  "PosY": -7.43795,
+  "PosZ": -648.4279,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 36
+}, {
+  "Name": "colle_ma40a_rock3_r_4",
+  "PosX": 97.27544,
+  "PosY": -19.01574,
+  "PosZ": -499.9241,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 37
+}, {
+  "Name": "colle_ma40a_rock3_r_5",
+  "PosX": 220.1947,
+  "PosY": -83.65652,
+  "PosZ": 284.8376,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 37
+}, {
+  "Name": "colle_ma40a_rock3_r_ex_1",
+  "PosX": -134.439,
+  "PosY": -21.92822,
+  "PosZ": 460.7175,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 115
+}, {
+  "Name": "colle_ma40a_rock3_r_ex_2",
+  "PosX": -145.0842,
+  "PosY": -23.80271,
+  "PosZ": 466.4613,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 115
+}, {
+  "Name": "colle_ma40a_hana3_r_1",
+  "PosX": -12.6269,
+  "PosY": 0.7007122,
+  "PosZ": -81.59743,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 13
+}, {
+  "Name": "colle_ma40a_hana3_n_2",
+  "PosX": 2.889399,
+  "PosY": -0.03117847,
+  "PosZ": -135.748,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 12
+}, {
+  "Name": "colle_ma40a_hana3_n_3",
+  "PosX": -57.29739,
+  "PosY": -31.8417,
+  "PosZ": 104.4587,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 12
+}, {
+  "Name": "colle_ma40a_hana3_n_1",
+  "PosX": 62.51796,
+  "PosY": -32.86133,
+  "PosZ": -63.62747,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 12
+}, {
+  "Name": "colle_ma40a_hana3_n_4",
+  "PosX": 142.8028,
+  "PosY": -31.92918,
+  "PosZ": -99.89964,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 12
+}, {
+  "Name": "colle_ma40a_hana3_n_5",
+  "PosX": 211.0727,
+  "PosY": -21.37774,
+  "PosZ": -35.711,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 12
+}, {
+  "Name": "colle_ma40a_hana3_n_6",
+  "PosX": 82.37097,
+  "PosY": -1.296187,
+  "PosZ": 20.21676,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 12
+}, {
+  "Name": "colle_ma40a_hana3_r_6",
+  "PosX": -127.1374,
+  "PosY": -57.90516,
+  "PosZ": 14.73954,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 13
+}, {
+  "Name": "colle_ma40a_hana3_r_2",
+  "PosX": -131.6134,
+  "PosY": -35.4412,
+  "PosZ": 349.0022,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 13
+}, {
+  "Name": "colle_ma40a_hana3_r_4",
+  "PosX": -262.7613,
+  "PosY": -23.60329,
+  "PosZ": 263.1097,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 13
+}, {
+  "Name": "colle_ma40a_hana3_n_9",
+  "PosX": 95.84257,
+  "PosY": -34.23874,
+  "PosZ": 200.0092,
+  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"],
+  "CollectionTable": 12
+}, {
+  "Name": "colle_ma40a_hana3_n_10",
+  "PosX": 106.2057,
+  "PosY": -37.6461,
+  "PosZ": 96.34111,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 12
+}, {
+  "Name": "colle_ma40a_hana3_r_3",
+  "PosX": 38.8868,
+  "PosY": -27.80877,
+  "PosZ": -246.7245,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 13
+}, {
+  "Name": "colle_ma40a_hana3_n_11",
+  "PosX": -11.7222,
+  "PosY": -19.02297,
+  "PosZ": -360.4656,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 12
+}, {
+  "Name": "colle_ma40a_hana3_r_5",
+  "PosX": 104.4775,
+  "PosY": -33.08046,
+  "PosZ": -211.0928,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 13
+}, {
+  "Name": "colle_ma40a_hana3_n_7",
+  "PosX": 201.0218,
+  "PosY": -9.872616,
+  "PosZ": 43.71249,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 12
+}, {
+  "Name": "colle_ma40a_hana3_ex_1",
+  "PosX": -136.6524,
+  "PosY": -23.65746,
+  "PosZ": 466.1821,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 116
+}, {
+  "Name": "colle_ma40a_musi3_n_1",
+  "PosX": 7.855747,
+  "PosY": -43.92465,
+  "PosZ": 178.9273,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 24
+}, {
+  "Name": "colle_ma40a_musi3_n_2",
+  "PosX": 148.1951,
+  "PosY": -35.57439,
+  "PosZ": 143.0402,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 24
+}, {
+  "Name": "colle_ma40a_musi3_n_3",
+  "PosX": 147.9682,
+  "PosY": -31.0927,
+  "PosZ": 74.10704,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 24
+}, {
+  "Name": "colle_ma40a_musi3_n_4",
+  "PosX": -97.13309,
+  "PosY": -57.06039,
+  "PosZ": 52.65613,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 24
+}, {
+  "Name": "colle_ma40a_musi3_n_5",
+  "PosX": -105.3354,
+  "PosY": -47.25691,
+  "PosZ": -72.15041,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 24
+}, {
+  "Name": "colle_ma40a_musi3_r_1",
+  "PosX": -17.52929,
+  "PosY": -68.90612,
+  "PosZ": 55.4866,
+  "areas": [],
+  "CollectionTable": 25
+}, {
+  "Name": "colle_ma40a_musi3_n_6",
+  "PosX": 84.0518,
+  "PosY": -28.28594,
+  "PosZ": -29.44488,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 24
+}, {
+  "Name": "colle_ma40a_musi3_r_2",
+  "PosX": -18.54209,
+  "PosY": -14.32173,
+  "PosZ": -68.99554,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 25
+}, {
+  "Name": "colle_ma40a_musi3_n_7",
+  "PosX": -60.94276,
+  "PosY": -7.138737,
+  "PosZ": -699.7637,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 24
+}, {
+  "Name": "colle_ma40a_musi3_r_3",
+  "PosX": 188.0266,
+  "PosY": -26,
+  "PosZ": 258.3609,
+  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"],
+  "CollectionTable": 25
+}, {
+  "Name": "colle_ma40a_musi3_r_4",
+  "PosX": 207.9369,
+  "PosY": -73.89002,
+  "PosZ": 199.4207,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 25
+}, {
+  "Name": "colle_ma40a_musi3_r_5",
+  "PosX": 45.60703,
+  "PosY": -16.10752,
+  "PosZ": -36.34071,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 25
+}, {
+  "Name": "colle_ma40a_musi3_ex_1",
+  "PosX": 70.46606,
+  "PosY": 74.62323,
+  "PosZ": 458.755,
+  "areas": [],
+  "CollectionTable": 117
+}, {
+  "Name": "colle_ma40a_sakana3_n_1",
+  "PosX": -69.84805,
+  "PosY": -51.49525,
+  "PosZ": 147.0567,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 30
+}, {
+  "Name": "colle_ma40a_sakana3_n_2",
+  "PosX": -108.9118,
+  "PosY": -50.92416,
+  "PosZ": 127.6757,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 30
+}, {
+  "Name": "colle_ma40a_sakana3_n_3",
+  "PosX": 115.2611,
+  "PosY": -35.95423,
+  "PosZ": -117.2077,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 30
+}, {
+  "Name": "colle_ma40a_sakana3_n_4",
+  "PosX": 37.53366,
+  "PosY": -35.84447,
+  "PosZ": -111.6813,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 30
+}, {
+  "Name": "colle_ma40a_sakana3_n_5",
+  "PosX": 13.56524,
+  "PosY": -36.07868,
+  "PosZ": -198.9804,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 30
+}, {
+  "Name": "colle_ma40a_sakana3_r_1",
+  "PosX": -86.23215,
+  "PosY": -2.528438,
+  "PosZ": -91.45573,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 31
+}, {
+  "Name": "colle_ma40a_sakana3_r_2",
+  "PosX": -205.7576,
+  "PosY": -51,
+  "PosZ": 172.8887,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 31
+}, {
+  "Name": "colle_ma40a_sakana3_r_3",
+  "PosX": 24.53589,
+  "PosY": -2.864327,
+  "PosZ": -121.8048,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 31
+}, {
+  "Name": "colle_ma40a_sakana3_n_6",
+  "PosX": 37.10246,
+  "PosY": -24.15255,
+  "PosZ": -468.6761,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 30
+}, {
+  "Name": "colle_ma40a_sakana3_n_7",
+  "PosX": 70.52214,
+  "PosY": -16.41277,
+  "PosZ": -546.5751,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 30
+}, {
+  "Name": "colle_ma40a_sakana3_r_4",
+  "PosX": 84.60293,
+  "PosY": -30.98997,
+  "PosZ": -17.47116,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 31
+}, {
+  "Name": "colle_ma40a_sakana3_n_8",
+  "PosX": 70.52214,
+  "PosY": -16.41277,
+  "PosZ": -546.5751,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 30
+}, {
+  "Name": "colle_ma40a_yasai3_n_1",
+  "PosX": 40.63573,
+  "PosY": -17.67694,
+  "PosZ": -415.1315,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 18
+}, {
+  "Name": "colle_ma40a_yasai3_n_2",
+  "PosX": -89.03682,
+  "PosY": -15.08002,
+  "PosZ": -506.9783,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 18
+}, {
+  "Name": "colle_ma40a_yasai3_n_4",
+  "PosX": 121.1357,
+  "PosY": -18.067,
+  "PosZ": -572.9145,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 18
+}, {
+  "Name": "colle_ma40a_yasai3_n_5",
+  "PosX": -63.91418,
+  "PosY": -30.05303,
+  "PosZ": -241.4611,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 18
+}, {
+  "Name": "colle_ma40a_yasai3_n_6",
+  "PosX": -107.0293,
+  "PosY": -39.37136,
+  "PosZ": 245.2006,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 18
+}, {
+  "Name": "colle_ma40a_yasai3_r_3",
+  "PosX": -294.6236,
+  "PosY": -23.99503,
+  "PosZ": 277.4103,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 19
+}, {
+  "Name": "colle_ma40a_yasai3_r_1",
+  "PosX": -107.3985,
+  "PosY": -36.126,
+  "PosZ": 76.25996,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 19
+}, {
+  "Name": "colle_ma40a_yasai3_r_2",
+  "PosX": 13.69622,
+  "PosY": -24.96332,
+  "PosZ": 98.52344,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 19
+}, {
+  "Name": "colle_ma40a_yasai3_n_8",
+  "PosX": 108.7624,
+  "PosY": -25.94438,
+  "PosZ": 234.4217,
+  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"],
+  "CollectionTable": 18
+}, {
+  "Name": "colle_ma40a_yasai3_r_4",
+  "PosX": -106.3969,
+  "PosY": -41.69771,
+  "PosZ": -206.1079,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 19
+}, {
+  "Name": "colle_ma40a_yasai3_n_3",
+  "PosX": 190.0105,
+  "PosY": -11.81374,
+  "PosZ": 75.48456,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 18
+}, {
+  "Name": "colle_ma40a_yasai3_n_7",
+  "PosX": 169.1644,
+  "PosY": -7.165464,
+  "PosZ": 17.63261,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 18
+}, {
+  "Name": "colle_ma40a_yasai3_ex_1",
+  "PosX": 68.14027,
+  "PosY": 73.02921,
+  "PosZ": 448.2878,
+  "areas": [],
+  "CollectionTable": 118
+}, {
+  "Name": "colle_ma40a_ki3_n_1",
+  "PosX": 211.1813,
+  "PosY": -25.21382,
+  "PosZ": 187.6335,
+  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"],
+  "CollectionTable": 6
+}, {
+  "Name": "colle_ma40a_ki3_n_2",
+  "PosX": 155.6859,
+  "PosY": -33.10661,
+  "PosZ": 99.7659,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 6
+}, {
+  "Name": "colle_ma40a_ki3_n_3",
+  "PosX": -19.51878,
+  "PosY": -18.01354,
+  "PosZ": -329.5031,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 6
+}, {
+  "Name": "colle_ma40a_ki3_r_1",
+  "PosX": 43.13661,
+  "PosY": -15.11929,
+  "PosZ": -325.0997,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 7
+}, {
+  "Name": "colle_ma40a_ki3_n_4",
+  "PosX": -44.64037,
+  "PosY": -17.2414,
+  "PosZ": -405.3015,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 6
+}, {
+  "Name": "colle_ma40a_ki3_n_5",
+  "PosX": -45.35896,
+  "PosY": -15.08617,
+  "PosZ": -554.0586,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 6
+}, {
+  "Name": "colle_ma40a_ki3_r_2",
+  "PosX": -48.65925,
+  "PosY": -2.918799,
+  "PosZ": -69.81232,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 7
+}, {
+  "Name": "colle_ma40a_ki3_r_3",
+  "PosX": -249.9817,
+  "PosY": -23.41966,
+  "PosZ": 297.6157,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 7
+}, {
+  "Name": "colle_ma40a_ki3_r_4",
+  "PosX": -204.5293,
+  "PosY": -23.66277,
+  "PosZ": 299.6046,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 7
+}, {
+  "Name": "colle_ma40a_ki3_n_8",
+  "PosX": -184.0598,
+  "PosY": -48.07099,
+  "PosZ": 101.6853,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 6
+}, {
+  "Name": "colle_ma40a_ki3_n_6",
+  "PosX": 35.07538,
+  "PosY": -17.64736,
+  "PosZ": -366.0905,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 6
+}, {
+  "Name": "colle_ma40a_ki3_n_7",
+  "PosX": 29.65968,
+  "PosY": -20.35793,
+  "PosZ": -281.1946,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 6
+}, {
+  "Name": "colle_ma40a_11_050_100_01",
+  "PosX": -349.4633,
+  "PosY": -70.00001,
+  "PosZ": 729.0242,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 101
+}, {
+  "Name": "colle_ma40a_11_050_100_02",
+  "PosX": -366.4773,
+  "PosY": -69.90257,
+  "PosZ": 729.111,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 102
+}, {
+  "Name": "colle_ma40a_11_050_100_03",
+  "PosX": -357.0107,
+  "PosY": -70.89638,
+  "PosZ": 696.0374,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 100
+}, {
+  "Name": "colle_ma40a_11_050_100_04",
+  "PosX": -402.217,
+  "PosY": -68.02657,
+  "PosZ": 713.3696,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 103
+}, {
+  "Name": "colle_ma40a_sabaku_ex_1",
+  "PosX": 73.2341,
+  "PosY": -43.08646,
+  "PosZ": 95.34293,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 109
+}, {
+  "Name": "colle_ma40a_sabaku_ex_2",
+  "PosX": 126.6007,
+  "PosY": -35.40278,
+  "PosZ": 172.5498,
+  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"],
+  "CollectionTable": 109
+}, {
+  "Name": "colle_ma40a_sabaku_ex_3",
+  "PosX": -110.5849,
+  "PosY": -49.513,
+  "PosZ": 205.5409,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 109
+}, {
+  "Name": "colle_ma40a_sabaku_ex_4",
+  "PosX": -250.2709,
+  "PosY": -40.95665,
+  "PosZ": 207.6567,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 109
+}, {
+  "Name": "colle_ma40a_sabaku_ex_5",
+  "PosX": -107.5582,
+  "PosY": -41.9526,
+  "PosZ": -161.8485,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 109
+}, {
+  "Name": "colle_ma40a_sabaku_ex_6",
+  "PosX": -27.17537,
+  "PosY": -1.293106,
+  "PosZ": -156.3262,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 109
+}, {
+  "Name": "colle_ma40a_sabaku_ex_7",
+  "PosX": 88.79996,
+  "PosY": -31.72776,
+  "PosZ": -234.1823,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 109
+}, {
+  "Name": "colle_ma40a_sabaku_ex_8",
+  "PosX": 159.6421,
+  "PosY": -25.59045,
+  "PosZ": -53.11441,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 109
+}, {
+  "Name": "colle_ma40a_sabaku_ex_9",
+  "PosX": -13.30305,
+  "PosY": -31.3653,
+  "PosZ": -236.6701,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 109
+}, {
+  "Name": "colle_ma40a_rain_ex_1",
+  "PosX": -15.91579,
+  "PosY": -21.24133,
+  "PosZ": -285.3154,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 110
+}, {
+  "Name": "colle_ma40a_rain_ex_2",
+  "PosX": 14.77702,
+  "PosY": -21.04127,
+  "PosZ": -315.5857,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 110
+}, {
+  "Name": "colle_ma40a_rain_ex_3",
+  "PosX": -19.98602,
+  "PosY": -18.51826,
+  "PosZ": -384.332,
+  "areas": ["dlc3_ma40a_c01"],
+  "CollectionTable": 110
+}, {
+  "Name": "colle_ma40a_rain_ex_4",
+  "PosX": -236.0289,
+  "PosY": -21.41016,
+  "PosZ": 291.4593,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 110
+}, {
+  "Name": "colle_ma40a_rain_ex_5",
+  "PosX": -204.026,
+  "PosY": -22.68357,
+  "PosZ": 277.4877,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 110
+}, {
+  "Name": "colle_ma40a_rain_ex_6",
+  "PosX": -177.6064,
+  "PosY": -29.16703,
+  "PosZ": 290.5287,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 110
+}, {
+  "Name": "colle_ma40a_rain_ex_7",
+  "PosX": -147.9392,
+  "PosY": -45.42862,
+  "PosZ": 229.4509,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 110
+}, {
+  "Name": "colle_ma40a_rain2_ex_1",
+  "PosX": -536.1014,
+  "PosY": -77.47763,
+  "PosZ": 825.9109,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 111
+}, {
+  "Name": "colle_ma40a_rain2_ex_2",
+  "PosX": -609.4,
+  "PosY": -85.56709,
+  "PosZ": 999.8387,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 111
+}, {
+  "Name": "colle_ma40a_rain2_ex_3",
+  "PosX": -621.7839,
+  "PosY": -85.97708,
+  "PosZ": 921.0443,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 111
+}, {
+  "Name": "colle_ma40a_rain3_ex_1",
+  "PosX": 196.9092,
+  "PosY": -100.7384,
+  "PosZ": 553.5584,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 112
+}, {
+  "Name": "colle_ma40a_rain3_ex_2",
+  "PosX": 207.6073,
+  "PosY": -100.2275,
+  "PosZ": 493.6736,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 112
+}, {
+  "Name": "colle_ma40a_rain3_ex_3",
+  "PosX": 266.3427,
+  "PosY": -100.734,
+  "PosZ": 530.196,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 112
+}, {
+  "Name": "colle_ma40a_qst7026_001",
+  "PosX": 209.908,
+  "PosY": -23.60384,
+  "PosZ": 25.4498,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 104
+}, {
+  "Name": "colle_ma40a_qst7026_002",
+  "PosX": 209.9081,
+  "PosY": -23.60384,
+  "PosZ": 25.44977,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 98
+}, {
+  "Name": "colle_ma40a_qst7014_001",
+  "PosX": -84.65525,
+  "PosY": -34.24206,
+  "PosZ": 80.21671,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 96
+}, {
+  "Name": "colle_ma40a_qst7014_002",
+  "PosX": -38.9663,
+  "PosY": -28.89863,
+  "PosZ": 69.66569,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 96
+}, {
+  "Name": "colle_ma40a_qst7014_003",
+  "PosX": -54.50674,
+  "PosY": -31.62427,
+  "PosZ": 95.73591,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 96
+}, {
+  "Name": "colle_ma40a_qst7014_004",
+  "PosX": 3.865577,
+  "PosY": -28.16191,
+  "PosZ": 120.561,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 96
+}, {
+  "Name": "colle_ma40a_qst7014_005",
+  "PosX": -25.10898,
+  "PosY": -30.50946,
+  "PosZ": 137.2911,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 96
+}, {
+  "Name": "colle_ma40a_qst7014_006",
+  "PosX": -20.58,
+  "PosY": -29.74,
+  "PosZ": 142.04,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 96
+}, {
+  "Name": "colle_ma40a_qst7005_001",
+  "PosX": -431.1963,
+  "PosY": -73.48734,
+  "PosZ": 597.6304,
+  "areas": ["dlc3_ma40a_f01"],
+  "CollectionTable": 97
+}, {
+  "Name": "colle_ma40a_qst7021_001",
+  "PosX": 383.0038,
+  "PosY": -142,
+  "PosZ": 505.1932,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 99
+}, {
+  "Name": "colle_ma40a_qst7021_002",
+  "PosX": 372.2426,
+  "PosY": -142,
+  "PosZ": 520.1453,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 99
+}, {
+  "Name": "colle_ma40a_qst7021_003",
+  "PosX": 398.3711,
+  "PosY": -155,
+  "PosZ": 444.4077,
+  "areas": ["dlc3_ma40a_f02"],
+  "CollectionTable": 99
+}, {
+  "Name": "colle_ma40a_qst7015_001",
+  "PosX": -121.35,
+  "PosY": -37.09,
+  "PosZ": 265.08,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 113
+}, {
+  "Name": "colle_ma40a_qst7015_002",
+  "PosX": -273.721,
+  "PosY": -27.71104,
+  "PosZ": 310.5567,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 113
+}, {
+  "Name": "colle_ma40a_qst7015_003",
+  "PosX": -118.2168,
+  "PosY": -30.8821,
+  "PosZ": 328.0648,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 113
+}, {
+  "Name": "colle_ma40a_qst7015_004",
+  "PosX": -194.1855,
+  "PosY": -27.89466,
+  "PosZ": 304.6444,
+  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "CollectionTable": 113
+}, {
+  "Name": "colle_ma40a_qst7018_001",
+  "PosX": -34.23,
+  "PosY": -67.17,
+  "PosZ": 16.37,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 114
+}, {
+  "Name": "colle_ma40a_qst7018_002",
+  "PosX": -53.81,
+  "PosY": -64.37,
+  "PosZ": -33.89,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 114
+}, {
+  "Name": "colle_ma40a_qst7018_003",
+  "PosX": -45.72,
+  "PosY": -65.82,
+  "PosZ": 45.35,
+  "areas": ["dlc3_ma40a_f03"],
+  "CollectionTable": 114
+}, {
+  "Name": "colle_ma41a_f016",
+  "PosX": 145.4061,
+  "PosY": -14.65012,
+  "PosZ": 154.1251,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 73
+}, {
+  "Name": "colle_ma41a_f037",
+  "PosX": 194.6297,
+  "PosY": -14.52524,
+  "PosZ": 136.3888,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 73
+}, {
+  "Name": "colle_ma41a_f091",
+  "PosX": -340.6987,
+  "PosY": 3.731079,
+  "PosZ": 153.2204,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 73
+}, {
+  "Name": "colle_ma41a_f023",
+  "PosX": 168.3998,
+  "PosY": -14.72007,
+  "PosZ": 179.6967,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 74
+}, {
+  "Name": "colle_ma41a_f313",
+  "PosX": -292.0775,
+  "PosY": -9.285679,
+  "PosZ": -20.48528,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 73
+}, {
+  "Name": "colle_ma41a_f315",
+  "PosX": -331.8431,
+  "PosY": -9.083878,
+  "PosZ": -63.60912,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 73
+}, {
+  "Name": "colle_ma41a_f316",
+  "PosX": -169.3378,
+  "PosY": -9.320595,
+  "PosZ": -88.77633,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 74
+}, {
+  "Name": "colle_ma41a_f005",
+  "PosX": 342.8184,
+  "PosY": -31.46075,
+  "PosZ": -59.97238,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 75
+}, {
+  "Name": "colle_ma41a_f022",
+  "PosX": 405.3649,
+  "PosY": -31.64427,
+  "PosZ": 0.320405,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 75
+}, {
+  "Name": "colle_ma41a_f119",
+  "PosX": 591.249,
+  "PosY": -31.75265,
+  "PosZ": 86.70419,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 75
+}, {
+  "Name": "colle_ma41a_f010",
+  "PosX": 294.1837,
+  "PosY": -31.20377,
+  "PosZ": -114.8061,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 76
+}, {
+  "Name": "colle_ma41a_f012",
+  "PosX": 280.005,
+  "PosY": -31.55902,
+  "PosZ": 25.18929,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 75
+}, {
+  "Name": "colle_ma41a_f045",
+  "PosX": 610.751,
+  "PosY": -31.74299,
+  "PosZ": -136.0448,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 76
+}, {
+  "Name": "colle_ma41a_f064",
+  "PosX": 440.7055,
+  "PosY": -31.67365,
+  "PosZ": -70.01186,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 76
+}, {
+  "Name": "colle_ma41a_f120",
+  "PosX": 583.5432,
+  "PosY": -31.74061,
+  "PosZ": -40.13237,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 76
+}, {
+  "Name": "colle_ma41a_f207",
+  "PosX": 586.4225,
+  "PosY": -31.70815,
+  "PosZ": 46.40446,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 75
+}, {
+  "Name": "colle_ma41a_f208",
+  "PosX": 530.299,
+  "PosY": -31.03407,
+  "PosZ": 131.5292,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 75
+}, {
+  "Name": "colle_ma41a_f209",
+  "PosX": 319.093,
+  "PosY": -31.31231,
+  "PosZ": 62.13894,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 75
+}, {
+  "Name": "colle_ma41a_f314",
+  "PosX": -262.4702,
+  "PosY": -9.179527,
+  "PosZ": -50.53378,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 75
+}, {
+  "Name": "colle_ma41a_f325_r",
+  "PosX": -432.8098,
+  "PosY": -14.48586,
+  "PosZ": 115.1778,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 63
+}, {
+  "Name": "colle_ma41a_f089",
+  "PosX": 57.89925,
+  "PosY": -29.77375,
+  "PosZ": -416.0267,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 78
+}, {
+  "Name": "colle_ma41a_f157",
+  "PosX": 21.38966,
+  "PosY": 68.34281,
+  "PosZ": -464.0076,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 78
+}, {
+  "Name": "colle_ma41a_f198",
+  "PosX": 21.47015,
+  "PosY": 68.01574,
+  "PosZ": -501.1503,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 78
+}, {
+  "Name": "colle_ma41a_f201",
+  "PosX": -17.77677,
+  "PosY": 68.60598,
+  "PosZ": -475.79,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 77
+}, {
+  "Name": "colle_ma41a_f204",
+  "PosX": -98.80775,
+  "PosY": -29.66691,
+  "PosZ": -433.382,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 77
+}, {
+  "Name": "colle_ma41a_f205",
+  "PosX": 29.59882,
+  "PosY": -29.67297,
+  "PosZ": -345.6355,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 77
+}, {
+  "Name": "colle_ma41a_f206",
+  "PosX": 18.24377,
+  "PosY": -26.92141,
+  "PosZ": -308.5563,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 77
+}, {
+  "Name": "colle_ma41a_f317",
+  "PosX": -64.48932,
+  "PosY": -29.14176,
+  "PosZ": -371.0767,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 77
+}, {
+  "Name": "colle_ma41a_f035",
+  "PosX": -30.02682,
+  "PosY": -3.957784,
+  "PosZ": 82.60193,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 67
+}, {
+  "Name": "colle_ma41a_f040",
+  "PosX": 1.798046,
+  "PosY": -12.32031,
+  "PosZ": 210.8456,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 68
+}, {
+  "Name": "colle_ma41a_f060",
+  "PosX": 241.201,
+  "PosY": -11.408,
+  "PosZ": 51.45357,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 68
+}, {
+  "Name": "colle_ma41a_f093",
+  "PosX": -309.3021,
+  "PosY": 0.9434624,
+  "PosZ": 124.9978,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 68
+}, {
+  "Name": "colle_ma41a_f101",
+  "PosX": -119.6463,
+  "PosY": -6.686904,
+  "PosZ": -35.71631,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 67
+}, {
+  "Name": "colle_ma41a_f026",
+  "PosX": -16.13332,
+  "PosY": -37.41634,
+  "PosZ": -30.01657,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 68
+}, {
+  "Name": "colle_ma41a_f210",
+  "PosX": -95.34499,
+  "PosY": -7.739346,
+  "PosZ": 148.0342,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 67
+}, {
+  "Name": "colle_ma41a_f211",
+  "PosX": 26.95484,
+  "PosY": -4.052704,
+  "PosZ": 98.12787,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 67
+}, {
+  "Name": "colle_ma41a_f212",
+  "PosX": 220.5286,
+  "PosY": -13.16196,
+  "PosZ": 89.98686,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 67
+}, {
+  "Name": "colle_ma41a_f214",
+  "PosX": -323.2124,
+  "PosY": -7.77125,
+  "PosZ": 101.3217,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 67
+}, {
+  "Name": "colle_ma41a_f352",
+  "PosX": -192.2652,
+  "PosY": -32.94878,
+  "PosZ": 254.0921,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 67
+}, {
+  "Name": "colle_ma41a_f017",
+  "PosX": 586.7424,
+  "PosY": -31.23391,
+  "PosZ": 11.30959,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 69
+}, {
+  "Name": "colle_ma41a_f021",
+  "PosX": 411.2021,
+  "PosY": -30.64114,
+  "PosZ": -65.66328,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 69
+}, {
+  "Name": "colle_ma41a_f044",
+  "PosX": -68.96962,
+  "PosY": 3.191965,
+  "PosZ": -154.2721,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 69
+}, {
+  "Name": "colle_ma41a_f066",
+  "PosX": -238.6836,
+  "PosY": 6.3546,
+  "PosZ": -155.8903,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 69
+}, {
+  "Name": "colle_ma41a_f135",
+  "PosX": -170.3172,
+  "PosY": 7.071844,
+  "PosZ": -208.1729,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 69
+}, {
+  "Name": "colle_ma41a_f192",
+  "PosX": 64.97982,
+  "PosY": -24.54845,
+  "PosZ": -229.5215,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 69
+}, {
+  "Name": "colle_ma41a_f034",
+  "PosX": 58.8229,
+  "PosY": 16.74481,
+  "PosZ": -163.2018,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 70
+}, {
+  "Name": "colle_ma41a_f036",
+  "PosX": -189.5632,
+  "PosY": 18.12216,
+  "PosZ": -239.2062,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 70
+}, {
+  "Name": "colle_ma41a_f181",
+  "PosX": -393.0916,
+  "PosY": 27.8098,
+  "PosZ": 285.2268,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 70
+}, {
+  "Name": "colle_ma41a_f187",
+  "PosX": 697.0015,
+  "PosY": -41.40955,
+  "PosZ": 69.24033,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 70
+}, {
+  "Name": "colle_ma41a_f194",
+  "PosX": 31.29036,
+  "PosY": 20.50437,
+  "PosZ": -276.547,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 70
+}, {
+  "Name": "colle_ma41a_f136",
+  "PosX": 221.1924,
+  "PosY": -31.05915,
+  "PosZ": -192.883,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 70
+}, {
+  "Name": "colle_ma41a_f213",
+  "PosX": 194.5999,
+  "PosY": 0.366539,
+  "PosZ": -5.241707,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 69
+}, {
+  "Name": "colle_ma41a_f215",
+  "PosX": -158.167,
+  "PosY": -27.65771,
+  "PosZ": 238.0086,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 69
+}, {
+  "Name": "colle_ma41a_f099",
+  "PosX": 171.0403,
+  "PosY": 85.36564,
+  "PosZ": -380.8059,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 72
+}, {
+  "Name": "colle_ma41a_f106",
+  "PosX": 84.28661,
+  "PosY": 50.52989,
+  "PosZ": -204.3109,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 71
+}, {
+  "Name": "colle_ma41a_f137",
+  "PosX": 214.0082,
+  "PosY": 110.9276,
+  "PosZ": -380.6747,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 72
+}, {
+  "Name": "colle_ma41a_f156",
+  "PosX": 151.4232,
+  "PosY": 109.5638,
+  "PosZ": -349.5085,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 72
+}, {
+  "Name": "colle_ma41a_f216",
+  "PosX": 161.0339,
+  "PosY": 43.27065,
+  "PosZ": -138.022,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 71
+}, {
+  "Name": "colle_ma41a_f217",
+  "PosX": 128.2613,
+  "PosY": 65.61151,
+  "PosZ": -232.318,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 71
+}, {
+  "Name": "colle_ma41a_f333",
+  "PosX": 145.0935,
+  "PosY": 38.62302,
+  "PosZ": -98.24165,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 71
+}, {
+  "Name": "colle_ma41a_f334",
+  "PosX": 156.7547,
+  "PosY": 77.58253,
+  "PosZ": -226.7003,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 71
+}, {
+  "Name": "colle_ma41a_f335",
+  "PosX": 190.9747,
+  "PosY": 81.00057,
+  "PosZ": -258.775,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 72
+}, {
+  "Name": "colle_ma41a_f336",
+  "PosX": -249.2287,
+  "PosY": 65.8306,
+  "PosZ": -378.2184,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 72
+}, {
+  "Name": "colle_ma41a_f184",
+  "PosX": -164.5116,
+  "PosY": -35.56038,
+  "PosZ": 207.9376,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 49
+}, {
+  "Name": "colle_ma41a_f041",
+  "PosX": -289.5185,
+  "PosY": -5.582336,
+  "PosZ": 162.2334,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 49
+}, {
+  "Name": "colle_ma41a_f056",
+  "PosX": -196.0471,
+  "PosY": -4.717779,
+  "PosZ": 102.7723,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 49
+}, {
+  "Name": "colle_ma41a_f070",
+  "PosX": 497.9384,
+  "PosY": -17.07145,
+  "PosZ": 162.7708,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 50
+}, {
+  "Name": "colle_ma41a_f004",
+  "PosX": -450.0085,
+  "PosY": 25.80581,
+  "PosZ": 268.5592,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 50
+}, {
+  "Name": "colle_ma41a_f007",
+  "PosX": 22.41722,
+  "PosY": -27.89541,
+  "PosZ": 203.9205,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 50
+}, {
+  "Name": "colle_ma41a_f039",
+  "PosX": -190.8086,
+  "PosY": -8.29469,
+  "PosZ": 133.526,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 50
+}, {
+  "Name": "colle_ma41a_f129",
+  "PosX": -4.767105,
+  "PosY": 19.15973,
+  "PosZ": -50.38445,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 50
+}, {
+  "Name": "colle_ma41a_f218",
+  "PosX": -85.10097,
+  "PosY": 0.3158464,
+  "PosZ": 24.09987,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 49
+}, {
+  "Name": "colle_ma41a_f219",
+  "PosX": -183.831,
+  "PosY": -8.324963,
+  "PosZ": -48.89002,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 49
+}, {
+  "Name": "colle_ma41a_f220",
+  "PosX": 22.41181,
+  "PosY": 5.235176,
+  "PosZ": 46.25617,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 49
+}, {
+  "Name": "colle_ma41a_f221",
+  "PosX": 421.6615,
+  "PosY": -11.35128,
+  "PosZ": 132.4133,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 49
+}, {
+  "Name": "colle_ma41a_f222",
+  "PosX": 372.6831,
+  "PosY": -8.702814,
+  "PosZ": 199.6786,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 49
+}, {
+  "Name": "colle_ma41a_f233",
+  "PosX": -126.7248,
+  "PosY": -5.183608,
+  "PosZ": 100.0979,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 50
+}, {
+  "Name": "colle_ma41a_f329",
+  "PosX": -237.603,
+  "PosY": 50.67652,
+  "PosZ": -245.7779,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 51
+}, {
+  "Name": "colle_ma41a_f178",
+  "PosX": 411.6174,
+  "PosY": -30.3757,
+  "PosZ": -30.70552,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 51
+}, {
+  "Name": "colle_ma41a_f183",
+  "PosX": 294.6745,
+  "PosY": -28.31114,
+  "PosZ": -72.43502,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 51
+}, {
+  "Name": "colle_ma41a_f186",
+  "PosX": 632.8254,
+  "PosY": -23.05888,
+  "PosZ": -126.2677,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 51
+}, {
+  "Name": "colle_ma41a_f191",
+  "PosX": 671.2755,
+  "PosY": -37.159,
+  "PosZ": 134.4207,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 51
+}, {
+  "Name": "colle_ma41a_f019",
+  "PosX": -426.3103,
+  "PosY": 18.88221,
+  "PosZ": -120.6617,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 51
+}, {
+  "Name": "colle_ma41a_f032",
+  "PosX": 388.9709,
+  "PosY": -30.66339,
+  "PosZ": 99.64256,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 52
+}, {
+  "Name": "colle_ma41a_f059",
+  "PosX": 693.5518,
+  "PosY": -11.18357,
+  "PosZ": -55.93512,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 51
+}, {
+  "Name": "colle_ma41a_f131",
+  "PosX": 258.3491,
+  "PosY": -30.9094,
+  "PosZ": -191.746,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 52
+}, {
+  "Name": "colle_ma41a_f082",
+  "PosX": 109.0458,
+  "PosY": -6.436664,
+  "PosZ": -27.06194,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 52
+}, {
+  "Name": "colle_ma41a_f011",
+  "PosX": 648.6951,
+  "PosY": -21.73382,
+  "PosZ": -39.88066,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 52
+}, {
+  "Name": "colle_ma41a_f223",
+  "PosX": 96.8851,
+  "PosY": -5.759937,
+  "PosZ": -50.2626,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 51
+}, {
+  "Name": "colle_ma41a_f224",
+  "PosX": 525.0819,
+  "PosY": -30.34515,
+  "PosZ": 22.78606,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 51
+}, {
+  "Name": "colle_ma41a_f225",
+  "PosX": -10.14574,
+  "PosY": -37.57721,
+  "PosZ": -37.54071,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 51
+}, {
+  "Name": "colle_ma41a_f065",
+  "PosX": 642.4367,
+  "PosY": -30.10484,
+  "PosZ": 189.1319,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 52
+}, {
+  "Name": "colle_ma41a_f318",
+  "PosX": -321.6399,
+  "PosY": 1.362558,
+  "PosZ": -98.63194,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 51
+}, {
+  "Name": "colle_ma41a_f319",
+  "PosX": -408.9435,
+  "PosY": 4.616859,
+  "PosZ": -86.44711,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 51
+}, {
+  "Name": "colle_ma41a_f327",
+  "PosX": 56.02769,
+  "PosY": 42.08035,
+  "PosZ": -274.8298,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 52
+}, {
+  "Name": "colle_ma41a_f354",
+  "PosX": 211.9748,
+  "PosY": -0.6849747,
+  "PosZ": -36.91858,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 51
+}, {
+  "Name": "colle_ma41a_f185",
+  "PosX": 368.6551,
+  "PosY": 33.16468,
+  "PosZ": -123.1801,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 54
+}, {
+  "Name": "colle_ma41a_f193",
+  "PosX": 221.9468,
+  "PosY": 63.07248,
+  "PosZ": -207.7415,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 53
+}, {
+  "Name": "colle_ma41a_f083",
+  "PosX": 64.9193,
+  "PosY": 55.71745,
+  "PosZ": -232.5855,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 53
+}, {
+  "Name": "colle_ma41a_f112",
+  "PosX": 174.0557,
+  "PosY": 104.7617,
+  "PosZ": -279.8844,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 53
+}, {
+  "Name": "colle_ma41a_f043",
+  "PosX": 134.1261,
+  "PosY": 84.64816,
+  "PosZ": -375.4727,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 53
+}, {
+  "Name": "colle_ma41a_f132",
+  "PosX": 185.06,
+  "PosY": 84.60083,
+  "PosZ": -378.56,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 53
+}, {
+  "Name": "colle_ma41a_f116",
+  "PosX": -74.69048,
+  "PosY": 101.0603,
+  "PosZ": -510.8857,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 54
+}, {
+  "Name": "colle_ma41a_f117",
+  "PosX": 141.3132,
+  "PosY": 62.91554,
+  "PosZ": -157.4583,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 54
+}, {
+  "Name": "colle_ma41a_f061",
+  "PosX": -163.7952,
+  "PosY": 70.16927,
+  "PosZ": -391.5243,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 54
+}, {
+  "Name": "colle_ma41a_f009",
+  "PosX": 185.6809,
+  "PosY": 115.5789,
+  "PosZ": -342.5174,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 54
+}, {
+  "Name": "colle_ma41a_f330",
+  "PosX": -273.3403,
+  "PosY": 60.95232,
+  "PosZ": -323.1313,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 54
+}, {
+  "Name": "colle_ma41a_f331",
+  "PosX": 33.75703,
+  "PosY": 45.38344,
+  "PosZ": -153.5874,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 53
+}, {
+  "Name": "colle_ma41a_f332",
+  "PosX": 122.7207,
+  "PosY": 45.88229,
+  "PosZ": -137.8782,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 53
+}, {
+  "Name": "colle_ma41a_f038",
+  "PosX": -247.7992,
+  "PosY": -7.302365,
+  "PosZ": 112.3235,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 55
+}, {
+  "Name": "colle_ma41a_f128",
+  "PosX": -199.6319,
+  "PosY": -9.190866,
+  "PosZ": 67.59639,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 55
+}, {
+  "Name": "colle_ma41a_f182",
+  "PosX": 123.8293,
+  "PosY": -12.9285,
+  "PosZ": 140.8336,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 55
+}, {
+  "Name": "colle_ma41a_f203",
+  "PosX": -145.8306,
+  "PosY": -7.303256,
+  "PosZ": -18.00457,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 55
+}, {
+  "Name": "colle_ma41a_f088",
+  "PosX": -26.93644,
+  "PosY": -8.989527,
+  "PosZ": 203.8911,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 56
+}, {
+  "Name": "colle_ma41a_f226",
+  "PosX": 47.88231,
+  "PosY": -5.659327,
+  "PosZ": 36.7735,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 55
+}, {
+  "Name": "colle_ma41a_f227",
+  "PosX": 102.7585,
+  "PosY": -8.34763,
+  "PosZ": 21.58026,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 55
+}, {
+  "Name": "colle_ma41a_f228",
+  "PosX": 255.1949,
+  "PosY": -12.50582,
+  "PosZ": 75.75112,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 55
+}, {
+  "Name": "colle_ma41a_f229",
+  "PosX": 97.83624,
+  "PosY": -8.983424,
+  "PosZ": 51.04352,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 56
+}, {
+  "Name": "colle_ma41a_f230",
+  "PosX": 126.1514,
+  "PosY": -12.51753,
+  "PosZ": 201.3394,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 56
+}, {
+  "Name": "colle_ma41a_f345",
+  "PosX": 420.6451,
+  "PosY": -11.39348,
+  "PosZ": 158.3164,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 55
+}, {
+  "Name": "colle_ma41a_f346",
+  "PosX": 595.3784,
+  "PosY": -23.73175,
+  "PosZ": 173.5,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 56
+}, {
+  "Name": "colle_ma41a_f347",
+  "PosX": 635.5817,
+  "PosY": -28.21801,
+  "PosZ": 128.7333,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 55
+}, {
+  "Name": "colle_ma41a_f349",
+  "PosX": -265.5484,
+  "PosY": -6.16198,
+  "PosZ": 134.1806,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 55
+}, {
+  "Name": "colle_ma41a_f348",
+  "PosX": -80.49228,
+  "PosY": 0.2264118,
+  "PosZ": 57.36263,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 55
+}, {
+  "Name": "colle_ma41a_f351",
+  "PosX": -156.6179,
+  "PosY": -30.03145,
+  "PosZ": 281.3879,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 56
+}, {
+  "Name": "colle_ma41a_f015",
+  "PosX": 292.207,
+  "PosY": -20.50943,
+  "PosZ": 50.48069,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 57
+}, {
+  "Name": "colle_ma41a_f027",
+  "PosX": 531.6415,
+  "PosY": -30.64552,
+  "PosZ": -23.15024,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 57
+}, {
+  "Name": "colle_ma41a_f072",
+  "PosX": 681.5504,
+  "PosY": -27.55502,
+  "PosZ": 47.30122,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 57
+}, {
+  "Name": "colle_ma41a_f134",
+  "PosX": 591.2974,
+  "PosY": -30.63449,
+  "PosZ": 70.48423,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 57
+}, {
+  "Name": "colle_ma41a_f180",
+  "PosX": 645.4063,
+  "PosY": -25.7308,
+  "PosZ": -14.96219,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 57
+}, {
+  "Name": "colle_ma41a_f143",
+  "PosX": 665.2411,
+  "PosY": -7.608416,
+  "PosZ": -88.64062,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 57
+}, {
+  "Name": "colle_ma41a_f020",
+  "PosX": 35.01118,
+  "PosY": -8.659542,
+  "PosZ": -317.6948,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 58
+}, {
+  "Name": "colle_ma41a_f062",
+  "PosX": -529.5717,
+  "PosY": 18.21937,
+  "PosZ": 138.7056,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 58
+}, {
+  "Name": "colle_ma41a_f114",
+  "PosX": 485.0685,
+  "PosY": -30.42061,
+  "PosZ": 131.2338,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 58
+}, {
+  "Name": "colle_ma41a_f144",
+  "PosX": 263.7756,
+  "PosY": -12.11959,
+  "PosZ": -99.78632,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 58
+}, {
+  "Name": "colle_ma41a_f202",
+  "PosX": 127.9728,
+  "PosY": -27.73094,
+  "PosZ": -203.1036,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 58
+}, {
+  "Name": "colle_ma41a_f321",
+  "PosX": -446.657,
+  "PosY": 6.442316,
+  "PosZ": -19.51416,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 57
+}, {
+  "Name": "colle_ma41a_f324",
+  "PosX": -480.448,
+  "PosY": 6.626176,
+  "PosZ": 151.5986,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 58
+}, {
+  "Name": "colle_ma41a_f328",
+  "PosX": -319.1499,
+  "PosY": 112.7194,
+  "PosZ": -177.8687,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 58
+}, {
+  "Name": "colle_ma41a_f024",
+  "PosX": 108.4495,
+  "PosY": 40.91874,
+  "PosZ": -94.61798,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 59
+}, {
+  "Name": "colle_ma41a_f028",
+  "PosX": 170.8566,
+  "PosY": 83.88007,
+  "PosZ": -401.7078,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 105
+}, {
+  "Name": "colle_ma41a_f130",
+  "PosX": 215.6663,
+  "PosY": 84.01706,
+  "PosZ": -429.7301,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 105
+}, {
+  "Name": "colle_ma41a_f133",
+  "PosX": 61.25849,
+  "PosY": 88.46029,
+  "PosZ": -373.228,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 59
+}, {
+  "Name": "colle_ma41a_f079",
+  "PosX": 256.66,
+  "PosY": 88.73248,
+  "PosZ": -416.1888,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 106
+}, {
+  "Name": "colle_ma41a_f094",
+  "PosX": 140.2663,
+  "PosY": 75.68861,
+  "PosZ": -298.1236,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 60
+}, {
+  "Name": "colle_ma41a_f232",
+  "PosX": -28.31366,
+  "PosY": 77.20322,
+  "PosZ": -455.9304,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 59
+}, {
+  "Name": "colle_ma41a_f343",
+  "PosX": 67.31982,
+  "PosY": 35.06752,
+  "PosZ": -75.27365,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 59
+}, {
+  "Name": "colle_ma41a_f344",
+  "PosX": 13.96585,
+  "PosY": 43.8318,
+  "PosZ": -150.674,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 60
+}, {
+  "Name": "colle_ma41a_f115",
+  "PosX": 139.039,
+  "PosY": -4.830359,
+  "PosZ": 62.94897,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 61
+}, {
+  "Name": "colle_ma41a_f033",
+  "PosX": -100.2334,
+  "PosY": -3.317274,
+  "PosZ": 6.972712,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 62
+}, {
+  "Name": "colle_ma41a_f100",
+  "PosX": -326.5652,
+  "PosY": -2.998714,
+  "PosZ": -9.130138,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 62
+}, {
+  "Name": "colle_ma41a_f234",
+  "PosX": 278.2792,
+  "PosY": -10.17601,
+  "PosZ": 86.6165,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 61
+}, {
+  "Name": "colle_ma41a_f235",
+  "PosX": -27.66173,
+  "PosY": -6.401321,
+  "PosZ": 177.5119,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 61
+}, {
+  "Name": "colle_ma41a_f236",
+  "PosX": -243.7989,
+  "PosY": -7.908539,
+  "PosZ": 166.4557,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 61
+}, {
+  "Name": "colle_ma41a_f239",
+  "PosX": 478.795,
+  "PosY": -16.57229,
+  "PosZ": 162.2988,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 62
+}, {
+  "Name": "colle_ma41a_f310",
+  "PosX": -252.2496,
+  "PosY": -9.255219,
+  "PosZ": 232.9048,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 65
+}, {
+  "Name": "colle_ma41a_f311",
+  "PosX": -70.38015,
+  "PosY": -3.846296,
+  "PosZ": 95.90428,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 66
+}, {
+  "Name": "colle_ma41a_f350",
+  "PosX": -110.8614,
+  "PosY": -27.11495,
+  "PosZ": 212.1616,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 62
+}, {
+  "Name": "colle_ma41a_f353",
+  "PosX": 143.7608,
+  "PosY": -12.00563,
+  "PosZ": 107.7413,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 61
+}, {
+  "Name": "colle_ma41a_f047",
+  "PosX": 486.3538,
+  "PosY": -31.24465,
+  "PosZ": -47.0085,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 63
+}, {
+  "Name": "colle_ma41a_f069",
+  "PosX": 629.2481,
+  "PosY": -31.04387,
+  "PosZ": 119.7568,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 63
+}, {
+  "Name": "colle_ma41a_f118",
+  "PosX": 272.7425,
+  "PosY": -27.8528,
+  "PosZ": -64.19244,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 63
+}, {
+  "Name": "colle_ma41a_f055",
+  "PosX": -154.6495,
+  "PosY": 3.406626,
+  "PosZ": -150.0096,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 64
+}, {
+  "Name": "colle_ma41a_f077",
+  "PosX": -295.4907,
+  "PosY": 73.74635,
+  "PosZ": -205.8697,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 64
+}, {
+  "Name": "colle_ma41a_f086",
+  "PosX": -337.2473,
+  "PosY": 127.1383,
+  "PosZ": -166.7963,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 64
+}, {
+  "Name": "colle_ma41a_f312",
+  "PosX": 559.9099,
+  "PosY": -21.75475,
+  "PosZ": 169.7325,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 64
+}, {
+  "Name": "colle_ma41a_f237",
+  "PosX": 438.2924,
+  "PosY": -9.611676,
+  "PosZ": 173.0801,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 63
+}, {
+  "Name": "colle_ma41a_f238",
+  "PosX": 420.9212,
+  "PosY": -9.508575,
+  "PosZ": 177.6976,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 63
+}, {
+  "Name": "colle_ma41a_f322",
+  "PosX": -400.0061,
+  "PosY": -10.34144,
+  "PosZ": 107.7217,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 63
+}, {
+  "Name": "colle_ma41a_f323",
+  "PosX": -409.2457,
+  "PosY": 6.088661,
+  "PosZ": 140.8949,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 63
+}, {
+  "Name": "colle_ma41a_f325",
+  "PosX": -143.5926,
+  "PosY": 9.802584,
+  "PosZ": -264.7009,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 63
+}, {
+  "Name": "colle_ma41a_f326",
+  "PosX": 44.17934,
+  "PosY": 32.50491,
+  "PosZ": -249.0474,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 63
+}, {
+  "Name": "colle_ma41a_f355",
+  "PosX": 228.7988,
+  "PosY": 13.98262,
+  "PosZ": -110.5905,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 64
+}, {
+  "Name": "colle_ma41a_f030",
+  "PosX": 138.8487,
+  "PosY": 75.24374,
+  "PosZ": -205.5152,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 65
+}, {
+  "Name": "colle_ma41a_f008",
+  "PosX": 93.73406,
+  "PosY": 92.81477,
+  "PosZ": -501.0478,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 66
+}, {
+  "Name": "colle_ma41a_f029",
+  "PosX": -208.6407,
+  "PosY": 68.02341,
+  "PosZ": -435.6534,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 66
+}, {
+  "Name": "colle_ma41a_f052",
+  "PosX": 221.663,
+  "PosY": 40.85949,
+  "PosZ": -112.9995,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 65
+}, {
+  "Name": "colle_ma41a_f240",
+  "PosX": 73.0966,
+  "PosY": 47.24357,
+  "PosZ": -146.2392,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 65
+}, {
+  "Name": "colle_ma41a_f241",
+  "PosX": 41.88825,
+  "PosY": 83.33322,
+  "PosZ": -333.6165,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 65
+}, {
+  "Name": "colle_ma41a_f340",
+  "PosX": 54.58382,
+  "PosY": 92.09628,
+  "PosZ": -404.56,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 65
+}, {
+  "Name": "colle_ma41a_f341",
+  "PosX": 87.62182,
+  "PosY": 88.59088,
+  "PosZ": -316.2249,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 65
+}, {
+  "Name": "colle_ma41a_f342",
+  "PosX": 118.8972,
+  "PosY": 82.6404,
+  "PosZ": -253.9902,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 66
+}, {
+  "Name": "colle_ma41a_f048",
+  "PosX": -152.3374,
+  "PosY": -6.344817,
+  "PosZ": 20.99314,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 79
+}, {
+  "Name": "colle_ma41a_f067",
+  "PosX": -94.63631,
+  "PosY": -6.480552,
+  "PosZ": 129.3129,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 79
+}, {
+  "Name": "colle_ma41a_f098",
+  "PosX": -282.2483,
+  "PosY": -2.75276,
+  "PosZ": 122.8419,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 79
+}, {
+  "Name": "colle_ma41a_f102",
+  "PosX": 31.06997,
+  "PosY": -10.41415,
+  "PosZ": 159.3122,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 79
+}, {
+  "Name": "colle_ma41a_f006",
+  "PosX": 172.7927,
+  "PosY": -7.894764,
+  "PosZ": 55.49644,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 80
+}, {
+  "Name": "colle_ma41a_f051",
+  "PosX": -293.0871,
+  "PosY": -6.771636,
+  "PosZ": 117.1222,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 80
+}, {
+  "Name": "colle_ma41a_f058",
+  "PosX": -264.5733,
+  "PosY": -8.214273,
+  "PosZ": -73.4545,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 80
+}, {
+  "Name": "colle_ma41a_f071",
+  "PosX": -114.2032,
+  "PosY": -6.036952,
+  "PosZ": 153.1525,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 79
+}, {
+  "Name": "colle_ma41a_f073",
+  "PosX": -256.2841,
+  "PosY": -6.906162,
+  "PosZ": 192.4243,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 79
+}, {
+  "Name": "colle_ma41a_f018",
+  "PosX": 305.6695,
+  "PosY": -31.65242,
+  "PosZ": -33.06891,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 81
+}, {
+  "Name": "colle_ma41a_f092",
+  "PosX": 364.3087,
+  "PosY": -31.04143,
+  "PosZ": 85.57085,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 81
+}, {
+  "Name": "colle_ma41a_f097",
+  "PosX": 565.3466,
+  "PosY": -31.39227,
+  "PosZ": 36.41673,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 81
+}, {
+  "Name": "colle_ma41a_f104",
+  "PosX": -462.1266,
+  "PosY": 23.03938,
+  "PosZ": -110.3673,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 82
+}, {
+  "Name": "colle_ma41a_f113",
+  "PosX": -395.3032,
+  "PosY": 7.040942,
+  "PosZ": -149.4856,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 81
+}, {
+  "Name": "colle_ma41a_f076",
+  "PosX": -285.4733,
+  "PosY": 42.7039,
+  "PosZ": -172.6272,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 82
+}, {
+  "Name": "colle_ma41a_f111",
+  "PosX": 95.10604,
+  "PosY": -9.583538,
+  "PosZ": -307.902,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 82
+}, {
+  "Name": "colle_ma41a_f090",
+  "PosX": 357.919,
+  "PosY": -10.81017,
+  "PosZ": 131.9146,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 81
+}, {
+  "Name": "colle_ma41a_f320",
+  "PosX": -432.1247,
+  "PosY": 2.922906,
+  "PosZ": -57.51713,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 81
+}, {
+  "Name": "colle_ma41a_f356",
+  "PosX": 234.368,
+  "PosY": -8.325768,
+  "PosZ": 23.21273,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 82
+}, {
+  "Name": "colle_ma41a_f357",
+  "PosX": 227.5214,
+  "PosY": -11.77822,
+  "PosZ": 127.6758,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 0
+}, {
+  "Name": "colle_ma41a_f081",
+  "PosX": -238.3197,
+  "PosY": 68.1717,
+  "PosZ": -448.1287,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 83
+}, {
+  "Name": "colle_ma41a_f087",
+  "PosX": 167.5891,
+  "PosY": 66.9166,
+  "PosZ": -187.9691,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 83
+}, {
+  "Name": "colle_ma41a_f063",
+  "PosX": 119.2648,
+  "PosY": 57.4056,
+  "PosZ": -188.191,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 84
+}, {
+  "Name": "colle_ma41a_f078",
+  "PosX": -192.1321,
+  "PosY": 52.72624,
+  "PosZ": -329.1293,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 84
+}, {
+  "Name": "colle_ma41a_f085",
+  "PosX": -350.8376,
+  "PosY": 126.8954,
+  "PosZ": -171.6232,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 84
+}, {
+  "Name": "colle_ma41a_f337",
+  "PosX": -221.1565,
+  "PosY": 65.81825,
+  "PosZ": -346.157,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 83
+}, {
+  "Name": "colle_ma41a_f338",
+  "PosX": 170.5597,
+  "PosY": 50.57183,
+  "PosZ": -157.0948,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 83
+}, {
+  "Name": "colle_ma41a_f339",
+  "PosX": 160.4391,
+  "PosY": 94.54775,
+  "PosZ": -307.6079,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 83
+}, {
+  "Name": "colle_ma41a_f301",
+  "PosX": -271.6859,
+  "PosY": -9.007715,
+  "PosZ": 237.599,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 85
+}, {
+  "Name": "colle_ma41a_f302",
+  "PosX": 101.7363,
+  "PosY": -11.2512,
+  "PosZ": 115.31,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 85
+}, {
+  "Name": "colle_ma41a_f303",
+  "PosX": 376.9317,
+  "PosY": -30.46779,
+  "PosZ": 97.77209,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 86
+}, {
+  "Name": "colle_ma41a_f308",
+  "PosX": -492.6024,
+  "PosY": 25.76743,
+  "PosZ": -132.2417,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 88
+}, {
+  "Name": "colle_ma41a_f304",
+  "PosX": 446.3307,
+  "PosY": -30.12742,
+  "PosZ": 127.7432,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 87
+}, {
+  "Name": "colle_ma41a_f307",
+  "PosX": 66.02934,
+  "PosY": -24.0365,
+  "PosZ": -270.9188,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 87
+}, {
+  "Name": "colle_ma41a_f306",
+  "PosX": 145.4233,
+  "PosY": 94.6664,
+  "PosZ": -329.4851,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 89
+}, {
+  "Name": "colle_ma41a_f305",
+  "PosX": 184.4337,
+  "PosY": 79.12603,
+  "PosZ": -261.5701,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 89
+}, {
+  "Name": "colle_ma41a_f309",
+  "PosX": 10.22819,
+  "PosY": 93.31799,
+  "PosZ": -362.2661,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 90
+}, {
+  "Name": "colle_ma41a_shouki_1",
+  "PosX": 147.0142,
+  "PosY": 5.500652,
+  "PosZ": -21.58456,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 91
+}, {
+  "Name": "colle_ma41a_shouki_2",
+  "PosX": -141.7128,
+  "PosY": -24.9827,
+  "PosZ": 236.4978,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 92
+}, {
+  "Name": "colle_ma41a_shouki_3",
+  "PosX": 626.4612,
+  "PosY": -25.71433,
+  "PosZ": -41.57547,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 93
+}, {
+  "Name": "colle_ma41a_shouki_4",
+  "PosX": -190.7703,
+  "PosY": 70.83118,
+  "PosZ": -377.5639,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 94
+}, {
+  "Name": "colle_ma41a_shouki_5",
+  "PosX": 70.34913,
+  "PosY": -25.12423,
+  "PosZ": -243.7493,
+  "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"],
+  "CollectionTable": 95
+}]
