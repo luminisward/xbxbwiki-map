@@ -1,10 +1,10 @@
+'use strict'
 import $ from 'jquery'
 import './main.scss'
 
 import { getXb2mapByName } from './xb2map'
 import { collectionIcon, collectionCurrent } from './markerIcon'
 import gmk from './data/gmk_collection.json'
-import mapinfos from './data/mapinfo'
 
 function draw (element) {
   const mapName = $(element).data('mapName')
@@ -42,8 +42,5 @@ function highlight (gmkPoint, subpage) {
 // })
 
 $('.xb2map').each((index, element) => {
-  // const mapName = $(element).data('mapName')
-  // const containerHeight = mapinfos[mapName].Height
-  // $(element).height(containerHeight / 4)
   draw(element)
 })
