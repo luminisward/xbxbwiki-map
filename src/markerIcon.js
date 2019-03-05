@@ -1,7 +1,7 @@
 import L from 'leaflet'
 
-import collectionIconUrl from './collection-icon.png'
-import collectionCurrentUrl from './collection-current.png'
+import collectionIconUrl from './collection-marker-icon.png'
+import collectionCurrentUrl from './collection-marker-current.png'
 
 const collectionIcon = L.icon({
   iconUrl: collectionIconUrl,
