@@ -58,6 +58,8 @@ class Xb2map extends L.Map {
       icon
     }).on('click', () => {
       $(`#${point.Name}`).slideToggle()
+      $('.btn').text(point.Name).attr('data-clipboard-text', point.Name)
+      $('.btn').click()
     }).bindTooltip(tooltip)
 
     this.addLayer(marker)

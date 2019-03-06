@@ -3,7 +3,7 @@
   "PosX": -297.15,
   "PosY": -57.00712,
   "PosZ": 323.83,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f01"],
   "CollectionTable": 44
 }, {
   "Name": "colle_ma40a_shouki_1",
@@ -129,7 +129,7 @@
   "PosX": -312.3943,
   "PosY": -55.64534,
   "PosZ": 345.1535,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f01"],
   "CollectionTable": 32
 }, {
   "Name": "colle_ma40a_rock_r_6",
@@ -143,7 +143,7 @@
   "PosX": -289.2111,
   "PosY": -50.5556,
   "PosZ": 208.0319,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f01"],
   "CollectionTable": 32
 }, {
   "Name": "colle_ma40a_rock_r_1",
@@ -255,7 +255,7 @@
   "PosX": -317.5309,
   "PosY": -56.13142,
   "PosZ": 161.534,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f01"],
   "CollectionTable": 9
 }, {
   "Name": "colle_ma40a_hana_n_5",
@@ -395,14 +395,14 @@
   "PosX": -243.0757,
   "PosY": -60.47321,
   "PosZ": 347.4971,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f01"],
   "CollectionTable": 14
 }, {
   "Name": "colle_ma40a_yasai_n_2",
   "PosX": -212.47,
   "PosY": -62.39999,
   "PosZ": 351.4303,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f01"],
   "CollectionTable": 14
 }, {
   "Name": "colle_ma40a_yasai_r_1",
@@ -416,7 +416,7 @@
   "PosX": -318.6313,
   "PosY": -51.88376,
   "PosZ": 282.4387,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f01"],
   "CollectionTable": 14
 }, {
   "Name": "colle_ma40a_yasai_r_2",
@@ -773,7 +773,7 @@
   "PosX": 101.8695,
   "PosY": -38.27808,
   "PosZ": 304.4304,
-  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 22
 }, {
   "Name": "colle_ma40a_musi2_r_3",
@@ -1004,14 +1004,14 @@
   "PosX": 150.6199,
   "PosY": -20.94118,
   "PosZ": 213.6552,
-  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 36
 }, {
   "Name": "colle_ma40a_rock3_n_3",
   "PosX": 160.8254,
   "PosY": -28.85755,
   "PosZ": 177.3577,
-  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 36
 }, {
   "Name": "colle_ma40a_rock3_n_4",
@@ -1067,14 +1067,14 @@
   "PosX": -231.4299,
   "PosY": -36.37904,
   "PosZ": 234.3247,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 36
 }, {
   "Name": "colle_ma40a_rock3_n_10",
   "PosX": -273.8097,
   "PosY": -28.44572,
   "PosZ": 243.3052,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 36
 }, {
   "Name": "colle_ma40a_rock3_r_3",
@@ -1200,21 +1200,21 @@
   "PosX": -131.6134,
   "PosY": -35.4412,
   "PosZ": 349.0022,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 13
 }, {
   "Name": "colle_ma40a_hana3_r_4",
   "PosX": -262.7613,
   "PosY": -23.60329,
   "PosZ": 263.1097,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 13
 }, {
   "Name": "colle_ma40a_hana3_n_9",
   "PosX": 95.84257,
   "PosY": -34.23874,
   "PosZ": 200.0092,
-  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 12
 }, {
   "Name": "colle_ma40a_hana3_n_10",
@@ -1298,7 +1298,7 @@
   "PosX": -17.52929,
   "PosY": -68.90612,
   "PosZ": 55.4866,
-  "areas": [],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 25
 }, {
   "Name": "colle_ma40a_musi3_n_6",
@@ -1326,7 +1326,7 @@
   "PosX": 188.0266,
   "PosY": -26,
   "PosZ": 258.3609,
-  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 25
 }, {
   "Name": "colle_ma40a_musi3_r_4",
@@ -1347,7 +1347,7 @@
   "PosX": 70.46606,
   "PosY": 74.62323,
   "PosZ": 458.755,
-  "areas": [],
+  "areas": ["dlc3_ma40a_d03"],
   "CollectionTable": 117
 }, {
   "Name": "colle_ma40a_sakana3_n_1",
@@ -1396,7 +1396,7 @@
   "PosX": -205.7576,
   "PosY": -51,
   "PosZ": 172.8887,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 31
 }, {
   "Name": "colle_ma40a_sakana3_r_3",
@@ -1426,13 +1426,6 @@
   "PosZ": -17.47116,
   "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 31
-}, {
-  "Name": "colle_ma40a_sakana3_n_8",
-  "PosX": 70.52214,
-  "PosY": -16.41277,
-  "PosZ": -546.5751,
-  "areas": ["dlc3_ma40a_c01"],
-  "CollectionTable": 30
 }, {
   "Name": "colle_ma40a_yasai3_n_1",
   "PosX": 40.63573,
@@ -1466,14 +1459,14 @@
   "PosX": -107.0293,
   "PosY": -39.37136,
   "PosZ": 245.2006,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 18
 }, {
   "Name": "colle_ma40a_yasai3_r_3",
   "PosX": -294.6236,
   "PosY": -23.99503,
   "PosZ": 277.4103,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 19
 }, {
   "Name": "colle_ma40a_yasai3_r_1",
@@ -1494,7 +1487,7 @@
   "PosX": 108.7624,
   "PosY": -25.94438,
   "PosZ": 234.4217,
-  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 18
 }, {
   "Name": "colle_ma40a_yasai3_r_4",
@@ -1522,14 +1515,14 @@
   "PosX": 68.14027,
   "PosY": 73.02921,
   "PosZ": 448.2878,
-  "areas": [],
+  "areas": ["dlc3_ma40a_d03"],
   "CollectionTable": 118
 }, {
   "Name": "colle_ma40a_ki3_n_1",
   "PosX": 211.1813,
   "PosY": -25.21382,
   "PosZ": 187.6335,
-  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 6
 }, {
   "Name": "colle_ma40a_ki3_n_2",
@@ -1578,14 +1571,14 @@
   "PosX": -249.9817,
   "PosY": -23.41966,
   "PosZ": 297.6157,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 7
 }, {
   "Name": "colle_ma40a_ki3_r_4",
   "PosX": -204.5293,
   "PosY": -23.66277,
   "PosZ": 299.6046,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 7
 }, {
   "Name": "colle_ma40a_ki3_n_8",
@@ -1648,21 +1641,21 @@
   "PosX": 126.6007,
   "PosY": -35.40278,
   "PosZ": 172.5498,
-  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 109
 }, {
   "Name": "colle_ma40a_sabaku_ex_3",
   "PosX": -110.5849,
   "PosY": -49.513,
   "PosZ": 205.5409,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 109
 }, {
   "Name": "colle_ma40a_sabaku_ex_4",
   "PosX": -250.2709,
   "PosY": -40.95665,
   "PosZ": 207.6567,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 109
 }, {
   "Name": "colle_ma40a_sabaku_ex_5",
@@ -1725,28 +1718,28 @@
   "PosX": -236.0289,
   "PosY": -21.41016,
   "PosZ": 291.4593,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 110
 }, {
   "Name": "colle_ma40a_rain_ex_5",
   "PosX": -204.026,
   "PosY": -22.68357,
   "PosZ": 277.4877,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 110
 }, {
   "Name": "colle_ma40a_rain_ex_6",
   "PosX": -177.6064,
   "PosY": -29.16703,
   "PosZ": 290.5287,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 110
 }, {
   "Name": "colle_ma40a_rain_ex_7",
   "PosX": -147.9392,
   "PosY": -45.42862,
   "PosZ": 229.4509,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 110
 }, {
   "Name": "colle_ma40a_rain2_ex_1",
@@ -1879,28 +1872,28 @@
   "PosX": -121.35,
   "PosY": -37.09,
   "PosZ": 265.08,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 113
 }, {
   "Name": "colle_ma40a_qst7015_002",
   "PosX": -273.721,
   "PosY": -27.71104,
   "PosZ": 310.5567,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 113
 }, {
   "Name": "colle_ma40a_qst7015_003",
   "PosX": -118.2168,
   "PosY": -30.8821,
   "PosZ": 328.0648,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 113
 }, {
   "Name": "colle_ma40a_qst7015_004",
   "PosX": -194.1855,
   "PosY": -27.89466,
   "PosZ": 304.6444,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"],
+  "areas": ["dlc3_ma40a_f03"],
   "CollectionTable": 113
 }, {
   "Name": "colle_ma40a_qst7018_001",
