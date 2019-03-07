@@ -36,6 +36,7 @@ module.exports = {
               const filenameMd5 = md5(filenameInMw)
               return `${filenameMd5.slice(0, 1)}/${filenameMd5.slice(0, 2)}/${filenameInMw}`
             },
+            publicPath: '/images',
             outputPath: 'images'
           }
         }]
