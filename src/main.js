@@ -14,13 +14,10 @@ function draw (element) {
 
   const map = getXb2mapByName(element, mapName)
   const pointsOnMap = onMapSpace(gmk, map)
+
   pointsOnMap.forEach(point => {
     const icon = highlight(point, highlightCollectionType) ? collectionCurrent : collectionIcon
-    const content = `<pre>${point.Name}
-${point.Subpage}
-${point.areas}
-</pre>`
-    map.addMarker(point, icon, content)
+    map.addMarker(point, icon)
   })
 }
 
@@ -40,11 +37,6 @@ function setContainerHeight (element) {
     $(element).height($(element).width() * 0.618)
   })
 }
-
-// debug
-// map.on('click', function (e) {
-//   console.log([e.latlng.lng, e.latlng.lat])
-// })
 
 $('.xb2map').each((index, element) => {
   setContainerHeight(element)

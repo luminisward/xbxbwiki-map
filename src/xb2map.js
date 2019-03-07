@@ -45,20 +45,27 @@ class Xb2map extends L.Map {
     this.zInterval = [mapinfo.LowerZ, mapinfo.UpperZ]
   }
 
-  addMarker (point, icon, tooltipContent) {
+  addMarker (point, icon, tooltipContent = '') {
     const coordinate = xy([point.PosX - this.XOffest, -point.PosZ])
-
-    const tooltip = L.tooltip({
-      direction: 'bottom',
-      offset: L.point(0, 18)
-    }).setContent(tooltipContent)
 
     const marker = L.marker(coordinate, {
       riseOnHover: true,
       icon
-    }).on('click', () => {
+    })
+
+    // 悬停文本
+    if (tooltipContent) {
+      const tooltip = L.tooltip({
+        direction: 'bottom',
+        offset: L.point(0, 18)
+      }).setContent(tooltipContent)
+      marker.bindTooltip(tooltip)
+    }
+
+    // 开关截图
+    marker.on('click', () => {
       $(`#${point.Name}`).slideToggle()
-    }).bindTooltip(tooltip)
+    })
 
     this.addLayer(marker)
   }
