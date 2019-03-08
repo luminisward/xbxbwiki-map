@@ -22,10 +22,9 @@ class Xb2map extends L.Map {
 
     option = Object.assign({
       zoomSnap: 0.25,
-      zoom: 0,
-      minZoom: -1,
-      maxZoom: 3,
-      // maxBounds: imageBoundsRotate180YX,
+      minZoom: -3,
+      maxZoom: 2,
+      maxBounds: imageBoundsRotate180YX,
       crs: L.CRS.Simple,
       attributionControl: false
     },
@@ -36,7 +35,7 @@ class Xb2map extends L.Map {
     this.Name = mapinfo.Name
     const mapId = mapinfo.Name.split('_')[0]
     this.mapId = mapId === 'dlc3' ? mapinfo.Name.split('_')[1] : mapId
-    this.bounds = imageBoundsRotate180
+    this.bounds = imageBoundsRotate180YX
     this.XOffest = imageBounds[0][0] + imageBounds[1][0]
     this.addLayer(L.imageOverlay(imageUrl, imageBoundsRotate180YX))
     this.fitBounds(imageBoundsRotate180YX)
