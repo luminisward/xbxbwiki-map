@@ -9,15 +9,22 @@ import gmkIra from './data/gmk_collection_ira.json'
 const gmk = [...gmkBase, ...gmkIra]
 
 function draw (element) {
-  const mapName = $(element).data('mapName')
+  const mapName = $(element).data('mapName').toLowerCase()
   const highlightCollectionType = $(element).data('highlightCollectionType')
 
   const map = getXb2mapByName(element, mapName)
   const pointsOnMap = onMapSpace(gmk, map)
 
   pointsOnMap.forEach(point => {
-    const icon = highlight(point, highlightCollectionType) ? collectionCurrent : collectionIcon
-    map.addMarker(point, icon)
+    let icon, zIndexOffset
+    if (highlight(point, highlightCollectionType)) {
+      icon = collectionCurrent
+      zIndexOffset = 100
+    } else {
+      icon = collectionIcon
+      zIndexOffset = 0
+    }
+    map.addMarker(point, { icon, zIndexOffset })
   })
 }
 

@@ -45,12 +45,12 @@ class Xb2map extends L.Map {
     this.zInterval = [mapinfo.LowerZ, mapinfo.UpperZ]
   }
 
-  addMarker (point, icon, tooltipContent = '') {
+  addMarker (point, options, tooltipContent = '') {
     const coordinate = xy([point.PosX - this.XOffest, -point.PosZ])
 
     const marker = L.marker(coordinate, {
       riseOnHover: true,
-      icon
+      ...options
     })
 
     // 悬停文本
