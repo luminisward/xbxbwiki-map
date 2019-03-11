@@ -33,19 +33,12 @@ function draw (element) {
 
   $(element).find('.expand-all').click(function (e) {
     e.preventDefault()
+    const selector = pointsOnMap.filter(point => highlight(point, highlightCollectionType)).map(point => '#' + point.Name).join(',')
     if ($(this).data('expanded')) {
-      pointsOnMap.forEach(point => {
-        if (highlight(point, highlightCollectionType)) {
-          $(`#${point.Name}`).slideUp()
-        }
-      })
+      $(selector).slideUp()
       $(this).data('expanded', false)
     } else {
-      pointsOnMap.forEach(point => {
-        if (highlight(point, highlightCollectionType)) {
-          $(`#${point.Name}`).slideDown()
-        }
-      })
+      $(selector).slideDown()
       $(this).data('expanded', true)
     }
   })
