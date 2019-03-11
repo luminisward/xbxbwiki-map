@@ -57,7 +57,8 @@ class Xb2map extends L.Map {
 
     // 开关截图
     marker.on('click', () => {
-      $(`#${point.Name}`).slideToggle()
+      // $(`#${point.Name}`).slideToggle()
+      $(`#${point.Name}`).find(`[title="场景截图:${point.Name}"]`)[0].click()
     })
 
     this.addLayer(marker)
