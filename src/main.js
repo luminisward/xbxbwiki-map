@@ -26,6 +26,29 @@ function draw (element) {
     }
     map.addMarker(point, { icon, zIndexOffset })
   })
+
+  // 右下角展开全部
+  const expandAllButton = $('<a>').text('展开全部').attr('href', '#').addClass('expand-all')
+  map.attributionControl.setPrefix(expandAllButton.prop('outerHTML'))
+
+  $(element).find('.expand-all').click(function (e) {
+    e.preventDefault()
+    if ($(this).data('expanded')) {
+      pointsOnMap.forEach(point => {
+        if (highlight(point, highlightCollectionType)) {
+          $(`#${point.Name}`).slideUp()
+        }
+      })
+      $(this).data('expanded', false)
+    } else {
+      pointsOnMap.forEach(point => {
+        if (highlight(point, highlightCollectionType)) {
+          $(`#${point.Name}`).slideDown()
+        }
+      })
+      $(this).data('expanded', true)
+    }
+  })
 }
 
 function onMapSpace (gmkPoints, map) {

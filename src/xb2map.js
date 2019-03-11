@@ -15,33 +15,27 @@ class Xb2map extends L.Map {
       [-imageBounds[1][0], -imageBounds[1][1]],
       [-imageBounds[0][0], -imageBounds[0][1]]
     ]
-    const imageBoundsRotate180YX = [
-      [imageBoundsRotate180[0][1], imageBoundsRotate180[0][0]],
-      [imageBoundsRotate180[1][1], imageBoundsRotate180[1][0]]
-    ]
 
     option = Object.assign({
       zoomSnap: 0.25,
       minZoom: -3,
       maxZoom: 2,
-      maxBounds: imageBoundsRotate180YX,
       crs: L.CRS.Simple,
-      attributionControl: false
+      // attributionControl: false,
+      doubleClickZoom: false
     },
     option
     )
+
     super(element, option)
 
     this.Name = mapinfo.Name
     const mapId = mapinfo.Name.split('_')[0]
     this.mapId = mapId === 'dlc3' ? mapinfo.Name.split('_')[1] : mapId
-    this.bounds = imageBoundsRotate180YX
+    this.bounds = imageBoundsRotate180
     this.XOffest = imageBounds[0][0] + imageBounds[1][0]
-    this.addLayer(L.imageOverlay(imageUrl, imageBoundsRotate180YX))
-    this.fitBounds(imageBoundsRotate180YX)
-    this.xInterval = [mapinfo.LowerX, mapinfo.UpperX]
-    this.yInterval = [mapinfo.LowerY, mapinfo.UpperY]
-    this.zInterval = [mapinfo.LowerZ, mapinfo.UpperZ]
+    this.addLayer(L.imageOverlay(imageUrl, xyBounds(this.bounds)))
+    this.fitBounds(xyBounds(this.bounds))
   }
 
   addMarker (point, options, tooltipContent = '') {
@@ -75,6 +69,13 @@ function xy ([x, y]) {
     return L.latLng(x[1], x[0])
   }
   return L.latLng(y, x) // When doing xy(x, y);
+}
+
+function xyBounds (bounds) {
+  return [
+    [bounds[0][1], bounds[0][0]],
+    [bounds[1][1], bounds[1][0]]
+  ]
 }
 
 function getXb2mapByName (element, name) {
