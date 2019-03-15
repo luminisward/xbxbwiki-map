@@ -3,8 +3,8 @@ import './main.scss'
 
 import { getXb2mapByName } from './xb2map'
 import { collectionIcon, collectionCurrent } from './markerIcon'
-import gmkBase from './data/gmk_collection.json'
-import gmkIra from './data/gmk_collection_ira.json'
+import gmkBase from './data/gmk_tbox.json'
+import gmkIra from './data/gmk_tbox_ira.json'
 
 const gmk = [...gmkBase, ...gmkIra]
 
@@ -24,7 +24,7 @@ function draw (element) {
       icon = collectionIcon
       zIndexOffset = 0
     }
-    map.addMarker(point, { icon, zIndexOffset })
+    map.addMarker(point, { icon, zIndexOffset }, point.Name)
   })
 
   // 右下角展开全部
@@ -51,7 +51,7 @@ function onMapSpace (gmkPoints, map) {
 }
 
 function highlight (gmkPoint, subpage) {
-  return gmkPoint.Subpage === subpage
+  return gmkPoint.Subpage === subpage || gmkPoint.Name === subpage
 }
 
 function setContainerHeight (element) {
