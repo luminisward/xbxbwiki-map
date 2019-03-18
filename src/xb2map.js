@@ -84,7 +84,7 @@ function getXb2mapByName (element, name) {
     const themapinfo = mapinfos[name]
     themapinfo.Name = name
 
-    const imageUrl = require('./images/' + name + '_map_0.png')
+    const imageUrl = require('./map-images/' + name + '_map_0.png')
 
     return new Xb2map(element, {}, imageUrl, themapinfo)
   }

@@ -5,6 +5,10 @@ config.externals = {
   jquery: 'jQuery',
   leaflet: 'L'
 }
+config.entry = {
+  collection: './src/collection.js',
+  tbox: './src/tbox.js'
+}
 config.plugins.push(...[
   new UglifyJsPlugin({
     uglifyOptions: {
