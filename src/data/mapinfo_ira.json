@@ -1,5 +1,7 @@
 {
   "dlc3_ma40a_f01": {
+    "mapId": "伊拉王国",
+    "menuGroup": "利萨利亚地方",
     "Width": 1296,
     "Height": 1969,
     "LowerX": -738,
@@ -10,6 +12,8 @@
     "UpperZ": 1117.249
   },
   "dlc3_ma40a_f02": {
+    "mapId": "伊拉王国",
+    "menuGroup": "亚莱特地方",
     "Width": 792,
     "Height": 1056,
     "LowerX": 50.5,
@@ -20,6 +24,8 @@
     "UpperZ": 674.0855
   },
   "dlc3_ma40a_f03": {
+    "mapId": "伊拉王国",
+    "menuGroup": "达纳沙漠地带",
     "Width": 1200,
     "Height": 1356,
     "LowerX": -330,
@@ -30,6 +36,8 @@
     "UpperZ": 355.5883
   },
   "dlc3_ma40a_c01": {
+    "mapId": "伊拉王国",
+    "menuGroup": "王都阿乌尔利乌姆",
     "Width": 776,
     "Height": 1022,
     "LowerX": -185.5,
@@ -40,6 +48,8 @@
     "UpperZ": -319.1569
   },
   "dlc3_ma40a_d01": {
+    "mapId": "伊拉王国",
+    "menuGroup": "伊拉巨神兽 体内",
     "Width": 440,
     "Height": 1061,
     "LowerX": -120,
@@ -50,6 +60,8 @@
     "UpperZ": 808.0006
   },
   "dlc3_ma40a_d02": {
+    "mapId": "伊拉王国",
+    "menuGroup": "伊拉巨神兽 体内",
     "Width": 464,
     "Height": 579,
     "LowerX": -136.5,
@@ -60,6 +72,8 @@
     "UpperZ": 891.2993
   },
   "dlc3_ma40a_d03": {
+    "mapId": "伊拉王国",
+    "menuGroup": "伊拉巨神兽 体内",
     "Width": 504,
     "Height": 915,
     "LowerX": -137,
@@ -70,6 +84,8 @@
     "UpperZ": 891.2993
   },
   "dlc3_ma40a_d04": {
+    "mapId": "伊拉王国",
+    "menuGroup": "伊拉巨神兽 体内",
     "Width": 576,
     "Height": 766,
     "LowerX": -67,
@@ -80,6 +96,8 @@
     "UpperZ": 797.3349
   },
   "dlc3_ma41a_f01": {
+    "mapId": "古拉",
+    "menuGroup": "全区域",
     "Width": 2880,
     "Height": 2282,
     "LowerX": -596.5,
@@ -90,6 +108,8 @@
     "UpperZ": 579.234
   },
   "dlc3_ma41a_f01_shipoff": {
+    "mapId": "古拉",
+    "menuGroup": "全区域",
     "Width": 2880,
     "Height": 2282,
     "LowerX": -596.5,
