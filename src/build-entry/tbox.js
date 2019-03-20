@@ -2,7 +2,7 @@ import $ from 'jquery'
 import '../main.scss'
 
 import { getXb2mapByName } from '../xb2map'
-import { player as icon } from '../markerIcon'
+import { tbox as icon } from '../markerIcon'
 import { setContainerHeight } from '../utils'
 import gmkBase from '../data/gmk_tbox.json'
 import gmkIra from '../data/gmk_tbox_ira.json'
