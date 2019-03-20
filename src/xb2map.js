@@ -29,11 +29,12 @@ class Xb2map extends L.Map {
 
     super(element, option)
 
-    this.Name = mapinfo.Name
+    this.mapinfo = mapinfo
     const mapId = mapinfo.Name.split('_')[0]
     this.mapId = mapId === 'dlc3' ? mapinfo.Name.split('_')[1] : mapId
     this.bounds = imageBoundsRotate180
     this.XOffest = imageBounds[0][0] + imageBounds[1][0]
+
     this.addLayer(L.imageOverlay(imageUrl, xyBounds(this.bounds)))
     this.fitBounds(xyBounds(this.bounds))
   }
