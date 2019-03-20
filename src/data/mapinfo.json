@@ -1,6 +1,6 @@
 {
   "ma02a_f01": {
-    "mapId": "阿伐利缇亚商会",
+    "mapName": "阿伐利缇亚商会",
     "menuGroup": "格尔特蒙特",
     "Width": 440,
     "Height": 481,
@@ -12,7 +12,7 @@
     "UpperZ": 118.5157
   },
   "ma02a_f03": {
-    "mapId": "阿伐利缇亚商会",
+    "mapName": "阿伐利缇亚商会",
     "menuGroup": "格尔特蒙特",
     "Width": 304,
     "Height": 160,
@@ -24,7 +24,7 @@
     "UpperZ": 40.57231
   },
   "ma02a_f05": {
-    "mapId": "阿伐利缇亚商会",
+    "mapName": "阿伐利缇亚商会",
     "menuGroup": "格尔特蒙特",
     "Width": 512,
     "Height": 277,
@@ -36,7 +36,7 @@
     "UpperZ": 67.65265
   },
   "ma02a_f06": {
-    "mapId": "阿伐利缇亚商会",
+    "mapName": "阿伐利缇亚商会",
     "menuGroup": "格尔特蒙特",
     "Width": 176,
     "Height": 105,
@@ -48,7 +48,7 @@
     "UpperZ": 26.37169
   },
   "ma02a_f07": {
-    "mapId": "阿伐利缇亚商会",
+    "mapName": "阿伐利缇亚商会",
     "menuGroup": "格尔特蒙特",
     "Width": 104,
     "Height": 66,
@@ -60,7 +60,7 @@
     "UpperZ": 14.0367
   },
   "ma02a_f08": {
-    "mapId": "阿伐利缇亚商会",
+    "mapName": "阿伐利缇亚商会",
     "menuGroup": "格尔特蒙特",
     "Width": 192,
     "Height": 84,
@@ -72,7 +72,7 @@
     "UpperZ": 20.11966
   },
   "ma03a_floor_01": {
-    "mapId": "云海探查船 涡潮号",
+    "mapName": "云海探查船 涡潮号",
     "menuGroup": "涡潮号",
     "Width": 160,
     "Height": 100,
@@ -84,7 +84,7 @@
     "UpperZ": 25
   },
   "ma03a_floor_03": {
-    "mapId": "云海探查船 涡潮号",
+    "mapName": "云海探查船 涡潮号",
     "menuGroup": "涡潮号",
     "Width": 160,
     "Height": 100,
@@ -96,7 +96,7 @@
     "UpperZ": 25
   },
   "ma04a_f02": {
-    "mapId": "古代船",
+    "mapName": "古代船",
     "menuGroup": "古代船",
     "Width": 440,
     "Height": 296,
@@ -108,7 +108,7 @@
     "UpperZ": 74.78842
   },
   "ma04a_f03": {
-    "mapId": "古代船",
+    "mapName": "古代船",
     "menuGroup": "古代船",
     "Width": 392,
     "Height": 76,
@@ -120,7 +120,7 @@
     "UpperZ": 19.29882
   },
   "ma04a_f06": {
-    "mapId": "古代船",
+    "mapName": "古代船",
     "menuGroup": "古代船",
     "Width": 392,
     "Height": 180,
@@ -132,7 +132,7 @@
     "UpperZ": 45.818
   },
   "ma05a_c_01": {
-    "mapId": "古拉",
+    "mapName": "古拉",
     "menuGroup": "托里格镇",
     "Width": 296,
     "Height": 407,
@@ -144,7 +144,7 @@
     "UpperZ": 384.9143
   },
   "ma05a_c_02": {
-    "mapId": "古拉",
+    "mapName": "古拉",
     "menuGroup": "托里格镇",
     "Width": 296,
     "Height": 461,
@@ -156,7 +156,7 @@
     "UpperZ": 405.1484
   },
   "ma05a_c_03": {
-    "mapId": "古拉",
+    "mapName": "古拉",
     "menuGroup": "托里格镇",
     "Width": 1240,
     "Height": 730,
@@ -168,7 +168,7 @@
     "UpperZ": 488.6898
   },
   "ma05a_c_03_shipoff": {
-    "mapId": "古拉",
+    "mapName": "古拉",
     "menuGroup": "托里格镇",
     "Width": 1240,
     "Height": 730,
@@ -180,7 +180,7 @@
     "UpperZ": 488.6898
   },
   "ma05a_f01": {
-    "mapId": "古拉",
+    "mapName": "古拉",
     "menuGroup": "下层",
     "Width": 1464,
     "Height": 1092,
@@ -192,7 +192,7 @@
     "UpperZ": 257.9187
   },
   "ma05a_f02": {
-    "mapId": "古拉",
+    "mapName": "古拉",
     "menuGroup": "上层 右半身",
     "Width": 3176,
     "Height": 2122,
@@ -204,7 +204,7 @@
     "UpperZ": 507.7294
   },
   "ma05a_f02_shipoff": {
-    "mapId": "古拉",
+    "mapName": "古拉",
     "menuGroup": "上层 右半身",
     "Width": 3176,
     "Height": 2122,
@@ -216,7 +216,7 @@
     "UpperZ": 507.7294
   },
   "ma05a_f05": {
-    "mapId": "古拉",
+    "mapName": "古拉",
     "menuGroup": "上层 左半身",
     "Width": 2360,
     "Height": 1128,
@@ -228,7 +228,7 @@
     "UpperZ": -488.9182
   },
   "ma05a_ship_f01": {
-    "mapId": "古拉",
+    "mapName": "古拉",
     "menuGroup": "巨神兽战舰",
     "Width": 120,
     "Height": 170,
@@ -240,7 +240,7 @@
     "UpperZ": 464.4447
   },
   "ma05a_ship_f02": {
-    "mapId": "古拉",
+    "mapName": "古拉",
     "menuGroup": "巨神兽战舰",
     "Width": 336,
     "Height": 534,
@@ -252,7 +252,7 @@
     "UpperZ": 554.2673
   },
   "ma05a_ship_f03": {
-    "mapId": "古拉",
+    "mapName": "古拉",
     "menuGroup": "巨神兽战舰",
     "Width": 584,
     "Height": 356,
@@ -264,7 +264,7 @@
     "UpperZ": 508.1782
   },
   "ma05a_ship_f04": {
-    "mapId": "古拉",
+    "mapName": "古拉",
     "menuGroup": "巨神兽战舰",
     "Width": 520,
     "Height": 270,
@@ -276,7 +276,7 @@
     "UpperZ": 486.2259
   },
   "ma07a_a_floor_01": {
-    "mapId": "英维迪亚烈王国",
+    "mapName": "英维迪亚烈王国",
     "menuGroup": "头部",
     "Width": 488,
     "Height": 1460,
@@ -288,7 +288,7 @@
     "UpperZ": 573.6713
   },
   "ma07a_a_floor_03": {
-    "mapId": "英维迪亚烈王国",
+    "mapName": "英维迪亚烈王国",
     "menuGroup": "头部",
     "Width": 968,
     "Height": 435,
@@ -300,7 +300,7 @@
     "UpperZ": 373.8963
   },
   "ma07a_a_floor_04": {
-    "mapId": "英维迪亚烈王国",
+    "mapName": "英维迪亚烈王国",
     "menuGroup": "头部",
     "Width": 728,
     "Height": 503,
@@ -312,7 +312,7 @@
     "UpperZ": 325.8233
   },
   "ma07a_a_floor_05": {
-    "mapId": "英维迪亚烈王国",
+    "mapName": "英维迪亚烈王国",
     "menuGroup": "头部",
     "Width": 184,
     "Height": 654,
@@ -324,7 +324,7 @@
     "UpperZ": 547.2471
   },
   "ma07a_a_floor_06": {
-    "mapId": "英维迪亚烈王国",
+    "mapName": "英维迪亚烈王国",
     "menuGroup": "弗雷斯贝古村庄",
     "Width": 400,
     "Height": 432,
@@ -336,7 +336,7 @@
     "UpperZ": 559.5
   },
   "ma07a_b_floor_01": {
-    "mapId": "英维迪亚烈王国",
+    "mapName": "英维迪亚烈王国",
     "menuGroup": "腹部",
     "Width": 1968,
     "Height": 2649,
@@ -348,7 +348,7 @@
     "UpperZ": 1869.646
   },
   "ma07a_b_floor_b01": {
-    "mapId": "英维迪亚烈王国",
+    "mapName": "英维迪亚烈王国",
     "menuGroup": "腹部",
     "Width": 200,
     "Height": 789,
@@ -360,7 +360,7 @@
     "UpperZ": 1396.958
   },
   "ma07a_c_floor_01": {
-    "mapId": "英维迪亚烈王国",
+    "mapName": "英维迪亚烈王国",
     "menuGroup": "首都冯斯麦姆",
     "Width": 1712,
     "Height": 911,
@@ -372,7 +372,7 @@
     "UpperZ": 2123.843
   },
   "ma07a_d_floor_01": {
-    "mapId": "英维迪亚烈王国",
+    "mapName": "英维迪亚烈王国",
     "menuGroup": "卡拉姆遗迹",
     "Width": 344,
     "Height": 1440,
@@ -384,7 +384,7 @@
     "UpperZ": 2767.444
   },
   "ma07a_d_floor_01lodoff": {
-    "mapId": "英维迪亚烈王国",
+    "mapName": "英维迪亚烈王国",
     "menuGroup": "卡拉姆遗迹",
     "Width": 344,
     "Height": 1440,
@@ -396,7 +396,7 @@
     "UpperZ": 2767.444
   },
   "ma08a_city_f_1": {
-    "mapId": "斯佩比亚帝国",
+    "mapName": "斯佩比亚帝国",
     "menuGroup": "皇宫哈达夏尔",
     "Width": 120,
     "Height": 540,
@@ -408,7 +408,7 @@
     "UpperZ": 628.7662
   },
   "ma08a_city_f_3": {
-    "mapId": "斯佩比亚帝国",
+    "mapName": "斯佩比亚帝国",
     "menuGroup": "帝都阿尔巴马格",
     "Width": 832,
     "Height": 560,
@@ -420,7 +420,7 @@
     "UpperZ": 351.6782
   },
   "ma08a_city_f_4": {
-    "mapId": "斯佩比亚帝国",
+    "mapName": "斯佩比亚帝国",
     "menuGroup": "皇宫哈达夏尔",
     "Width": 1000,
     "Height": 600,
@@ -432,7 +432,7 @@
     "UpperZ": 650
   },
   "ma08a_newplant_out": {
-    "mapId": "斯佩比亚帝国",
+    "mapName": "斯佩比亚帝国",
     "menuGroup": "废弃工厂",
     "Width": 968,
     "Height": 809,
@@ -444,7 +444,7 @@
     "UpperZ": -540.7715
   },
   "ma08a_rowf_1": {
-    "mapId": "斯佩比亚帝国",
+    "mapName": "斯佩比亚帝国",
     "menuGroup": "下层",
     "Width": 1632,
     "Height": 1979,
@@ -456,7 +456,7 @@
     "UpperZ": 447.5938
   },
   "ma08a_upf_1": {
-    "mapId": "斯佩比亚帝国",
+    "mapName": "斯佩比亚帝国",
     "menuGroup": "上层",
     "Width": 1664,
     "Height": 1213,
@@ -468,7 +468,7 @@
     "UpperZ": 128.4448
   },
   "ma10a_f01": {
-    "mapId": "檀佩兰提亚",
+    "mapName": "檀佩兰提亚",
     "menuGroup": "岬",
     "Width": 1240,
     "Height": 970,
@@ -480,7 +480,7 @@
     "UpperZ": 490.511
   },
   "ma10a_f02": {
-    "mapId": "檀佩兰提亚",
+    "mapName": "檀佩兰提亚",
     "menuGroup": "中央平原",
     "Width": 2104,
     "Height": 3435,
@@ -492,7 +492,7 @@
     "UpperZ": 1356.118
   },
   "ma10a_f03": {
-    "mapId": "檀佩兰提亚",
+    "mapName": "檀佩兰提亚",
     "menuGroup": "尤迪肯姆遗址",
     "Width": 1144,
     "Height": 699,
@@ -504,7 +504,7 @@
     "UpperZ": 1087.704
   },
   "ma11a_a_floor_01": {
-    "mapId": "阿卡狄亚教廷",
+    "mapName": "阿卡狄亚教廷",
     "menuGroup": "哥特伊斯沃特港区域",
     "Width": 600,
     "Height": 920,
@@ -516,7 +516,7 @@
     "UpperZ": 502.6986
   },
   "ma11a_a_floor_02": {
-    "mapId": "阿卡狄亚教廷",
+    "mapName": "阿卡狄亚教廷",
     "menuGroup": "阿卡狄亚大圣堂区域",
     "Width": 1600,
     "Height": 600,
@@ -528,7 +528,7 @@
     "UpperZ": 145
   },
   "ma11a_b_floor_01": {
-    "mapId": "阿卡狄亚教廷",
+    "mapName": "阿卡狄亚教廷",
     "menuGroup": "斯佩比亚巨神兽战舰",
     "Width": 224,
     "Height": 501,
@@ -540,7 +540,7 @@
     "UpperZ": 560.4053
   },
   "ma13a_a_floor_01": {
-    "mapId": "洛修利亚王国",
+    "mapName": "洛修利亚王国",
     "menuGroup": "上层",
     "Width": 2720,
     "Height": 3400,
@@ -552,7 +552,7 @@
     "UpperZ": 1150
   },
   "ma13a_a_floor_06": {
-    "mapId": "洛修利亚王国",
+    "mapName": "洛修利亚王国",
     "menuGroup": "下层",
     "Width": 2960,
     "Height": 2840,
@@ -564,7 +564,7 @@
     "UpperZ": 658.5623
   },
   "ma13a_a_floor_07": {
-    "mapId": "洛修利亚王国",
+    "mapName": "洛修利亚王国",
     "menuGroup": "头部",
     "Width": 1800,
     "Height": 440,
@@ -576,7 +576,7 @@
     "UpperZ": 110
   },
   "ma13a_b_floor_01": {
-    "mapId": "洛修利亚王国",
+    "mapName": "洛修利亚王国",
     "menuGroup": "王都特奥斯奥莱",
     "Width": 464,
     "Height": 456,
@@ -588,7 +588,7 @@
     "UpperZ": 114
   },
   "ma13a_b_floor_02": {
-    "mapId": "洛修利亚王国",
+    "mapName": "洛修利亚王国",
     "menuGroup": "王宫特奥斯卡尔迪亚",
     "Width": 400,
     "Height": 240,
@@ -600,7 +600,7 @@
     "UpperZ": 60
   },
   "ma13a_b_floor_03": {
-    "mapId": "洛修利亚王国",
+    "mapName": "洛修利亚王国",
     "menuGroup": "王宫特奥斯卡尔迪亚",
     "Width": 264,
     "Height": 240,
@@ -612,7 +612,7 @@
     "UpperZ": 60
   },
   "ma13a_b_floor_04": {
-    "mapId": "洛修利亚王国",
+    "mapName": "洛修利亚王国",
     "menuGroup": "王宫特奥斯卡尔迪亚",
     "Width": 680,
     "Height": 240,
@@ -624,7 +624,7 @@
     "UpperZ": 60
   },
   "ma13a_b_floor_05": {
-    "mapId": "洛修利亚王国",
+    "mapName": "洛修利亚王国",
     "menuGroup": "王宫特奥斯卡尔迪亚",
     "Width": 400,
     "Height": 240,
@@ -636,7 +636,7 @@
     "UpperZ": 60
   },
   "ma15a_f01": {
-    "mapId": "利贝拉里塔斯岛屿群",
+    "mapName": "利贝拉里塔斯岛屿群",
     "menuGroup": "里吉特海域",
     "Width": 2528,
     "Height": 2015,
@@ -648,7 +648,7 @@
     "UpperZ": 674.4122
   },
   "ma15a_f02": {
-    "mapId": "利贝拉里塔斯岛屿群",
+    "mapName": "利贝拉里塔斯岛屿群",
     "menuGroup": "云海隧道",
     "Width": 1840,
     "Height": 1751,
@@ -660,7 +660,7 @@
     "UpperZ": -260.4552
   },
   "ma15a_f03": {
-    "mapId": "利贝拉里塔斯岛屿群",
+    "mapName": "利贝拉里塔斯岛屿群",
     "menuGroup": "弥先岛",
     "Width": 664,
     "Height": 800,
@@ -672,7 +672,7 @@
     "UpperZ": -1561.837
   },
   "ma15a_f04": {
-    "mapId": "利贝拉里塔斯岛屿群",
+    "mapName": "利贝拉里塔斯岛屿群",
     "menuGroup": "弥先海域",
     "Width": 2528,
     "Height": 2091,
@@ -684,7 +684,7 @@
     "UpperZ": -966.1076
   },
   "ma16a_floor_01": {
-    "mapId": "艾尔皮斯灵洞",
+    "mapName": "艾尔皮斯灵洞",
     "menuGroup": "上层",
     "Width": 360,
     "Height": 758,
@@ -696,7 +696,7 @@
     "UpperZ": 64.95607
   },
   "ma16a_floor_01b": {
-    "mapId": "艾尔皮斯灵洞",
+    "mapName": "艾尔皮斯灵洞",
     "menuGroup": "上层",
     "Width": 360,
     "Height": 1775,
@@ -708,7 +708,7 @@
     "UpperZ": 947.4779
   },
   "ma16a_floor_02": {
-    "mapId": "艾尔皮斯灵洞",
+    "mapName": "艾尔皮斯灵洞",
     "menuGroup": "中层",
     "Width": 688,
     "Height": 857,
@@ -720,7 +720,7 @@
     "UpperZ": 1353.927
   },
   "ma16a_floor_08": {
-    "mapId": "艾尔皮斯灵洞",
+    "mapName": "艾尔皮斯灵洞",
     "menuGroup": "中层",
     "Width": 992,
     "Height": 1475,
@@ -732,7 +732,7 @@
     "UpperZ": 1876.512
   },
   "ma16a_floor_11": {
-    "mapId": "艾尔皮斯灵洞",
+    "mapName": "艾尔皮斯灵洞",
     "menuGroup": "下层",
     "Width": 472,
     "Height": 1098,
@@ -744,7 +744,7 @@
     "UpperZ": 2424.126
   },
   "ma17a_f01": {
-    "mapId": "莫尔斯断崖",
+    "mapName": "莫尔斯断崖",
     "menuGroup": "上层",
     "Width": 768,
     "Height": 1347,
@@ -756,7 +756,7 @@
     "UpperZ": 350.3212
   },
   "ma17a_f03": {
-    "mapId": "莫尔斯断崖",
+    "mapName": "莫尔斯断崖",
     "menuGroup": "下层",
     "Width": 696,
     "Height": 484,
@@ -768,7 +768,7 @@
     "UpperZ": 503.7892
   },
   "ma17a_f03_lodoff": {
-    "mapId": "莫尔斯断崖",
+    "mapName": "莫尔斯断崖",
     "menuGroup": "下层",
     "Width": 696,
     "Height": 484,
@@ -780,7 +780,7 @@
     "UpperZ": 503.7892
   },
   "ma17a_f03b": {
-    "mapId": "莫尔斯断崖",
+    "mapName": "莫尔斯断崖",
     "menuGroup": "下层",
     "Width": 248,
     "Height": 197,
@@ -792,7 +792,7 @@
     "UpperZ": 375.6281
   },
   "ma18a_f01": {
-    "mapId": "莫尔斯之地",
+    "mapName": "莫尔斯之地",
     "menuGroup": "街区",
     "Width": 520,
     "Height": 1243,
@@ -804,7 +804,7 @@
     "UpperZ": 84.83372
   },
   "ma18a_f07": {
-    "mapId": "莫尔斯之地",
+    "mapName": "莫尔斯之地",
     "menuGroup": "腐朽的巨神兽",
     "Width": 768,
     "Height": 1015,
@@ -816,7 +816,7 @@
     "UpperZ": -505.5183
   },
   "ma18a_f11": {
-    "mapId": "莫尔斯之地",
+    "mapName": "莫尔斯之地",
     "menuGroup": "世界树",
     "Width": 872,
     "Height": 1130,
@@ -828,7 +828,7 @@
     "UpperZ": -1004.245
   },
   "ma20a_f01": {
-    "mapId": "世界树",
+    "mapName": "世界树",
     "menuGroup": "下层",
     "Width": 560,
     "Height": 367,
@@ -840,7 +840,7 @@
     "UpperZ": 241.9005
   },
   "ma20a_f02": {
-    "mapId": "世界树",
+    "mapName": "世界树",
     "menuGroup": "下层",
     "Width": 296,
     "Height": 260,
@@ -852,7 +852,7 @@
     "UpperZ": 253.2498
   },
   "ma20a_f03": {
-    "mapId": "世界树",
+    "mapName": "世界树",
     "menuGroup": "下层",
     "Width": 552,
     "Height": 657,
@@ -864,7 +864,7 @@
     "UpperZ": 380.1805
   },
   "ma20a_f05": {
-    "mapId": "世界树",
+    "mapName": "世界树",
     "menuGroup": "下层",
     "Width": 632,
     "Height": 1020,
@@ -876,7 +876,7 @@
     "UpperZ": 406.2031
   },
   "ma20a_f08_1": {
-    "mapId": "世界树",
+    "mapName": "世界树",
     "menuGroup": "中层",
     "Width": 1944,
     "Height": 841,
@@ -888,7 +888,7 @@
     "UpperZ": 408.1248
   },
   "ma20a_f09": {
-    "mapId": "世界树",
+    "mapName": "世界树",
     "menuGroup": "中层",
     "Width": 680,
     "Height": 561,
@@ -900,7 +900,7 @@
     "UpperZ": 236.6292
   },
   "ma20a_f10": {
-    "mapId": "世界树",
+    "mapName": "世界树",
     "menuGroup": "上层",
     "Width": 816,
     "Height": 218,
@@ -912,7 +912,7 @@
     "UpperZ": 152.0587
   },
   "ma21a_a_floor_01": {
-    "mapId": "第一低轨道站",
+    "mapName": "第一低轨道站",
     "menuGroup": "上层",
     "Width": 240,
     "Height": 860,
@@ -924,7 +924,7 @@
     "UpperZ": 50
   },
   "ma21a_a_floor_02": {
-    "mapId": "第一低轨道站",
+    "mapName": "第一低轨道站",
     "menuGroup": "上层",
     "Width": 904,
     "Height": 1400,
@@ -936,7 +936,7 @@
     "UpperZ": -350
   },
   "ma21a_b_floor_02": {
-    "mapId": "第一低轨道站",
+    "mapName": "第一低轨道站",
     "menuGroup": "下层",
     "Width": 904,
     "Height": 800,
@@ -948,7 +948,7 @@
     "UpperZ": -990.5143
   },
   "ma21a_b_floor_03": {
-    "mapId": "第一低轨道站",
+    "mapName": "第一低轨道站",
     "menuGroup": "下层",
     "Width": 1240,
     "Height": 1300,
