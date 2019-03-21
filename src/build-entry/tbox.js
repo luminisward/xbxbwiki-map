@@ -15,27 +15,39 @@ function draw (element) {
     .split(' ')
     .filter(s => s.length > 0)
     .map(s => s.toLowerCase())
+  const mapName = $(element).data('mapName')
 
+  let map
   if (gmkIds.length > 0) {
-    const inputGmks = gmkIds.map(gmkId => gmk.filter(point => point.Name === gmkId)[0]).filter(point => point !== undefined)
-    const mapName = $(element).data('mapName')
+    // 指定宝箱列表
+    const inputGmks = gmkIds
+      .map(gmkId => gmk.filter(point => point.Name === gmkId)[0])
+      .filter(point => point !== undefined)
 
     if (inputGmks.length > 0) {
+      // 未指定地图时，使用指定宝箱地图列表里的第一个
       const areas = Array.from(new Set(inputGmks.map(point => point.areas).flat()))
-      const mapId = mapName ? mapName.toLowerCase() : areas[0] // 未指定地图时，使用区域列表里的第一个
-      const map = getXb2mapByName(element, mapId)
+      const mapId = mapName ? mapName.toLowerCase() : areas[0]
+      map = getXb2mapByName(element, mapId)
 
       onMapSpace(inputGmks, map).forEach(point => {
         map.addMarker(point, { icon }, point.Name)
       })
-
-      // 右下角地名
-      map.attributionControl.setPrefix(map.mapinfo.mapName + '・' + map.mapinfo.menuGroup)
-      map.attributionControl.addAttribution('<a href="//xenoblade2.cn">XENOBLADE2.CN</a>')
     } else {
       throw Error('No valid gmk id.')
     }
+  } else {
+    // 未指定宝箱列表，展示指定地图上所有宝箱
+    const mapId = mapName.toLowerCase()
+    map = getXb2mapByName(element, mapId)
+    onMapSpace(gmk, map).forEach(point => {
+      map.addMarker(point, { icon }, point.Name)
+    })
   }
+
+  // 右下角显示地名
+  map.attributionControl.setPrefix(map.mapinfo.mapName + '・' + map.mapinfo.menuGroup)
+  map.attributionControl.addAttribution('<a href="//xenoblade2.cn">XENOBLADE2.CN</a>')
 }
 
 $('.xb2map-tbox').each((index, element) => {
