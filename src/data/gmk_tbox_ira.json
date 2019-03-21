@@ -74,7 +74,7 @@
   "PosX": -231.8061,
   "PosY": -63.33228,
   "PosZ": 341.8286,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"]
+  "areas": ["dlc3_ma40a_f01"]
 }, {
   "Map": "ma40a",
   "Name": "tbox_ma40a_f032",
@@ -88,7 +88,7 @@
   "PosX": -177.9312,
   "PosY": -53.76759,
   "PosZ": 340.3593,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"]
+  "areas": ["dlc3_ma40a_f01"]
 }, {
   "Map": "ma40a",
   "Name": "tbox_ma40a_f052_r_s",
@@ -109,14 +109,14 @@
   "PosX": -328.5749,
   "PosY": -52.93388,
   "PosZ": 197.0723,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"]
+  "areas": ["dlc3_ma40a_f01"]
 }, {
   "Map": "ma40a",
   "Name": "tbox_ma40a_f033",
   "PosX": -275.1809,
   "PosY": -49.21531,
   "PosZ": 164.7125,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"]
+  "areas": ["dlc3_ma40a_f01"]
 }, {
   "Map": "ma40a",
   "Name": "tbox_ma40a_f010",
@@ -361,7 +361,7 @@
   "PosX": -296.8222,
   "PosY": -30.62074,
   "PosZ": 243.9634,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"]
+  "areas": ["dlc3_ma40a_f03"]
 }, {
   "Map": "ma40a",
   "Name": "tbox_ma40a_f051",
@@ -417,7 +417,7 @@
   "PosX": 82.15741,
   "PosY": -36.78924,
   "PosZ": 325.9506,
-  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"]
+  "areas": ["dlc3_ma40a_f03"]
 }, {
   "Map": "ma40a",
   "Name": "tbox_ma40a_f058_s",
@@ -557,21 +557,21 @@
   "PosX": -176.9967,
   "PosY": -59.4,
   "PosZ": 342.5082,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"]
+  "areas": ["dlc3_ma40a_f01"]
 }, {
   "Map": "ma40a",
   "Name": "tbox_ma40a_n005",
   "PosX": -176.1046,
   "PosY": -59.4,
   "PosZ": 341.595,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"]
+  "areas": ["dlc3_ma40a_f01"]
 }, {
   "Map": "ma40a",
   "Name": "tbox_ma40a_n006",
   "PosX": -179.5277,
   "PosY": -59.4,
   "PosZ": 339.7583,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"]
+  "areas": ["dlc3_ma40a_f01"]
 }, {
   "Map": "ma40a",
   "Name": "tbox_ma40a_n007",
@@ -599,7 +599,7 @@
   "PosX": -328.8044,
   "PosY": -54.92136,
   "PosZ": 178.3372,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"]
+  "areas": ["dlc3_ma40a_f01"]
 }, {
   "Map": "ma40a",
   "Name": "tbox_ma40a_n011",
@@ -795,14 +795,14 @@
   "PosX": 198.2622,
   "PosY": -26,
   "PosZ": 267.991,
-  "areas": ["dlc3_ma40a_f02", "dlc3_ma40a_f03"]
+  "areas": ["dlc3_ma40a_f03"]
 }, {
   "Map": "ma40a",
   "Name": "tbox_ma40a_w002",
   "PosX": -241.1822,
   "PosY": -54,
   "PosZ": 172.2549,
-  "areas": ["dlc3_ma40a_f01", "dlc3_ma40a_f03"]
+  "areas": ["dlc3_ma40a_f01"]
 }, {
   "Map": "ma40a",
   "Name": "tbox_ma40a_c001",
