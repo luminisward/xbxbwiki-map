@@ -9,7 +9,7 @@ function setContainerHeight (element) {
 
 function onMapSpace (gmkPoints, map) {
   return gmkPoints.filter(point =>
-    point.areas.map(area => area.toLowerCase()).includes(map.Name)
+    point.areas.map(area => area.toLowerCase()).includes(map.mapinfo.Name)
   )
 }
 

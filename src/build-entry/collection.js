@@ -4,12 +4,12 @@ import '../main.scss'
 import { getXb2mapByName } from '../xb2map'
 import { collectionIcon, collectionCurrent } from '../markerIcon'
 import { setContainerHeight, onMapSpace } from '../utils'
-import gmkBase from '../data/gmk_tbox.json'
-import gmkIra from '../data/gmk_tbox_ira.json'
+import gmkBase from '../data/gmk_collection'
+import gmkIra from '../data/gmk_collection_ira.json'
 
 const gmk = [...gmkBase, ...gmkIra]
 
-export default function draw (element) {
+function draw (element) {
   const mapName = $(element).data('mapName').toLowerCase()
   const highlightCollectionType = $(element).data('highlightCollectionType')
 
@@ -25,7 +25,7 @@ export default function draw (element) {
       icon = collectionIcon
       zIndexOffset = 0
     }
-    map.addMarker(point, { icon, zIndexOffset }, point.Name)
+    map.addMarker(point, { icon, zIndexOffset }/* , point.Name */)
   })
 
   // 右下角展开全部
