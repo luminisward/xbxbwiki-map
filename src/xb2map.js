@@ -56,13 +56,8 @@ class Xb2map extends L.Map {
       marker.bindTooltip(tooltip)
     }
 
-    // 开关截图
-    marker.on('click', () => {
-      // $(`#${point.Name}`).slideToggle()
-      $(`#${point.Name}`).find(`[title="场景截图:${point.Name}"]`)[0].click()
-    })
-
     this.addLayer(marker)
+    return marker
   }
 }
 

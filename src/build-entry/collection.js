@@ -25,7 +25,13 @@ function draw (element) {
       icon = collectionIcon
       zIndexOffset = 0
     }
-    map.addMarker(point, { icon, zIndexOffset }/* , point.Name */)
+    const marker = map.addMarker(point, { icon, zIndexOffset }/* , point.Name */)
+
+    // 开关截图
+    marker.on('click', () => {
+      // $(`#${point.Name}`).slideToggle()
+      $(`#${point.Name}`).find(`[title="场景截图:${point.Name}"]`)[0].click()
+    })
   })
 
   // 右下角展开全部
