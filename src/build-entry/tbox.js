@@ -1,3 +1,4 @@
+import L from 'leaflet'
 import $ from 'jquery'
 import '../main.scss'
 
@@ -17,8 +18,6 @@ function draw (element) {
     .map(s => s.toLowerCase())
   const mapName = $(element).data('mapName')
 
-  const addMarker = point => { map.addMarker(point, { icon }) }
-
   let map
   if (gmkIds.length > 0) {
     // 指定宝箱列表
@@ -32,7 +31,9 @@ function draw (element) {
       const mapId = mapName ? mapName.toLowerCase() : areas[0]
       map = getXb2mapByName(element, mapId)
 
-      onMapSpace(inputGmks, map).forEach(addMarker)
+      onMapSpace(inputGmks, map).forEach(point => {
+        map.addMarker(point, { icon })
+      })
     } else {
       throw Error('No valid gmk id.')
     }
@@ -40,7 +41,40 @@ function draw (element) {
     // 未指定宝箱列表，展示指定地图上所有宝箱
     const mapId = mapName.toLowerCase()
     map = getXb2mapByName(element, mapId)
-    onMapSpace(gmk, map).forEach(addMarker)
+    onMapSpace(gmk, map).forEach(point => {
+      const marker = map.addMarker(point, { icon })
+
+      marker.on('mouseover', () => {
+        if (!marker._tooltip) {
+          marker._tooltip = 1
+          $.ajax({
+            url: `/api.php?action=ask&query=[[TboxGmkName::${point.Name}]]|?FieldSkill|?TboxPop|?Gold&format=json`,
+            success: response => {
+              const pageData = Object.values(response.query.results)[0]
+              const popItem = pageData.printouts.TboxPop.join('<br>')
+              const popGold = pageData.printouts.Gold[0] + ' G'
+              const fieldSkill = pageData.printouts.FieldSkill.join('<br>')
+              const content = [pageData.fulltext, fieldSkill, popGold, popItem].filter(Boolean).join('<hr>')
+              const tooltip = L.tooltip({
+                direction: 'bottom',
+                offset: L.point(0, 18)
+              }).setContent(content)
+              marker.bindTooltip(tooltip).openTooltip()
+            }
+          })
+        }
+      })
+
+      marker.on('click', () => {
+        $.ajax({
+          url: `/api.php?action=ask&query=[[TboxGmkName::${point.Name}]]&format=json`,
+          success: response => {
+            const redirectUrl = Object.values(response.query.results)[0].fullurl
+            window.location = redirectUrl
+          }
+        })
+      })
+    })
   }
 
   // 右下角显示地名
