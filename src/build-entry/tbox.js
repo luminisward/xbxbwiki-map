@@ -17,6 +17,8 @@ function draw (element) {
     .map(s => s.toLowerCase())
   const mapName = $(element).data('mapName')
 
+  const addMarker = point => { map.addMarker(point, { icon }) }
+
   let map
   if (gmkIds.length > 0) {
     // 指定宝箱列表
@@ -30,9 +32,7 @@ function draw (element) {
       const mapId = mapName ? mapName.toLowerCase() : areas[0]
       map = getXb2mapByName(element, mapId)
 
-      onMapSpace(inputGmks, map).forEach(point => {
-        map.addMarker(point, { icon }, point.Name)
-      })
+      onMapSpace(inputGmks, map).forEach(addMarker)
     } else {
       throw Error('No valid gmk id.')
     }
@@ -40,9 +40,7 @@ function draw (element) {
     // 未指定宝箱列表，展示指定地图上所有宝箱
     const mapId = mapName.toLowerCase()
     map = getXb2mapByName(element, mapId)
-    onMapSpace(gmk, map).forEach(point => {
-      map.addMarker(point, { icon }, point.Name)
-    })
+    onMapSpace(gmk, map).forEach(addMarker)
   }
 
   // 右下角显示地名
