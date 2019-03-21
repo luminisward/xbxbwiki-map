@@ -6,8 +6,8 @@ config.externals = {
   leaflet: 'L'
 }
 config.entry = {
-  collection: './src/collection.js',
-  tbox: './src/tbox.js'
+  collection: './src/build-entry/collection.js',
+  tbox: './src/build-entry/tbox.js'
 }
 config.plugins.push(...[
   new UglifyJsPlugin({
