@@ -48,10 +48,10 @@ function draw (element) {
         if (!marker._tooltip) {
           marker._tooltip = 1
           $.ajax({
-            url: `/api.php?action=ask&query=[[TboxGmkName::${point.Name}]]|?FieldSkill|?TboxPop|?Gold&format=json`,
+            url: `/api.php?action=ask&query=[[TboxGmkName::${point.Name}]]|?FieldSkill|?TboxPopDisplay|?Gold&format=json`,
             success: response => {
               const pageData = Object.values(response.query.results)[0]
-              const popItem = pageData.printouts.TboxPop.join('<br>')
+              const popItem = pageData.printouts.TboxPopDisplay.join('<br>')
               const popGold = pageData.printouts.Gold[0] + ' G'
               const fieldSkill = pageData.printouts.FieldSkill.join('<br>')
               const content = [pageData.fulltext, fieldSkill, popGold, popItem].filter(Boolean).join('<hr>')
