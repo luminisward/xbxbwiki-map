@@ -1190,13 +1190,6 @@
   "areas": ["ma07a_b_floor_01"]
 }, {
   "Map": "ma08a",
-  "Name": "tbox_qst1029_001",
-  "PosX": -321.0445,
-  "PosY": -137.9982,
-  "PosZ": -12.46298,
-  "areas": ["ma08a_rowf_1"]
-}, {
-  "Map": "ma08a",
   "Name": "tbox_qst1016_002",
   "PosX": 316.0282,
   "PosY": -36.0772,
@@ -1306,7 +1299,7 @@
   "PosX": -127.845,
   "PosY": 66.88013,
   "PosZ": 124.7762,
-  "areas": ["ma08a_upf_1"]
+  "areas": ["ma08a_city_f_3"]
 }, {
   "Map": "ma08a",
   "Name": "tbox_ma08a_c014",
