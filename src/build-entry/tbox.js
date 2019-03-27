@@ -12,10 +12,12 @@ const gmk = [...gmkBase, ...gmkIra]
 
 function draw (element) {
   const gmkIds = $(element).data('gmkId')
-    .trim()
-    .split(' ')
-    .filter(s => s.length > 0)
-    .map(s => s.toLowerCase())
+    ? $(element).data('gmkId')
+      .trim()
+      .split(' ')
+      .filter(s => s.length > 0)
+      .map(s => s.toLowerCase())
+    : []
   const mapName = $(element).data('mapName')
 
   let map
@@ -52,7 +54,7 @@ function draw (element) {
             success: response => {
               const pageData = Object.values(response.query.results)[0]
               const popItem = pageData.printouts.TboxPopDisplay.join('<br>')
-              const popGold = pageData.printouts.Gold[0] + ' G'
+              const popGold = pageData.printouts.Gold[0] ? pageData.printouts.Gold[0] + ' G' : ''
               const fieldSkill = pageData.printouts.FieldSkill.join('<br>')
               const content = [pageData.fulltext, fieldSkill, popGold, popItem].filter(Boolean).join('<hr>')
               const tooltip = L.tooltip({
