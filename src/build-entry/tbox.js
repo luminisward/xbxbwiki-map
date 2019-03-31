@@ -72,7 +72,7 @@ function draw (element) {
           url: `/api.php?action=ask&query=[[TboxGmkName::${point.Name}]]&format=json`,
           success: response => {
             const redirectUrl = Object.values(response.query.results)[0].fullurl
-            window.location = redirectUrl
+            window.open(redirectUrl, '_blank')
           }
         })
       })
