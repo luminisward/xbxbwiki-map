@@ -805,13 +805,6 @@
   "areas": ["ma07a_a_floor_06"]
 }, {
   "Map": "ma07a",
-  "Name": "tbox_ma07a_c003",
-  "PosX": -142.2283,
-  "PosY": 51,
-  "PosZ": 384.0729,
-  "areas": ["ma07a_a_floor_06"]
-}, {
-  "Map": "ma07a",
   "Name": "tbox_ma07a_c004",
   "PosX": -164.5655,
   "PosY": 64.52354,
