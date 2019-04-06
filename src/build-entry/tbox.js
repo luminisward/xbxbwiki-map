@@ -16,7 +16,6 @@ function draw (element) {
       .trim()
       .split(' ')
       .filter(s => s.length > 0)
-      .map(s => s.toLowerCase())
     : []
   const mapName = $(element).data('mapName')
 
@@ -30,7 +29,7 @@ function draw (element) {
     if (inputGmks.length > 0) {
       // 未指定地图时，使用指定宝箱地图列表里的第一个
       const areas = Array.from(new Set(inputGmks.map(point => point.areas).flat()))
-      const mapId = mapName ? mapName.toLowerCase() : areas[0]
+      const mapId = mapName || areas[0]
       map = getXb2mapByName(element, mapId)
 
       onMapSpace(inputGmks, map).forEach(point => {
@@ -41,7 +40,7 @@ function draw (element) {
     }
   } else {
     // 未指定宝箱列表，展示指定地图上所有宝箱
-    const mapId = mapName.toLowerCase()
+    const mapId = mapName
     map = getXb2mapByName(element, mapId)
     onMapSpace(gmk, map).forEach(point => {
       const marker = map.addMarker(point, { icon })

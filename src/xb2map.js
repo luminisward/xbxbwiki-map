@@ -76,6 +76,7 @@ function xyBounds (bounds) {
 }
 
 function getXb2mapByName (element, name) {
+  name = name.toLowerCase()
   if (name in mapinfos) {
     const themapinfo = mapinfos[name]
     themapinfo.Name = name

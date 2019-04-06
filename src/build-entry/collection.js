@@ -10,7 +10,7 @@ import gmkIra from '../data/gmk_collection_ira.json'
 const gmk = [...gmkBase, ...gmkIra]
 
 function draw (element) {
-  const mapName = $(element).data('mapName').toLowerCase()
+  const mapName = $(element).data('mapName')
   const highlightCollectionType = $(element).data('highlightCollectionType')
 
   const map = getXb2mapByName(element, mapName)
