@@ -1,1671 +1,1432 @@
 [{
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f001",
   "PosX": -390.9238,
   "PosY": -68.84913,
   "PosZ": 666.5407,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f002",
   "PosX": -451.2701,
   "PosY": -73.21535,
   "PosZ": 582.6551,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f003_r",
   "PosX": -361.4084,
   "PosY": -56.6,
   "PosZ": 655.8338,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f005_r",
   "PosX": -132.189,
   "PosY": -75.5,
   "PosZ": 580.8785,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f004",
   "PosX": -347.0497,
   "PosY": -67.93124,
   "PosZ": 535.949,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f029",
   "PosX": -292.8561,
   "PosY": -69.20647,
   "PosZ": 602.6772,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f030",
   "PosX": -284.3377,
   "PosY": -65.91939,
   "PosZ": 717.522,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f054_s",
   "PosX": -317.6344,
   "PosY": -68.99979,
   "PosZ": 547.3267,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f006",
   "PosX": -243.1495,
   "PosY": -59.43751,
   "PosZ": 520.2144,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f007",
   "PosX": -174.9063,
   "PosY": -66.8,
   "PosZ": 445.6588,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f031",
   "PosX": -231.8061,
   "PosY": -63.33228,
   "PosZ": 341.8286,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f032",
   "PosX": -259.2119,
   "PosY": -65.1796,
   "PosZ": 427.5859,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f045_r",
   "PosX": -177.9312,
   "PosY": -53.76759,
   "PosZ": 340.3593,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f052_r_s",
   "PosX": -165.5605,
   "PosY": -82.83351,
   "PosZ": 389.5226,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f008",
   "PosX": -335.3761,
   "PosY": -64.93451,
   "PosZ": 232.9735,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f009",
   "PosX": -328.5749,
   "PosY": -52.93388,
   "PosZ": 197.0723,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f033",
   "PosX": -275.1809,
   "PosY": -49.21531,
   "PosZ": 164.7125,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f010",
   "PosX": 402.8557,
   "PosY": -90,
   "PosZ": 295.4294,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f034",
   "PosX": 427.961,
   "PosY": -87,
   "PosZ": 270.512,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f035",
   "PosX": 404.6912,
   "PosY": -85.99937,
   "PosZ": 330.4988,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f025",
   "PosX": 418.0242,
   "PosY": -80,
   "PosZ": 311.1221,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f053_r",
   "PosX": 385.6473,
   "PosY": -93.92136,
   "PosZ": 246.9713,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f011",
   "PosX": 396.0382,
   "PosY": -154.9282,
   "PosZ": 434.8777,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f015",
   "PosX": 131.3511,
   "PosY": -92.0724,
   "PosZ": 592.5015,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f036_r",
   "PosX": 166.3825,
   "PosY": -92.03938,
   "PosZ": 383.0909,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f037",
   "PosX": 230.6597,
   "PosY": -77.52127,
   "PosZ": 460.61,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f038_r_s",
   "PosX": 267.0298,
   "PosY": -99.07622,
   "PosZ": 419.8551,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f039_r2_s",
   "PosX": 279.2043,
   "PosY": -98.50102,
   "PosZ": 599.5468,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f040",
   "PosX": 376.8945,
   "PosY": -83.84871,
   "PosZ": 603.2385,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f041",
   "PosX": 369.4737,
   "PosY": -108.0693,
   "PosZ": 541.6461,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f042",
   "PosX": 137.349,
   "PosY": -87.51044,
   "PosZ": 537.1487,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f043",
   "PosX": 209.3803,
   "PosY": -99.74078,
   "PosZ": 471.9257,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f017",
   "PosX": 182.3972,
   "PosY": -59.84566,
   "PosZ": 449.6703,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f027",
   "PosX": 170.9483,
   "PosY": -70.01298,
   "PosZ": 473.8366,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f026",
   "PosX": 268.2307,
   "PosY": -98.13424,
   "PosZ": 601.4329,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f056",
   "PosX": 172.2197,
   "PosY": -52.88126,
   "PosZ": 397.394,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f012_r2",
   "PosX": 206.875,
   "PosY": -84.06364,
   "PosZ": 281.8656,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f013_r2",
   "PosX": 244.5437,
   "PosY": -73.11008,
   "PosZ": 231.0325,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f014_r2",
   "PosX": 213.4657,
   "PosY": -74.00284,
   "PosZ": 190.1981,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f062_r1",
   "PosX": 202.2771,
   "PosY": -73.01929,
   "PosZ": 185.0824,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f063_r2",
   "PosX": 221.1119,
   "PosY": -73.96472,
   "PosZ": 181.132,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f064_r1",
   "PosX": 227.3173,
   "PosY": -72.54955,
   "PosZ": 187.2252,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f044",
   "PosX": 82.34206,
   "PosY": -41.00003,
   "PosZ": 395.2482,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f016",
   "PosX": 89.14886,
   "PosY": -45.85,
   "PosZ": 490.862,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f028",
   "PosX": 120.3435,
   "PosY": -35.74013,
   "PosZ": -147.6143,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f018_s",
   "PosX": 83.85215,
   "PosY": -9.196585,
   "PosZ": -35.58387,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f019_r",
   "PosX": -49.0859,
   "PosY": -45.4569,
   "PosZ": 191.1329,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f020_r",
   "PosX": -81.04734,
   "PosY": -57.94358,
   "PosZ": 56.96897,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f021",
   "PosX": -28.95698,
   "PosY": -65.95641,
   "PosZ": 51.94657,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f022",
   "PosX": 10.31298,
   "PosY": -26.45793,
   "PosZ": 111.6273,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f023_r",
   "PosX": -85.81956,
   "PosY": -56.63239,
   "PosZ": -43.40474,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f024",
   "PosX": -296.8222,
   "PosY": -30.62074,
   "PosZ": 243.9634,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f051",
   "PosX": 34.0147,
   "PosY": -2.533155,
   "PosZ": -1.270775,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f046_r",
   "PosX": 56.49217,
   "PosY": -29.0087,
   "PosZ": -37.59235,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f050",
   "PosX": 44.1203,
   "PosY": -36.3,
   "PosZ": -119.229,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f048",
   "PosX": 116.8882,
   "PosY": -31.04682,
   "PosZ": -209.3967,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f049_r",
   "PosX": -63.28366,
   "PosY": -16.20956,
   "PosZ": -378.5042,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f047",
   "PosX": 143.5173,
   "PosY": -28.85801,
   "PosZ": 56.07206,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f055_r_s",
   "PosX": 145.5875,
   "PosY": -23.27595,
   "PosZ": -6.115646,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f057",
   "PosX": 82.15741,
   "PosY": -36.78924,
   "PosZ": 325.9506,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f058_s",
   "PosX": 71.30978,
   "PosY": -42.06337,
   "PosZ": 118.0591,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f059_r2_s",
   "PosX": -37.24343,
   "PosY": -1.78986,
   "PosZ": -162.8606,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f060_r",
   "PosX": -60.26949,
   "PosY": -3.201394,
   "PosZ": -92.25452,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_f061_r",
   "PosX": 5.84666,
   "PosY": -4.610184,
   "PosZ": 217.1319,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_d001",
   "PosX": -78.93619,
   "PosY": 21.17032,
   "PosZ": 629.68,
   "areas": ["dlc3_ma40a_d01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_d002_r",
   "PosX": 12.02507,
   "PosY": 20.71108,
   "PosZ": 688.0106,
   "areas": ["dlc3_ma40a_d01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_d003",
   "PosX": 14.907,
   "PosY": 68.61797,
   "PosZ": 752.7847,
   "areas": ["dlc3_ma40a_d02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_d004",
   "PosX": 21.83157,
   "PosY": 78.17465,
   "PosZ": 708.2809,
   "areas": ["dlc3_ma40a_d02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_d005",
   "PosX": 170.7899,
   "PosY": 161.5,
   "PosZ": 713.9109,
   "areas": ["dlc3_ma40a_d04"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_d006_r",
   "PosX": -70.19271,
   "PosY": 133.9481,
   "PosZ": 788.613,
   "areas": ["dlc3_ma40a_d03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_d007",
   "PosX": -10.94369,
   "PosY": 120.982,
   "PosZ": 786.3103,
   "areas": ["dlc3_ma40a_d03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_d008",
   "PosX": -8.729435,
   "PosY": 14.4112,
   "PosZ": 684.6818,
   "areas": ["dlc3_ma40a_d01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_d009",
   "PosX": 63.41559,
   "PosY": 142.4047,
   "PosZ": 828.3304,
   "areas": ["dlc3_ma40a_d03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_d010_r2",
   "PosX": 198.5568,
   "PosY": 164,
   "PosZ": 711.1285,
   "areas": ["dlc3_ma40a_d04"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_d011_r",
   "PosX": 198.1372,
   "PosY": 164,
   "PosZ": 683.2445,
   "areas": ["dlc3_ma40a_d04"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_d012",
   "PosX": -11.53148,
   "PosY": 138,
   "PosZ": 663.2711,
   "areas": ["dlc3_ma40a_d03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n001",
   "PosX": -168.4243,
   "PosY": -64.61259,
   "PosZ": 466.999,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n002",
   "PosX": -165.4281,
   "PosY": -64.62415,
   "PosZ": 460.0225,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n003",
   "PosX": -166.8159,
   "PosY": -64.67486,
   "PosZ": 459.5372,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n004",
   "PosX": -176.9967,
   "PosY": -59.4,
   "PosZ": 342.5082,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n005",
   "PosX": -176.1046,
   "PosY": -59.4,
   "PosZ": 341.595,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n006",
   "PosX": -179.5277,
   "PosY": -59.4,
   "PosZ": 339.7583,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n007",
   "PosX": -331.1725,
   "PosY": -54.92136,
   "PosZ": 189.0662,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n008",
   "PosX": -332.471,
   "PosY": -54.92136,
   "PosZ": 189.4572,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n009",
   "PosX": -330.4229,
   "PosY": -53.91921,
   "PosZ": 215.8168,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n010",
   "PosX": -328.8044,
   "PosY": -54.92136,
   "PosZ": 178.3372,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n011",
   "PosX": 404.9075,
   "PosY": -87,
   "PosZ": 271.0662,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n012",
   "PosX": 404.7822,
   "PosY": -87,
   "PosZ": 269.748,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n013",
   "PosX": 408.3259,
   "PosY": -87,
   "PosZ": 261.9796,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n014",
   "PosX": 366.2224,
   "PosY": -83,
   "PosZ": 308.9969,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n015",
   "PosX": 367.6971,
   "PosY": -83,
   "PosZ": 308.9969,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n016",
   "PosX": 358.7301,
   "PosY": -83,
   "PosZ": 314.9299,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n017",
   "PosX": 357.8453,
   "PosY": -83,
   "PosZ": 313.9738,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n018",
   "PosX": 415.8989,
   "PosY": -83.8,
   "PosZ": 318.1183,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n019",
   "PosX": 414.6032,
   "PosY": -83.8,
   "PosZ": 318.6124,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n020",
   "PosX": 406.8949,
   "PosY": -116,
   "PosZ": 474.4081,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n021",
   "PosX": 408.1736,
   "PosY": -116,
   "PosZ": 474.6143,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n022",
   "PosX": 372.9843,
   "PosY": -155,
   "PosZ": 433.3335,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n024",
   "PosX": 359.3791,
   "PosY": -142,
   "PosZ": 507.5772,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n025",
   "PosX": 368.8141,
   "PosY": -142,
   "PosZ": 516.2501,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n026",
   "PosX": 137.6571,
   "PosY": -45.4,
   "PosZ": 452.0175,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n027",
   "PosX": 140.5919,
   "PosY": -45.99724,
   "PosZ": 446.8435,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n028",
   "PosX": 142.2776,
   "PosY": -45.92102,
   "PosZ": 446.4882,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n029",
   "PosX": 108.8492,
   "PosY": -41.97071,
   "PosZ": 400.7144,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n030",
   "PosX": 107.1723,
   "PosY": -41.97071,
   "PosZ": 400.4419,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n031",
   "PosX": 122.0099,
   "PosY": -13.31681,
   "PosZ": -21.68242,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n032",
   "PosX": 367.1268,
   "PosY": -155,
   "PosZ": 442.9023,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n033",
   "PosX": 152.2256,
   "PosY": -45.53861,
   "PosZ": 460.4922,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n034",
   "PosX": 7.870677,
   "PosY": -27.03544,
   "PosZ": 151.2769,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n035",
   "PosX": 211.6084,
   "PosY": -73.47627,
   "PosZ": 166.5133,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_n036",
   "PosX": 221.3062,
   "PosY": -73.33516,
   "PosZ": 166.4652,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_w001",
   "PosX": -263.4958,
   "PosY": -72.5,
   "PosZ": 799.0849,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_w003",
   "PosX": 151.438,
   "PosY": -91.86394,
   "PosZ": 466.3795,
   "areas": ["dlc3_ma40a_f02"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_w004",
   "PosX": 198.2622,
   "PosY": -26,
   "PosZ": 267.991,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_w002",
   "PosX": -241.1822,
   "PosY": -54,
   "PosZ": 172.2549,
   "areas": ["dlc3_ma40a_f01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c001",
   "PosX": 74.05956,
   "PosY": -18.63567,
   "PosZ": -497.6735,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c002",
   "PosX": 7.414625,
   "PosY": -24.01887,
   "PosZ": -457.22,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c003",
   "PosX": -59.81285,
   "PosY": -16.41277,
   "PosZ": -633.1845,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c004",
   "PosX": -138.7766,
   "PosY": -16.79901,
   "PosZ": -613.3425,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c005",
   "PosX": 107.8489,
   "PosY": -15.08002,
   "PosZ": -574.287,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c006",
   "PosX": 22.91901,
   "PosY": -7.431838,
   "PosZ": -640.5266,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c007",
   "PosX": -114.2496,
   "PosY": -7.403065,
   "PosZ": -656.0821,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c008",
   "PosX": -21.73715,
   "PosY": -7.437951,
   "PosZ": -587.0331,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c009",
   "PosX": -103.8049,
   "PosY": -7.279862,
   "PosZ": -579.5688,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c010",
   "PosX": 133.9511,
   "PosY": -97.56198,
   "PosZ": -580.3173,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c011",
   "PosX": -74.68645,
   "PosY": 6.586668,
   "PosZ": -549.0165,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c001n",
   "PosX": -19.16018,
   "PosY": -7.713091,
   "PosZ": -484.5656,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c002n",
   "PosX": -20.16018,
   "PosY": -7.713091,
   "PosZ": -484.5656,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c003n",
   "PosX": -19.16018,
   "PosY": -7.713091,
   "PosZ": -483.5656,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c004n",
   "PosX": -116.2,
   "PosY": -15.07614,
   "PosZ": -508.75,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c005n",
   "PosX": -117.2,
   "PosY": -15.07614,
   "PosZ": -508.75,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c006n",
   "PosX": 133.4792,
   "PosY": -17.82608,
   "PosZ": -622.1555,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c007n",
   "PosX": 132.7795,
   "PosY": -17.82244,
   "PosZ": -621.1392,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c008n",
   "PosX": -75.99947,
   "PosY": -15.08608,
   "PosZ": -595.2781,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c009n",
   "PosX": -137.6232,
   "PosY": -9.061275,
   "PosZ": -617.1273,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c010n",
   "PosX": -138.8136,
   "PosY": -9.061276,
   "PosZ": -622.2073,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c011n",
   "PosX": -137.6348,
   "PosY": -9.061276,
   "PosZ": -621.7217,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c012n",
   "PosX": -65.45701,
   "PosY": -7.43795,
   "PosZ": -638.5493,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c013n",
   "PosX": -65.45701,
   "PosY": -7.437948,
   "PosZ": -637.5493,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c014n",
   "PosX": -65.33908,
   "PosY": -7.489028,
   "PosZ": -710.871,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c015n",
   "PosX": -65.33908,
   "PosY": -7.489028,
   "PosZ": -709.871,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c016n",
   "PosX": 43.66285,
   "PosY": -7.298905,
   "PosZ": -584.5441,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c017n",
   "PosX": 45.42834,
   "PosY": -7.298906,
   "PosZ": -584.6805,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c018n",
   "PosX": 71.62537,
   "PosY": -16.41277,
   "PosZ": -539.172,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c019n",
   "PosX": 71.62537,
   "PosY": -16.41277,
   "PosZ": -538.172,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_ma40a_c020n",
   "PosX": -38.81625,
   "PosY": 13.1352,
   "PosZ": -601.78,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_qst7028_001",
   "PosX": -97.18565,
   "PosY": -7.279862,
   "PosZ": -585.0098,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_qst7028_002",
   "PosX": -97.54771,
   "PosY": -7.279862,
   "PosZ": -580.73,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_qst7028_003",
   "PosX": -98.68538,
   "PosY": -7.279862,
   "PosZ": -583.7,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_qst7028_004",
   "PosX": -96.79182,
   "PosY": -7.279862,
   "PosZ": -582.2498,
   "areas": ["dlc3_ma40a_c01"]
 }, {
-  "Map": "ma40a",
   "Name": "tbox_qst7112_001",
   "PosX": 230.1654,
   "PosY": -13.0646,
   "PosZ": 79.98994,
   "areas": ["dlc3_ma40a_f03"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_qst7012_001",
   "PosX": -573.0026,
   "PosY": 24.08741,
   "PosZ": 136.9286,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_qst7012_002",
   "PosX": 367.2032,
   "PosY": -9.245308,
   "PosZ": 191.8913,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_qst7031_001",
   "PosX": -273.42,
   "PosY": -8.9,
   "PosZ": 263.19,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f001",
   "PosX": -184.7931,
   "PosY": -32.50531,
   "PosZ": 275.6611,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f002_r",
   "PosX": -273.9897,
   "PosY": -8.457199,
   "PosZ": 317.1832,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f003",
   "PosX": -137.2523,
   "PosY": -8.984197,
   "PosZ": 317.9235,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f004",
   "PosX": -35.38125,
   "PosY": -14.49824,
   "PosZ": 253.4487,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f005",
   "PosX": 112.0603,
   "PosY": -4.404269,
   "PosZ": -47.77431,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f006",
   "PosX": 389.6884,
   "PosY": -8.823353,
   "PosZ": 180.4862,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f007",
   "PosX": 502.7722,
   "PosY": -17.13282,
   "PosZ": 168.9258,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f008",
   "PosX": 712.5606,
   "PosY": -42.7498,
   "PosZ": 41.56308,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f009",
   "PosX": 647.446,
   "PosY": -14.7971,
   "PosZ": -144.0195,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f010_r",
   "PosX": -231.7974,
   "PosY": 27.99569,
   "PosZ": -183.7274,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f011",
   "PosX": 407.2062,
   "PosY": -29.32022,
   "PosZ": 107.463,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f012",
   "PosX": 258.3834,
   "PosY": -3.371238,
   "PosZ": -126.6013,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f013",
   "PosX": 238.2349,
   "PosY": -29.26886,
   "PosZ": -201.3002,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f014",
   "PosX": 143.5938,
   "PosY": 14.34078,
   "PosZ": -64.12698,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f015_r",
   "PosX": 242.8269,
   "PosY": 80.0369,
   "PosZ": -238.8066,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f016",
   "PosX": 187.9918,
   "PosY": 36.74956,
   "PosZ": -91.31631,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f017_r_s",
   "PosX": -237.4477,
   "PosY": 68.07143,
   "PosZ": -444.7166,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f018",
   "PosX": 104.0619,
   "PosY": -3.777586,
   "PosZ": -283.8582,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f019",
   "PosX": -14.51073,
   "PosY": 11.3473,
   "PosZ": -21.66547,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f020_r_s",
   "PosX": -306.4045,
   "PosY": -6.744402,
   "PosZ": 120.4608,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f021",
   "PosX": -464.452,
   "PosY": 22.76903,
   "PosZ": 294.7841,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f022",
   "PosX": -508.922,
   "PosY": 16.55693,
   "PosZ": 121.6646,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f023_r_s",
   "PosX": 676.3937,
   "PosY": -29.42434,
   "PosZ": 185.7043,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f024_r",
   "PosX": 217.6916,
   "PosY": 110.8272,
   "PosZ": -367.6104,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f025",
   "PosX": -5.608128,
   "PosY": -37.53581,
   "PosZ": -33.3343,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f026",
   "PosX": -548.0415,
   "PosY": -13.29642,
   "PosZ": 126.6216,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f027",
   "PosX": -66.62323,
   "PosY": -34.44164,
   "PosZ": 267.7476,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f028",
   "PosX": -232.1768,
   "PosY": -9.35627,
   "PosZ": 363.6956,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f029",
   "PosX": -229.511,
   "PosY": 68.07143,
   "PosZ": -447.4955,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f030",
   "PosX": -13.60035,
   "PosY": 19.22872,
   "PosZ": -46.85671,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f031",
   "PosX": -188.6145,
   "PosY": -1.638931,
   "PosZ": 151.8672,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f032",
   "PosX": -212.7843,
   "PosY": -12.00722,
   "PosZ": 143.5339,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f033",
   "PosX": -123.0934,
   "PosY": -5.040118,
   "PosZ": 95.83994,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f034",
   "PosX": -284.626,
   "PosY": -8.085324,
   "PosZ": -70.87855,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f035",
   "PosX": -90.22443,
   "PosY": -2.39373,
   "PosZ": 11.37154,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f036",
   "PosX": 67.55545,
   "PosY": -20.99816,
   "PosZ": 149.1423,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f037_r_s",
   "PosX": 464.9579,
   "PosY": -16.57743,
   "PosZ": 160.7921,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f038_r2",
   "PosX": -83.30984,
   "PosY": 104.1954,
   "PosZ": -512.2153,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f039_r2_s",
   "PosX": 71.81699,
   "PosY": 85.76839,
   "PosZ": -519.0435,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f040_r",
   "PosX": -348.7995,
   "PosY": 126.4013,
   "PosZ": -161.6052,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f041_r_s",
   "PosX": -309.2234,
   "PosY": 79.86505,
   "PosZ": -177.1566,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f042",
   "PosX": -324.5941,
   "PosY": 4.801344,
   "PosZ": -162.9947,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f043",
   "PosX": -432.0713,
   "PosY": 18.54115,
   "PosZ": -119.6497,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f044_r_s",
   "PosX": -388.1979,
   "PosY": 6.020233,
   "PosZ": -146.8949,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f045",
   "PosX": 75.67133,
   "PosY": 57.9668,
   "PosZ": -240.9827,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f046_r",
   "PosX": 193.7566,
   "PosY": 117.9951,
   "PosZ": -330.537,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f047_r",
   "PosX": 273.524,
   "PosY": 88.02692,
   "PosZ": -451.0282,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f048",
   "PosX": -139.3433,
   "PosY": -20.94614,
   "PosZ": -447.8244,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f049_r",
   "PosX": 70.0427,
   "PosY": 17.10234,
   "PosZ": -159.609,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f050",
   "PosX": 570.978,
   "PosY": -31.20484,
   "PosZ": 67.43172,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f051",
   "PosX": 10.69785,
   "PosY": -25.62857,
   "PosZ": 192.9621,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f052_r",
   "PosX": 35.20504,
   "PosY": 91.58323,
   "PosZ": -445.5396,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f053",
   "PosX": 210.7424,
   "PosY": -13.01562,
   "PosZ": 141.1633,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f054",
   "PosX": -335.1432,
   "PosY": 12.8012,
   "PosZ": 176.1735,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_f055_r",
   "PosX": -250.9921,
   "PosY": -2.696203,
   "PosZ": 371.3784,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n001",
   "PosX": -279.7541,
   "PosY": -9.180024,
   "PosZ": 241.9687,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n002",
   "PosX": -280.2058,
   "PosY": -9.08544,
   "PosZ": 240.6909,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n003",
   "PosX": -276.1798,
   "PosY": -8.897976,
   "PosZ": 255.6772,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n004",
   "PosX": 143.1187,
   "PosY": -13.63846,
   "PosZ": 144.2642,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n005",
   "PosX": 336.3766,
   "PosY": -5.992255,
   "PosZ": 147.503,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n006",
   "PosX": 342.8552,
   "PosY": -10.21342,
   "PosZ": 148.7608,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n007",
   "PosX": 336.9581,
   "PosY": -6.046261,
   "PosZ": 145.8212,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n008",
   "PosX": 375.0053,
   "PosY": -11.25967,
   "PosZ": 123.27,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n009",
   "PosX": 367.9016,
   "PosY": -11.08997,
   "PosZ": 133.0742,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n010",
   "PosX": 425.2254,
   "PosY": -11.34721,
   "PosZ": 151.2769,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n011",
   "PosX": 431.093,
   "PosY": -9.550714,
   "PosZ": 157.5623,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n012",
   "PosX": 620.4968,
   "PosY": -23.1779,
   "PosZ": 188.6115,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n013",
   "PosX": 619.1097,
   "PosY": -23.13879,
   "PosZ": 189.8109,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n014",
   "PosX": 594.8781,
   "PosY": -30.97401,
   "PosZ": 29.27881,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n015",
   "PosX": 593.9379,
   "PosY": -30.89047,
   "PosZ": 30.61789,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n016",
   "PosX": 153.5651,
   "PosY": 95.32814,
   "PosZ": -317.3793,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n017",
   "PosX": 155.2094,
   "PosY": 95.21189,
   "PosZ": -315.6864,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n018",
   "PosX": -406.9473,
   "PosY": 5.977856,
   "PosZ": -129.2552,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n019",
   "PosX": -407.6354,
   "PosY": 5.890738,
   "PosZ": -130.5111,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n020",
   "PosX": -406.3251,
   "PosY": 5.770271,
   "PosZ": -130.2406,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n021",
   "PosX": 682.3276,
   "PosY": -40.56776,
   "PosZ": 155.9326,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n022",
   "PosX": -239.6512,
   "PosY": 68.32095,
   "PosZ": -435.368,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n023",
   "PosX": 73.66962,
   "PosY": 16.81785,
   "PosZ": -164.5706,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n024",
   "PosX": -354.0322,
   "PosY": 126.3367,
   "PosZ": -166.7653,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n025",
   "PosX": 52.51435,
   "PosY": -26.16028,
   "PosZ": -311.3973,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n026",
   "PosX": 51.90618,
   "PosY": -26.12832,
   "PosZ": -309.5329,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n027",
   "PosX": 83.04141,
   "PosY": -25.08603,
   "PosZ": -257.6843,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n028",
   "PosX": -393.8757,
   "PosY": 28.19416,
   "PosZ": 267.748,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n029",
   "PosX": -230.5,
   "PosY": 68.11959,
   "PosZ": -449.621,
   "areas": ["dlc3_ma41a_f01", "dlc3_ma41a_f01_shipoff"]
 }, {
-  "Map": "ma41a",
   "Name": "tbox_ma41a_n030",
   "PosX": -515.1885,
   "PosY": 16.87768,
