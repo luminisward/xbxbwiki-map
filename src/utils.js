@@ -13,4 +13,25 @@ function onMapSpace (gmkPoints, map) {
   )
 }
 
-export { setContainerHeight, onMapSpace }
+async function askGmkFromWiki (query) {
+  const { query: { results } } = await $.ajax({
+    url: `//192.168.66.118/api.php`,
+    data: {
+      action: 'ask',
+      query: query + '|?PosX|?PosY|?PosZ',
+      format: 'json'
+    }
+  })
+  const points = Object.values(results).map(pageData => {
+    // 兼容addMarker
+    Object.assign(pageData, {
+      PosX: pageData.printouts.PosX[0],
+      PosY: pageData.printouts.PosY[0],
+      PosZ: pageData.printouts.PosZ[0]
+    })
+    return pageData
+  })
+  return points
+}
+
+export { setContainerHeight, onMapSpace, askGmkFromWiki }
