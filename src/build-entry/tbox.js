@@ -17,7 +17,7 @@ async function draw (element) {
   let map
   if (gmkIds.length > 0) {
     // 指定宝箱列表
-    const inputGmks = gmkIds.map(gmkId => askGmkFromWiki(`[[TboxGmkName::${gmkId}]]|?areas|?FieldSkill|?TboxPopDisplay|?Gold|limit=100`))
+    const inputGmks = gmkIds.map(gmkId => askGmkFromWiki(`[[TboxGmkName::${gmkId}]][[宝箱:+||黄金之国宝箱:+]]|?areas|?FieldSkill|?TboxPopDisplay|?Gold|limit=100`))
     let points = await Promise.all(inputGmks)
     points = points.flat().filter(point => point !== undefined)
 
@@ -37,7 +37,7 @@ async function draw (element) {
     const mapId = mapName
     map = getXb2mapByName(element, mapId)
 
-    const query = `[[Areas::${map.mapinfo.Name}]]|?FieldSkill|?TboxPopDisplay|?Gold|limit=100`
+    const query = `[[Areas::${map.mapinfo.Name}]][[宝箱:+||黄金之国宝箱:+]]|?FieldSkill|?TboxPopDisplay|?Gold|limit=100`
     const points = await askGmkFromWiki(query)
 
     points.forEach(point => {
