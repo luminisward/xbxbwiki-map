@@ -4,10 +4,7 @@ import '../main.scss'
 import { getXb2mapByName } from '../xb2map'
 import { collectionIcon, collectionCurrent } from '../markerIcon'
 import { setContainerHeight, onMapSpace } from '../utils'
-import gmkBase from '../data/gmk_collection'
-import gmkIra from '../data/gmk_collection_ira.json'
-
-const gmk = [...gmkBase, ...gmkIra]
+import gmk from '../data/gmk_collection'
 
 function draw (element) {
   const mapName = $(element).data('mapName')
