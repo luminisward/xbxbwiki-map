@@ -45,7 +45,7 @@ module.exports = {
   },
 
   output: {
-    chunkFilename: '[name].js',
+    chunkFilename: 'xb2map.js',
     filename: '[name].js'
   },
 
@@ -74,9 +74,9 @@ module.exports = {
         }
       },
 
-      chunks: 'async',
-      minChunks: 1,
-      minSize: 30000,
+      chunks: 'all',
+      minChunks: 2,
+      minSize: 0,
       name: true
     }
   },
