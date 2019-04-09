@@ -1,5 +1,4 @@
 import $ from 'jquery'
-import { async } from 'q'
 
 function setContainerHeight (element) {
   $(element).height($(element).width() * 0.618)
