@@ -1,4 +1,5 @@
 import $ from 'jquery'
+import { async } from 'q'
 
 function setContainerHeight (element) {
   $(element).height($(element).width() * 0.618)
@@ -13,15 +14,20 @@ function onMapSpace (gmkPoints, map) {
   )
 }
 
-async function askGmkFromWiki (query) {
+async function ask (query) {
   const { query: { results } } = await $.ajax({
-    url: `//192.168.66.118/api.php`,
+    url: `/api.php`,
     data: {
       action: 'ask',
-      query: query + '|?PosX|?PosY|?PosZ',
+      query,
       format: 'json'
     }
   })
+  return results
+}
+
+async function askGmkFromWiki (query) {
+  const results = await ask(query + '|?PosX|?PosY|?PosZ')
   const points = Object.values(results).map(pageData => {
     // 兼容addMarker
     Object.assign(pageData, {
@@ -34,4 +40,4 @@ async function askGmkFromWiki (query) {
   return points
 }
 
-export { setContainerHeight, onMapSpace, askGmkFromWiki }
+export { setContainerHeight, onMapSpace, ask, askGmkFromWiki }
