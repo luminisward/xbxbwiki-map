@@ -4,7 +4,6 @@ import '../main.scss'
 import { getXb2mapByName } from '../xb2map'
 import { collectionIcon, collectionCurrent } from '../markerIcon'
 import { setContainerHeight, ask, askGmkFromWiki } from '../utils'
-import gmk from '../data/gmk_collection'
 
 async function draw (element) {
   const mapName = $(element).data('mapName')
@@ -15,9 +14,8 @@ async function draw (element) {
   const query = `[[Areas::${map.mapinfo.Name}]][[采集点:+||黄金之国采集点:+]]|limit=200`
   const pointsOnMap = await askGmkFromWiki(query)
 
-  const collectionTypes = new Set(pointsOnMap.map(point => point.fulltext.split('#')[0]))
-
   if (highlightCollectionType) {
+    const highlight = (gmkPoint, pageName) => gmkPoint.fulltext.includes(pageName)
     pointsOnMap.forEach(point => {
       let icon, zIndexOffset
       if (highlight(point, highlightCollectionType)) {
@@ -31,7 +29,6 @@ async function draw (element) {
 
       // 开关截图
       marker.on('click', () => {
-      // $(`#${point.Name}`).slideToggle()
         $(`#${point.Name}`).find(`[title="场景截图:${point.Name}"]`)[0].click()
       })
     })
@@ -51,9 +48,12 @@ async function draw (element) {
       }
     })
   } else if (highlightCollectionItem) {
-    const query = `[[采集点:+||黄金之国采集点:+]][[采集物::${highlightCollectionItem}]]|?单次采集数量|?${highlightCollectionItem}PopRate=概率`
-    const highlightTypes = await ask(query)
+    const dynamicAskData = {}
+
+    const query = `采集物::${highlightCollectionItem}`
+    const highlightTypes = await getCollectionPop(query)
     const highlightTypesArray = Object.values(highlightTypes).map(collectionType => collectionType.fulltext)
+    Object.assign(dynamicAskData, highlightTypes)
 
     pointsOnMap.forEach(point => {
       const pointType = point.fulltext.split('#')[0]
@@ -66,31 +66,93 @@ async function draw (element) {
         icon = collectionIcon
         zIndexOffset = 0
       }
-      let tooltipContent = ''
-      if (highlightTypes[pointType]) {
-        tooltipContent = [
-          pointType,
-          highlightTypes[pointType]['printouts']['单次采集数量'][0],
-          highlightTypes[pointType]['printouts']['概率'][0]
-        ].join('<hr>')
-      }
-      map.addMarker(point, { icon, zIndexOffset }, tooltipContent)
+
+      const marker = map.addMarker(point, { icon, zIndexOffset }, pointType.split('/')[1])
+      marker.on('click', () => {
+        window.open(point.fullurl, '_blank')
+      })
+
+      marker.on('mouseover', async function () {
+        if (!dynamicAskData[pointType]) {
+          const result = await getCollectionPop(pointType)
+          Object.assign(dynamicAskData, result)
+        }
+
+        const red = text => `<span style="color:red;">${text}</span>`
+        const printouts = dynamicAskData[pointType]['printouts']
+        const itemPopData = []
+        for (let i = 1; i <= 4; i++) {
+          let row = [
+            printouts['采集道具' + i][0].fulltext.split(':')[1],
+            printouts['采集概率' + i][0] + '%'
+          ]
+
+          if (printouts['采集道具' + i][0].fulltext === highlightCollectionItem) {
+            row = [ red(row[0]), red(row[1]) ]
+          }
+          itemPopData.push(row)
+        }
+        const itemPop = `<table>
+                          <tr>
+                            <td>${itemPopData[0][0]}</td>
+                            <td>${itemPopData[0][1]}</td>
+                          </tr>
+                          <tr>
+                            <td>${itemPopData[1][0]}</td>
+                            <td>${itemPopData[1][1]}</td>
+                          </tr>
+                          <tr>
+                            <td>${itemPopData[2][0]}</td>
+                            <td>${itemPopData[2][1]}</td>
+                          </tr>
+                          <tr>
+                            <td>${itemPopData[3][0]}</td>
+                            <td>${itemPopData[3][1]}</td>
+                          </tr>
+                        </table>`
+
+        this.setTooltipContent([
+          pointType.split('/')[1],
+          '数量: ' + printouts['单次采集数量'][0],
+          itemPop
+        ].join('<hr>'))
+      })
     })
   }
 }
 
-function highlight (gmkPoint, pageName) {
-  return gmkPoint.fulltext.includes(pageName)
-}
-
 async function getCollectionPop (pointType) {
-  const query = `[[${pointType}]]|?采集道具1|?采集道具2|?采集道具3|?采集道具4|?采集概率1|?采集概率2|?采集概率3|?采集概率4`
+  const query = `[[采集点:+||黄金之国采集点:+]][[${pointType}]]|?单次采集数量|?采集道具1|?采集道具2|?采集道具3|?采集道具4|?采集概率1|?采集概率2|?采集概率3|?采集概率4`
   const result = await ask(query)
-  console.log(Object.values(result)[0])
-  return Object.values(result)[0]
+  return result
 }
 
-$('.xb2map').each((index, element) => {
-  setContainerHeight(element)
-  draw(element)
-})
+function load () {
+  $('.xb2map-collection').each((index, element) => {
+    setContainerHeight(element)
+    draw(element)
+  })
+}
+
+async function main () {
+  // multi-map
+  const xb2maps = $('.multi-xb2map-collection').map(async (i, element) => {
+    const highlightCollectionItem = $(element).data('highlightCollectionItem')
+    const query = `[[采集物::${highlightCollectionItem}]]|?Areas`
+    const response = await ask(query)
+    const mapSet = new Set(Object.values(response).map(collectionType => collectionType.printouts.Areas).flat())
+
+    mapSet.forEach(mapName => {
+      const mapElement = $('<div>')
+        .addClass('xb2map-collection')
+        .data('mapName', mapName)
+        .data('highlightCollectionItem', highlightCollectionItem)
+      $(element).append(mapElement)
+    })
+  })
+  await Promise.all(xb2maps)
+
+  // load xb2map
+  load()
+}
+main()
