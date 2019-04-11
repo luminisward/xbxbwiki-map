@@ -38,7 +38,7 @@ async function draw (element) {
 
       const highlight = (gmkPoint, pageName) => gmkPoint.fulltext.includes(pageName)
       pointsOnMap.forEach(point => {
-        const pointType = point.fulltext.split('#')[0]
+        const [pointType, gmkId] = point.fulltext.split('#')
         let icon, zIndexOffset
 
         // marker setting
@@ -53,9 +53,10 @@ async function draw (element) {
         map.addMarker(point, { icon, zIndexOffset }, pointType.split('/')[1])
           .on('click', () => {
             try {
-              $(`#${point.Name}`).find(`[title="场景截图:${point.Name}"]`)[0].click()
+              $(`#${gmkId.replace(/ /g, '_')}`).find(`[title="场景截图:${gmkId.replace(/ /g, '_')}"]`)[0].click()
             } catch (error) {
               window.open(point.fullurl.split('#')[0], '_blank')
+              // throw error
             }
           })
           .on('mouseover', displayPopInfo(pointType))
@@ -100,34 +101,18 @@ function displayPopInfo (collectionType, highlightCollectionItem) {
     const printouts = result[collectionType]['printouts']
     const itemPopData = []
     for (let i = 1; i <= 4; i++) {
-      let row = [
-        printouts['采集道具' + i][0].fulltext.split(':')[1],
-        printouts['采集概率' + i][0] + '%'
-      ]
-
-      if (highlightCollectionItem && printouts['采集道具' + i][0].fulltext === highlightCollectionItem) {
-        row = [ red(row[0]), red(row[1]) ]
+      if (printouts['采集道具' + i][0]) {
+        let row = [
+          printouts['采集道具' + i][0].fulltext.split(':')[1],
+          printouts['采集概率' + i][0] + '%'
+        ]
+        if (highlightCollectionItem && printouts['采集道具' + i][0].fulltext === highlightCollectionItem) {
+          row = [ red(row[0]), red(row[1]) ]
+        }
+        itemPopData.push(row)
       }
-      itemPopData.push(row)
     }
-    const itemPop = `<table class="item-pop">
-                      <tr>
-                        <td>${itemPopData[0][0]}</td>
-                        <td>${itemPopData[0][1]}</td>
-                      </tr>
-                      <tr>
-                        <td>${itemPopData[1][0]}</td>
-                        <td>${itemPopData[1][1]}</td>
-                      </tr>
-                      <tr>
-                        <td>${itemPopData[2][0]}</td>
-                        <td>${itemPopData[2][1]}</td>
-                      </tr>
-                      <tr>
-                        <td>${itemPopData[3][0]}</td>
-                        <td>${itemPopData[3][1]}</td>
-                      </tr>
-                    </table>`
+    const itemPop = '<table class="item-pop">' + itemPopData.map(row => `<tr><td>${row[0]}</td><td>${row[1]}</td></tr>`).join('') + '</table>'
     this.setTooltipContent([ collectionType.split('/')[1], '数量: ' + printouts['单次采集数量'][0], itemPop ].join('<hr>'))
   }
 }
