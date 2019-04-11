@@ -35,7 +35,7 @@ async function draw (element) {
   } else {
     // 未指定宝箱列表，展示指定地图上所有宝箱
     const mapId = mapName
-    map = getXb2mapByName(element, mapId)
+    map = await getXb2mapByName(element, mapId)
 
     const query = `[[Areas::${map.mapinfo.Name}]][[宝箱:+||黄金之国宝箱:+]]|?FieldSkill|?TboxPopDisplay|?Gold|limit=100`
     const points = await askGmkFromWiki(query)
@@ -55,11 +55,14 @@ async function draw (element) {
   }
 
   // 右下角显示地名
-  map.attributionControl.setPrefix(map.mapinfo.mapName + '・' + map.mapinfo.menuGroup)
-  map.attributionControl.addAttribution('<a href="//xenoblade2.cn">XENOBLADE2.CN</a>')
+  map.attributionControl.setPrefix('<a href="//xenoblade2.cn">XENOBLADE2.CN</a>')
+  map.attributionControl.addAttribution(map.mapinfo.mapName + '・' + map.mapinfo.menuGroup)
 }
 
-$('.xb2map-tbox').each((index, element) => {
-  setContainerHeight(element)
-  draw(element)
-})
+async function main () {
+  for (const element of $('.xb2map-tbox')) {
+    setContainerHeight(element)
+    await draw(element)
+  }
+}
+main()
