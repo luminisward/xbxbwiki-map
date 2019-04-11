@@ -6,116 +6,129 @@ import { collectionIcon, collectionCurrent } from '../markerIcon'
 import { setContainerHeight, ask, askGmkFromWiki } from '../utils'
 
 async function draw (element) {
-  const mapName = $(element).data('mapName')
+  // 判断输入的是采集类型还是道具名
   const highlightCollectionType = $(element).data('highlightCollectionType')
   const highlightCollectionItem = $(element).data('highlightCollectionItem')
+  const mode = highlightCollectionType ? 'CollectionType' : (highlightCollectionItem ? 'CollectionItem' : null)
 
-  const map = getXb2mapByName(element, mapName)
-  // 右下角显示地名
-  map.attributionControl.setPrefix(map.mapinfo.mapName + '・' + map.mapinfo.menuGroup)
-  map.attributionControl.addAttribution('<a href="//xenoblade2.cn">XENOBLADE2.CN</a>')
+  // 创建L地图对象
+  const map = getXb2mapByName(element, $(element).data('mapName'))
+  // 设置右下角显示地名
+  map.attributionControl.setPrefix('<a href="//xenoblade2.cn">XENOBLADE2.CN</a>')
 
   const query = `[[Areas::${map.mapinfo.Name}]][[采集点:+||黄金之国采集点:+]]|limit=200`
   const pointsOnMap = await askGmkFromWiki(query)
 
-  let marker
-
-  if (highlightCollectionType) {
-    const highlight = (gmkPoint, pageName) => gmkPoint.fulltext.includes(pageName)
-    pointsOnMap.forEach(point => {
-      const pointType = point.fulltext.split('#')[0]
-      let icon, zIndexOffset
-      if (highlight(point, highlightCollectionType)) {
-        icon = collectionCurrent
-        zIndexOffset = 100
-      } else {
-        icon = collectionIcon
-        zIndexOffset = 0
-      }
-      marker = map.addMarker(point, { icon, zIndexOffset }, pointType.split('/')[1])
-
-      // 开关截图
-      marker.on('click', () => {
-        $(`#${point.Name}`).find(`[title="场景截图:${point.Name}"]`)[0].click()
-      })
-    })
-
-    // 右下角展开全部
-    const expandAllButton = $('<a>').text('展开全部').attr('href', '#').addClass('expand-all')
-    map.attributionControl.setPrefix(expandAllButton.prop('outerHTML'))
-    $(element).find('.expand-all').click(function (e) {
-      e.preventDefault()
-      const selector = pointsOnMap.filter(point => highlight(point, highlightCollectionType)).map(point => '#' + point.Name).join(',')
-      if ($(this).data('expanded')) {
-        $(selector).slideUp()
-        $(this).data('expanded', false)
-      } else {
-        $(selector).slideDown()
-        $(this).data('expanded', true)
-      }
-    })
-  } else if (highlightCollectionItem) {
-    const query = `采集物::${highlightCollectionItem}`
-    const highlightTypes = await getCollectionPop(query)
-    const highlightTypesArray = Object.values(highlightTypes).map(collectionType => collectionType.fulltext)
-
-    pointsOnMap.forEach(point => {
-      const pointType = point.fulltext.split('#')[0]
-
-      let icon, zIndexOffset
-      if (highlightTypesArray.includes(pointType)) {
-        icon = collectionCurrent
-        zIndexOffset = 100
-      } else {
-        icon = collectionIcon
-        zIndexOffset = 0
-      }
-
-      marker = map.addMarker(point, { icon, zIndexOffset }, pointType.split('/')[1])
-
-      marker.on('click', () => {
-        console.log(point)
-        window.open(point.fullurl.split('#')[0], '_blank')
-      })
-
-      marker.on('mouseover', async function () {
-        const result = await getCollectionPop(pointType)
-
-        const red = text => `<span style="color:red;">${text}</span>`
-        const printouts = result[pointType]['printouts']
-        const itemPopData = []
-        for (let i = 1; i <= 4; i++) {
-          let row = [
-            printouts['采集道具' + i][0].fulltext.split(':')[1],
-            printouts['采集概率' + i][0] + '%'
-          ]
-
-          if (printouts['采集道具' + i][0].fulltext === highlightCollectionItem) {
-            row = [ red(row[0]), red(row[1]) ]
-          }
-          itemPopData.push(row)
+  switch (mode) {
+    case 'CollectionType':
+      // 右下角展开全部
+      const expandAllButton = $('<a>').text('展开全部').attr('href', '#').addClass('expand-all')
+      map.attributionControl.addAttribution(expandAllButton.prop('outerHTML'))
+      $(element).find('.expand-all').click(function (e) {
+        e.preventDefault()
+        const selector = pointsOnMap.filter(point => highlight(point, highlightCollectionType)).map(point => '#' + point.Name).join(',')
+        if ($(this).data('expanded')) {
+          $(selector).slideUp()
+          $(this).data('expanded', false)
+        } else {
+          $(selector).slideDown()
+          $(this).data('expanded', true)
         }
-        const itemPop = `<table>
-                          <tr>
-                            <td>${itemPopData[0][0]}</td>
-                            <td>${itemPopData[0][1]}</td>
-                          </tr>
-                          <tr>
-                            <td>${itemPopData[1][0]}</td>
-                            <td>${itemPopData[1][1]}</td>
-                          </tr>
-                          <tr>
-                            <td>${itemPopData[2][0]}</td>
-                            <td>${itemPopData[2][1]}</td>
-                          </tr>
-                          <tr>
-                            <td>${itemPopData[3][0]}</td>
-                            <td>${itemPopData[3][1]}</td>
-                          </tr>
-                        </table>`
-        this.setTooltipContent([ pointType.split('/')[1], '数量: ' + printouts['单次采集数量'][0], itemPop ].join('<hr>'))
       })
-    })
+
+      const highlight = (gmkPoint, pageName) => gmkPoint.fulltext.includes(pageName)
+      pointsOnMap.forEach(point => {
+        const pointType = point.fulltext.split('#')[0]
+        let icon, zIndexOffset
+
+        // marker setting
+        if (highlight(point, highlightCollectionType)) {
+          icon = collectionCurrent
+          zIndexOffset = 100
+        } else {
+          icon = collectionIcon
+          zIndexOffset = 0
+        }
+
+        map.addMarker(point, { icon, zIndexOffset }, pointType.split('/')[1])
+          .on('click', () => {
+            try {
+              $(`#${point.Name}`).find(`[title="场景截图:${point.Name}"]`)[0].click()
+            } catch (error) {
+              window.open(point.fullurl.split('#')[0], '_blank')
+            }
+          })
+          .on('mouseover', displayPopInfo(pointType))
+      })
+      break
+
+    case 'CollectionItem':
+      // 右下角显示地名
+      map.attributionControl.addAttribution(map.mapinfo.mapName + '・' + map.mapinfo.menuGroup)
+
+      const query = `采集物::${highlightCollectionItem}`
+      const highlightTypes = await getCollectionPop(query)
+      const highlightTypesArray = Object.values(highlightTypes).map(collectionType => collectionType.fulltext)
+
+      pointsOnMap.forEach(point => {
+        const pointType = point.fulltext.split('#')[0]
+
+        // marker setting
+        let icon, zIndexOffset
+        if (highlightTypesArray.includes(pointType)) {
+          icon = collectionCurrent
+          zIndexOffset = 100
+        } else {
+          icon = collectionIcon
+          zIndexOffset = 0
+        }
+        map.addMarker(point, { icon, zIndexOffset }, pointType.split('/')[1])
+          .on('click', () => {
+            window.open(point.fullurl.split('#')[0], '_blank')
+          })
+          .on('mouseover', displayPopInfo(pointType, highlightCollectionItem))
+      })
+      break
+  }
+}
+
+function displayPopInfo (collectionType, highlightCollectionItem) {
+  return async function () {
+    const result = await getCollectionPop(collectionType)
+
+    const red = text => `<span style="color:red;">${text}</span>`
+    const printouts = result[collectionType]['printouts']
+    const itemPopData = []
+    for (let i = 1; i <= 4; i++) {
+      let row = [
+        printouts['采集道具' + i][0].fulltext.split(':')[1],
+        printouts['采集概率' + i][0] + '%'
+      ]
+
+      if (highlightCollectionItem && printouts['采集道具' + i][0].fulltext === highlightCollectionItem) {
+        row = [ red(row[0]), red(row[1]) ]
+      }
+      itemPopData.push(row)
+    }
+    const itemPop = `<table>
+                      <tr>
+                        <td>${itemPopData[0][0]}</td>
+                        <td>${itemPopData[0][1]}</td>
+                      </tr>
+                      <tr>
+                        <td>${itemPopData[1][0]}</td>
+                        <td>${itemPopData[1][1]}</td>
+                      </tr>
+                      <tr>
+                        <td>${itemPopData[2][0]}</td>
+                        <td>${itemPopData[2][1]}</td>
+                      </tr>
+                      <tr>
+                        <td>${itemPopData[3][0]}</td>
+                        <td>${itemPopData[3][1]}</td>
+                      </tr>
+                    </table>`
+    this.setTooltipContent([ collectionType.split('/')[1], '数量: ' + printouts['单次采集数量'][0], itemPop ].join('<hr>'))
   }
 }
 
