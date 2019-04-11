@@ -13,20 +13,23 @@ function onMapSpace (gmkPoints, map) {
   )
 }
 
+const askCache = {}
 async function ask (query) {
+  if (askCache[query]) return askCache[query]
   const { query: { results } } = await $.ajax({
-    url: `/api.php`,
+    url: `//192.168.1.18/api.php`,
     data: {
       action: 'ask',
       query,
       format: 'json'
     }
   })
+  askCache[query] = results
   return results
 }
 
 async function askGmkFromWiki (query) {
-  const results = await ask(query + '|?PosX|?PosY|?PosZ')
+  const results = await ask('[[PosX::+]][[PosY::+]][[PosZ::+]]' + query + '|?PosX|?PosY|?PosZ')
   const points = Object.values(results).map(pageData => {
     // 兼容addMarker
     Object.assign(pageData, {
