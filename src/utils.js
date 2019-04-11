@@ -1,3 +1,4 @@
+import { host } from './config'
 import $ from 'jquery'
 
 function setContainerHeight (element) {
@@ -13,11 +14,15 @@ function onMapSpace (gmkPoints, map) {
   )
 }
 
+// ajax
+
+const apiUrl = host + '/api.php'
+
 const askCache = {}
 async function ask (query) {
   if (askCache[query]) return askCache[query]
   const { query: { results } } = await $.ajax({
-    url: `//192.168.1.18/api.php`,
+    url: apiUrl,
     data: {
       action: 'ask',
       query,
@@ -42,4 +47,31 @@ async function askGmkFromWiki (query) {
   return points
 }
 
-export { setContainerHeight, onMapSpace, ask, askGmkFromWiki }
+const jsonCache = {}
+async function queryJson (pagename) {
+  if (jsonCache[pagename]) return jsonCache[pagename]
+
+  let result
+  try {
+    result = await $.ajax({
+      url: `${host}/JSON:${pagename}`,
+      data: {
+        action: 'raw'
+      }
+    })
+  } catch (error) {
+    if (error.status === 404) {
+      throw Error('404: 找不到名为 ' + pagename + ' 的JSON数据')
+    } else if (error.status === 0) {
+      throw Error('网络错误，或禁止跨域')
+    } else {
+      throw error
+    }
+  }
+
+  const resultJson = JSON.parse(result)
+  jsonCache[pagename] = resultJson
+  return resultJson
+}
+
+export { setContainerHeight, onMapSpace, ask, askGmkFromWiki, queryJson }

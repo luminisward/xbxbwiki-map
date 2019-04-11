@@ -1,9 +1,6 @@
 import L from 'leaflet'
-import $ from 'jquery'
-
-import mapinfosBase from './data/mapinfo'
-import mapinfosIra from './data/mapinfo_ira'
-const mapinfos = { ...mapinfosBase, ...mapinfosIra }
+import { queryJson } from './utils'
+import { host } from './config'
 
 class Xb2map extends L.Map {
   constructor (element, option, imageUrl, mapinfo) {
@@ -75,17 +72,14 @@ function xyBounds (bounds) {
   ]
 }
 
-function getXb2mapByName (element, name) {
+async function getXb2mapByName (element, name) {
   name = name.toLowerCase()
-  if (name in mapinfos) {
-    const themapinfo = mapinfos[name]
-    themapinfo.Name = name
+  const theMapinfo = await queryJson('Mapinfo/' + name)
 
-    const imageUrl = require('./map-images/' + name + '_map_0.png')
+  // const imageUrl = require('./map-images/' + theMapinfo.Name + '_map_0.png')
+  const imageUrl = `${host}/特殊:重定向/file/${theMapinfo.Name}_map_0.png`
 
-    return new Xb2map(element, {}, imageUrl, themapinfo)
-  }
-  throw Error('Invalid map.')
+  return new Xb2map(element, {}, imageUrl, theMapinfo)
 }
 
 export {

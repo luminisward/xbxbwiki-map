@@ -12,7 +12,7 @@ async function draw (element) {
   const mode = highlightCollectionType ? 'CollectionType' : (highlightCollectionItem ? 'CollectionItem' : null)
 
   // 创建L地图对象
-  const map = getXb2mapByName(element, $(element).data('mapName'))
+  const map = await getXb2mapByName(element, $(element).data('mapName'))
   // 设置右下角显示地名
   map.attributionControl.setPrefix('<a href="//xenoblade2.cn">XENOBLADE2.CN</a>')
 
@@ -110,7 +110,7 @@ function displayPopInfo (collectionType, highlightCollectionItem) {
       }
       itemPopData.push(row)
     }
-    const itemPop = `<table>
+    const itemPop = `<table class="item-pop">
                       <tr>
                         <td>${itemPopData[0][0]}</td>
                         <td>${itemPopData[0][1]}</td>
@@ -142,7 +142,7 @@ async function main () {
   // multi-map, append div.xb2map
   for (const element of $('.multi-xb2map-collection')) {
     const highlightCollectionItem = $(element).data('highlightCollectionItem')
-    const query = `[[采集物::${highlightCollectionItem}]]|?Areas`
+    const query = `[[采集点:+||黄金之国采集点:+]][[采集物::${highlightCollectionItem}]]|?Areas`
     const response = await ask(query)
     const mapSet = new Set(Object.values(response).map(collectionType => collectionType.printouts.Areas).flat())
 
