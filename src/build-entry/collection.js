@@ -11,12 +11,19 @@ async function draw (element) {
   const highlightCollectionItem = $(element).data('highlightCollectionItem')
 
   const map = getXb2mapByName(element, mapName)
+  // 右下角显示地名
+  map.attributionControl.setPrefix(map.mapinfo.mapName + '・' + map.mapinfo.menuGroup)
+  map.attributionControl.addAttribution('<a href="//xenoblade2.cn">XENOBLADE2.CN</a>')
+
   const query = `[[Areas::${map.mapinfo.Name}]][[采集点:+||黄金之国采集点:+]]|limit=200`
   const pointsOnMap = await askGmkFromWiki(query)
+
+  let marker
 
   if (highlightCollectionType) {
     const highlight = (gmkPoint, pageName) => gmkPoint.fulltext.includes(pageName)
     pointsOnMap.forEach(point => {
+      const pointType = point.fulltext.split('#')[0]
       let icon, zIndexOffset
       if (highlight(point, highlightCollectionType)) {
         icon = collectionCurrent
@@ -25,7 +32,7 @@ async function draw (element) {
         icon = collectionIcon
         zIndexOffset = 0
       }
-      const marker = map.addMarker(point, { icon, zIndexOffset }, point.fulltext)
+      marker = map.addMarker(point, { icon, zIndexOffset }, pointType.split('/')[1])
 
       // 开关截图
       marker.on('click', () => {
@@ -48,12 +55,9 @@ async function draw (element) {
       }
     })
   } else if (highlightCollectionItem) {
-    const dynamicAskData = {}
-
     const query = `采集物::${highlightCollectionItem}`
     const highlightTypes = await getCollectionPop(query)
     const highlightTypesArray = Object.values(highlightTypes).map(collectionType => collectionType.fulltext)
-    Object.assign(dynamicAskData, highlightTypes)
 
     pointsOnMap.forEach(point => {
       const pointType = point.fulltext.split('#')[0]
@@ -67,19 +71,18 @@ async function draw (element) {
         zIndexOffset = 0
       }
 
-      const marker = map.addMarker(point, { icon, zIndexOffset }, pointType.split('/')[1])
+      marker = map.addMarker(point, { icon, zIndexOffset }, pointType.split('/')[1])
+
       marker.on('click', () => {
-        window.open(point.fullurl, '_blank')
+        console.log(point)
+        window.open(point.fullurl.split('#')[0], '_blank')
       })
 
       marker.on('mouseover', async function () {
-        if (!dynamicAskData[pointType]) {
-          const result = await getCollectionPop(pointType)
-          Object.assign(dynamicAskData, result)
-        }
+        const result = await getCollectionPop(pointType)
 
         const red = text => `<span style="color:red;">${text}</span>`
-        const printouts = dynamicAskData[pointType]['printouts']
+        const printouts = result[pointType]['printouts']
         const itemPopData = []
         for (let i = 1; i <= 4; i++) {
           let row = [
@@ -110,12 +113,7 @@ async function draw (element) {
                             <td>${itemPopData[3][1]}</td>
                           </tr>
                         </table>`
-
-        this.setTooltipContent([
-          pointType.split('/')[1],
-          '数量: ' + printouts['单次采集数量'][0],
-          itemPop
-        ].join('<hr>'))
+        this.setTooltipContent([ pointType.split('/')[1], '数量: ' + printouts['单次采集数量'][0], itemPop ].join('<hr>'))
       })
     })
   }
@@ -127,16 +125,9 @@ async function getCollectionPop (pointType) {
   return result
 }
 
-function load () {
-  $('.xb2map-collection').each((index, element) => {
-    setContainerHeight(element)
-    draw(element)
-  })
-}
-
 async function main () {
-  // multi-map
-  const xb2maps = $('.multi-xb2map-collection').map(async (i, element) => {
+  // multi-map, append div.xb2map
+  for (const element of $('.multi-xb2map-collection')) {
     const highlightCollectionItem = $(element).data('highlightCollectionItem')
     const query = `[[采集物::${highlightCollectionItem}]]|?Areas`
     const response = await ask(query)
@@ -149,10 +140,12 @@ async function main () {
         .data('highlightCollectionItem', highlightCollectionItem)
       $(element).append(mapElement)
     })
-  })
-  await Promise.all(xb2maps)
+  }
 
   // load xb2map
-  load()
+  for (const element of $('.xb2map-collection')) {
+    setContainerHeight(element)
+    await draw(element)
+  }
 }
 main()
