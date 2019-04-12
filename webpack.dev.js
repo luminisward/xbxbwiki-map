@@ -3,6 +3,7 @@ const md5 = require('md5')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
+const config = require('./config')
 
 module.exports = {
   entry: ['babel-polyfill', './src/main.js'],
@@ -36,6 +37,7 @@ module.exports = {
               const filenameMd5 = md5(filenameInMw)
               return `${filenameMd5.slice(0, 1)}/${filenameMd5.slice(0, 2)}/${filenameInMw}`
             },
+            // emitFile: false,
             publicPath: '/images',
             outputPath: 'images'
           }
@@ -88,6 +90,7 @@ module.exports = {
     port: 8080,
     clientLogLevel: 'warning',
     quiet: true,
-    compress: true
+    compress: true,
+    proxy: config.proxyTable
   }
 }

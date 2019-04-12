@@ -1,4 +1,3 @@
-import { host } from './config'
 import $ from 'jquery'
 
 function setContainerHeight (element) {
@@ -16,7 +15,7 @@ function onMapSpace (gmkPoints, map) {
 
 // ajax
 
-const apiUrl = host + '/api.php'
+const apiUrl = '/api.php'
 
 const askCache = {}
 async function ask (query) {
@@ -54,7 +53,7 @@ async function queryJson (pagename) {
   let result
   try {
     result = await $.ajax({
-      url: `${host}/JSON:${pagename}`,
+      url: `/JSON:${pagename}`,
       data: {
         action: 'raw'
       }

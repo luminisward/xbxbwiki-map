@@ -1,6 +1,5 @@
 import L from 'leaflet'
 import { queryJson } from './utils'
-import { host } from './config'
 
 class Xb2map extends L.Map {
   constructor (element, option, imageUrl, mapinfo) {
@@ -77,7 +76,7 @@ async function getXb2mapByName (element, name) {
   const theMapinfo = await queryJson('Mapinfo/' + name)
 
   // const imageUrl = require('./map-images/' + theMapinfo.Name + '_map_0.png')
-  const imageUrl = `${host}/特殊:重定向/file/${theMapinfo.Name}_map_0.png`
+  const imageUrl = `/特殊:重定向/file/${theMapinfo.Name}_map_0.png`
 
   return new Xb2map(element, {}, imageUrl, theMapinfo)
 }
