@@ -21,12 +21,17 @@ async function draw (element) {
 
   switch (mode) {
     case 'CollectionType':
+      const highlight = (gmkPoint, pageName) => gmkPoint.fulltext.includes(pageName)
+
       // 右下角展开全部
       const expandAllButton = $('<a>').text('展开全部').attr('href', '#').addClass('expand-all')
       map.attributionControl.addAttribution(expandAllButton.prop('outerHTML'))
       $(element).find('.expand-all').click(function (e) {
         e.preventDefault()
-        const selector = pointsOnMap.filter(point => highlight(point, highlightCollectionType)).map(point => '#' + point.Name).join(',')
+        const selector = pointsOnMap
+          .filter(point => highlight(point, highlightCollectionType))
+          .map(point => '#' + point.fulltext.split('#')[1].replace(/ /g, '_'))
+          .join(',')
         if ($(this).data('expanded')) {
           $(selector).slideUp()
           $(this).data('expanded', false)
@@ -36,7 +41,6 @@ async function draw (element) {
         }
       })
 
-      const highlight = (gmkPoint, pageName) => gmkPoint.fulltext.includes(pageName)
       pointsOnMap.forEach(point => {
         const [pointType, gmkId] = point.fulltext.split('#')
         let icon, zIndexOffset
