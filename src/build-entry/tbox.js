@@ -25,7 +25,7 @@ async function draw (element) {
       // 未指定地图时，使用指定宝箱地图列表里的第一个
       const areas = Array.from(new Set(points.map(point => point.printouts.Areas).flat()))
       const mapId = mapName || areas[0]
-      map = getXb2mapByName(element, mapId)
+      map = await getXb2mapByName(element, mapId)
       points.forEach(point => {
         map.addMarker(point, { icon })
       })
