@@ -3,7 +3,7 @@ import '../main.scss'
 
 import { getXb2mapByName } from '../xb2map'
 import { tbox as icon } from '../markerIcon'
-import { setContainerHeight, askGmkFromWiki } from '../utils'
+import { setContainerHeight, askGmkFromWiki, batchAskGmk, onMapSpace } from '../utils'
 
 async function draw (element) {
   const gmkIds = $(element).data('gmkId')
@@ -17,17 +17,19 @@ async function draw (element) {
   let map
   if (gmkIds.length > 0) {
     // 指定宝箱列表
-    const inputGmks = gmkIds.map(gmkId => askGmkFromWiki(`[[TboxGmkName::${gmkId}]][[宝箱:+||黄金之国宝箱:+]]|?areas|?FieldSkill|?TboxPopDisplay|?Gold|limit=100`))
-    let points = await Promise.all(inputGmks)
-    points = points.flat().filter(point => point !== undefined)
-
+    const points = await batchAskGmk('TboxGmkName', gmkIds, { additionalCondition: '[[宝箱:+||黄金之国宝箱:+]]|?Areas|?FieldSkill|?TboxPopDisplay|?Gold|limit=100' })
     if (points.length > 0) {
       // 未指定地图时，使用指定宝箱地图列表里的第一个
       const areas = Array.from(new Set(points.map(point => point.printouts.Areas).flat()))
       const mapId = mapName || areas[0]
       map = await getXb2mapByName(element, mapId)
-      points.forEach(point => {
-        map.addMarker(point, { icon })
+      onMapSpace(points, map).forEach(point => {
+        map.addMarker(point, { icon }, getTooltipContent(point)
+        ).on('click', () => {
+          if (point.fullurl !== window.location.origin + window.location.pathname) {
+            window.open(point.fullurl, '_blank')
+          }
+        })
       })
     } else {
       throw Error('No valid gmk id.')
@@ -41,13 +43,8 @@ async function draw (element) {
     const points = await askGmkFromWiki(query)
 
     points.forEach(point => {
-      const popItem = point.printouts.TboxPopDisplay.join('<br>')
-      const popGold = point.printouts.Gold[0] ? point.printouts.Gold[0] + ' G' : ''
-      const fieldSkill = point.printouts.FieldSkill.join('<br>')
-      const tooltipContent = [point.fulltext, fieldSkill, popGold, popItem].filter(Boolean).join('<hr>')
-
       map.addMarker(
-        point, { icon }, tooltipContent
+        point, { icon }, getTooltipContent(point)
       ).on('click', () => {
         window.open(point.fullurl, '_blank')
       })
@@ -57,6 +54,13 @@ async function draw (element) {
   // 右下角显示地名
   map.attributionControl.setPrefix('<a href="//xenoblade2.cn">XENOBLADE2.CN</a>')
   map.attributionControl.addAttribution(map.mapinfo.mapName + '・' + map.mapinfo.menuGroup)
+}
+
+function getTooltipContent (pointData) {
+  const popItem = pointData.printouts.TboxPopDisplay.join('<br>')
+  const popGold = pointData.printouts.Gold[0] ? pointData.printouts.Gold[0] + ' G' : ''
+  const fieldSkill = pointData.printouts.FieldSkill.join('<br>')
+  return [pointData.fulltext, fieldSkill, popGold, popItem].filter(Boolean).join('<hr>')
 }
 
 async function main () {

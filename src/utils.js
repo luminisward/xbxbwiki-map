@@ -1,4 +1,5 @@
 import $ from 'jquery'
+import chunk from 'lodash/chunk'
 
 function setContainerHeight (element) {
   $(element).height($(element).width() * 0.618)
@@ -9,7 +10,7 @@ function setContainerHeight (element) {
 
 function onMapSpace (gmkPoints, map) {
   return gmkPoints.filter(point =>
-    point.areas.map(area => area.toLowerCase()).includes(map.mapinfo.Name)
+    point.printouts.Areas.includes(map.mapinfo.Name)
   )
 }
 
@@ -46,6 +47,15 @@ async function askGmkFromWiki (query) {
   return points
 }
 
+async function batchAskGmk (gmkIdPropertyName, gmkIdsArray, { perAskNumber = 10, additionalCondition = '' } = {}) {
+  const result = await Promise.all(
+    chunk(gmkIdsArray, perAskNumber).map(gmkidSlice =>
+      askGmkFromWiki(`[[${gmkIdPropertyName}::${gmkidSlice.join('||')}]]${additionalCondition}`)
+    )
+  )
+  return result.flat().filter(point => point !== undefined)
+}
+
 const jsonCache = {}
 async function queryJson (pagename) {
   if (jsonCache[pagename]) return jsonCache[pagename]
@@ -73,4 +83,4 @@ async function queryJson (pagename) {
   return resultJson
 }
 
-export { setContainerHeight, onMapSpace, ask, askGmkFromWiki, queryJson }
+export { setContainerHeight, onMapSpace, ask, askGmkFromWiki, batchAskGmk, queryJson }
