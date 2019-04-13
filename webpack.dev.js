@@ -57,8 +57,7 @@ module.exports = {
       template: 'index.html'
     }),
     new MiniCssExtractPlugin({
-      filename: '[name].css',
-      chunkFilename: '[id].css'
+      chunkFilename: 'xb2map.css'
     }),
     new OptimizeCSSAssetsPlugin({
       cssProcessorOptions: { safe: true }
@@ -72,11 +71,10 @@ module.exports = {
       cacheGroups: {
         vendors: {
           priority: -10,
-          test: /[\\/]node_modules[\\/]/
+          test: /[\\/]node_modules[\\/]||[\\/]src[\\/]xb2map.js/,
+          chunks: 'all'
         }
       },
-
-      chunks: 'all',
       minChunks: 2,
       minSize: 0,
       name: true
