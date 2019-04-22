@@ -129,11 +129,16 @@ async function getCollectionPop (pointType) {
 
 async function main () {
   // multi-map, append div.xb2map
-  for (const element of $('.multi-xb2map-collection')) {
+  for (let i = 0; i < $('.multi-xb2map-collection').length; i++) {
+    const element = $('.multi-xb2map-collection')[i]
     const highlightCollectionItem = $(element).data('highlightCollectionItem')
     const query = `[[采集点:+||黄金之国采集点:+]][[采集物::${highlightCollectionItem}]]|?Areas`
     const response = await ask(query)
-    const mapSet = new Set(Object.values(response).map(collectionType => collectionType.printouts.Areas).flat())
+    const mapSet = new Set(
+      Object.values(response)
+        .map(collectionType => collectionType.printouts.Areas)
+        .reduce((a, b) => a.concat(b), [])
+    )
 
     mapSet.forEach(mapName => {
       const mapElement = $('<div>')
@@ -145,7 +150,8 @@ async function main () {
   }
 
   // load xb2map
-  for (const element of $('.xb2map-collection')) {
+  for (let i = 0; i < $('.xb2map-collection').length; i++) {
+    const element = $('.xb2map-collection')[i]
     setContainerHeight(element)
     await draw(element)
   }

@@ -3,7 +3,7 @@ import chunk from 'lodash/chunk'
 
 function setContainerHeight (element) {
   $(element).height($(element).width() * 0.618)
-  $(window).resize(function () {
+  $(window).resize(() => {
     $(element).height($(element).width() * 0.618)
   })
 }
@@ -53,7 +53,7 @@ async function batchAskGmk (gmkIdPropertyName, gmkIdsArray, { perAskNumber = 10,
       askGmkFromWiki(`[[${gmkIdPropertyName}::${gmkidSlice.join('||')}]]${additionalCondition}`)
     )
   )
-  return result.flat().filter(point => point !== undefined)
+  return result.reduce((a, b) => a.concat(b), [])
 }
 
 const jsonCache = {}

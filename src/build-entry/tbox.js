@@ -20,7 +20,11 @@ async function draw (element) {
     const points = await batchAskGmk('TboxGmkName', gmkIds, { additionalCondition: '[[宝箱:+||黄金之国宝箱:+]]|?Areas|?FieldSkill|?TboxPopDisplay|?Gold|limit=100' })
     if (points.length > 0) {
       // 未指定地图时，使用指定宝箱地图列表里的第一个
-      const areas = Array.from(new Set(points.map(point => point.printouts.Areas).flat()))
+      const areas = Array.from(new Set(
+        points
+          .map(point => point.printouts.Areas)
+          .reduce((a, b) => a.concat(b, []))
+      ))
       const mapId = mapName || areas[0]
       map = await getXb2mapByName(element, mapId)
       onMapSpace(points, map).forEach(point => {
@@ -64,7 +68,8 @@ function getTooltipContent (pointData) {
 }
 
 async function main () {
-  for (const element of $('.xb2map-tbox')) {
+  for (let i = 0; i < $('.xb2map-tbox').length; i++) {
+    const element = $('.xb2map-tbox')[i]
     setContainerHeight(element)
     await draw(element)
   }
