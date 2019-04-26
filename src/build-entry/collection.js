@@ -16,12 +16,12 @@ async function draw (element) {
   // 设置右下角显示地名
   map.attributionControl.setPrefix('<a href="//xenoblade2.cn">XENOBLADE2.CN</a>')
 
-  const query = `[[Areas::${map.mapinfo.Name}]][[采集点:+||黄金之国采集点:+]]|limit=200`
+  const query = `[[Areas::${map.mapinfo.Name}]][[采集点:+||黄金之国采集点:+]]|limit=300`
   const pointsOnMap = await askGmkFromWiki(query)
 
   switch (mode) {
     case 'CollectionType':
-      const highlight = (gmkPoint, pageName) => gmkPoint.fulltext.includes(pageName)
+      const highlight = (gmkPoint, pageName) => gmkPoint.fulltext.split('#', 1)[0].split('/')[1] === pageName
 
       // 右下角展开全部
       const expandAllButton = $('<a>').text('展开全部').attr('href', '#').addClass('expand-all')
