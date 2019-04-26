@@ -3,9 +3,11 @@ const UglifyJsPlugin = require('uglifyjs-webpack-plugin')
 
 config.externals = {
   jquery: 'jQuery',
-  leaflet: 'L'
+  leaflet: 'L',
+  echarts: 'echarts'
 }
 config.entry = {
+  chart: './src/build-entry/chartParam.js',
   collection: './src/build-entry/collection.js',
   tbox: './src/build-entry/tbox.js'
 }
