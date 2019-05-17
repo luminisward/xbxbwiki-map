@@ -2,6 +2,7 @@ import L from 'leaflet'
 
 import collectionIconUrl from './icons/collection-marker-icon.png'
 import collectionCurrentUrl from './icons/collection-marker-current.png'
+import enemyIcon from './icons/enemy.png'
 import playerIcon from './icons/player.png'
 import tboxIcon from './icons/tbox.png'
 
@@ -13,6 +14,10 @@ const collectionCurrent = L.icon({
   iconUrl: collectionCurrentUrl,
   iconSize: [22, 32]
 })
+const enemy = L.icon({
+  iconUrl: enemyIcon,
+  iconSize: [22, 32]
+})
 const player = L.icon({
   iconUrl: playerIcon,
   iconSize: [22, 31]
@@ -22,4 +27,4 @@ const tbox = L.icon({
   iconSize: [26, 26]
 })
 
-export { collectionIcon, collectionCurrent, player, tbox }
+export { collectionIcon, collectionCurrent, player, tbox, enemy }

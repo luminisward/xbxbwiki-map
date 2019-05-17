@@ -4,7 +4,17 @@ div[class^="xb2map"] {
   margin: 0.5em;
   width: auto;
 
-  table.item-pop tr td:first-child {
-    padding-right: 0.5em;
+  table {
+    border-collapse: collapse;
+
+    &.item-pop tr td:first-child {
+      padding-right: 0.5em;
+    }
+
+    &.pop-weather td {
+      text-align: center;
+      padding: 0 0.5em;
+      border: 1px solid;
+    }
   }
 }

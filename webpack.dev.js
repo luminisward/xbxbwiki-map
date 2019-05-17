@@ -75,7 +75,7 @@ module.exports = {
           chunks: 'all'
         }
       },
-      minChunks: 2,
+      minChunks: 3,
       minSize: 0,
       name: true
     }
