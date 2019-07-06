@@ -8,7 +8,8 @@ config.externals = {
 config.entry = {
   collection: './src/build-entry/collection.js',
   tbox: './src/build-entry/tbox.js',
-  enemy: './src/build-entry/enemy.js'
+  enemy: './src/build-entry/enemy.js',
+  salvage: './src/build-entry/salvage.js'
 }
 config.plugins.push(...[
   new UglifyJsPlugin({

@@ -5,6 +5,7 @@ import collectionCurrentUrl from './icons/collection-marker-current.png'
 import enemyIcon from './icons/enemy.png'
 import playerIcon from './icons/player.png'
 import tboxIcon from './icons/tbox.png'
+import salvageIcon from './icons/salvage.png'
 
 const collectionIcon = L.icon({
   iconUrl: collectionIconUrl,
@@ -26,5 +27,9 @@ const tbox = L.icon({
   iconUrl: tboxIcon,
   iconSize: [26, 26]
 })
+const salvage = L.icon({
+  iconUrl: salvageIcon,
+  iconSize: [22, 32]
+})
 
-export { collectionIcon, collectionCurrent, player, tbox, enemy }
+export { collectionIcon, collectionCurrent, player, tbox, enemy, salvage }
