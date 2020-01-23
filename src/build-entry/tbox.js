@@ -23,7 +23,7 @@ async function draw (element) {
       const areas = Array.from(new Set(
         points
           .map(point => point.printouts.Areas)
-          .reduce((a, b) => a.concat(b, []))
+          .reduce((a, b) => a.concat(b), [])
       ))
       const mapId = mapName || areas[0]
       map = await getXb2mapByName(element, mapId)

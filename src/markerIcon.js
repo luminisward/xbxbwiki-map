@@ -8,8 +8,6 @@ import tboxIcon from './icons/tbox.png'
 import salvageIcon from './icons/salvage.png'
 import npcIcon from './icons/npc.svg'
 
-console.log(npcIcon)
-
 export const collectionIcon = L.icon({
   iconUrl: collectionIconUrl,
   iconSize: [22, 32]

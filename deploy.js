@@ -9,6 +9,7 @@ const depolyTable = {
   'tbox.js': 'Gadget:Xb2mapTbox.js',
   'enemy.js': 'Gadget:Xb2mapEnemy.js',
   'salvage.js': 'Gadget:Xb2mapSalvage.js',
+  'npc.js': 'Gadget:Xb2mapNpc.js',
   'xb2map.css': 'Gadget:Xb2map.css'
 }
 
