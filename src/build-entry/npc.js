@@ -5,7 +5,7 @@ import { getXb2mapByName } from '../xb2map'
 import { npc as icon } from '../markerIcon'
 import { setContainerHeight, queryJson, onMapSpace } from '../utils'
 
-// import gmk from '../data/gmk'
+// import gmk from '../data/gmk_npc'
 
 async function draw (element) {
   const gmkIds = $(element).data('gmkId')
@@ -24,7 +24,7 @@ async function draw (element) {
 
     if (points.length === 0) {
       console.error(`找不到GmkId ${gmkIds.join()} 的数据`)
-      return
+      throw Error(`找不到GmkId ${gmkIds.join()} 的数据`)
     }
 
     // 未指定地图时，使用指定宝箱地图列表里的第一个
@@ -57,7 +57,11 @@ async function main () {
   for (let i = 0; i < $npcMaps.length; i++) {
     const element = $npcMaps[i]
     setContainerHeight(element)
-    await draw(element)
+    try {
+      await draw(element)
+    } catch (error) {
+      $(element).remove()
+    }
   }
 }
 main()
