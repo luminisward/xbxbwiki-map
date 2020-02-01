@@ -6,30 +6,34 @@ import enemyIcon from './icons/enemy.png'
 import playerIcon from './icons/player.png'
 import tboxIcon from './icons/tbox.png'
 import salvageIcon from './icons/salvage.png'
+import npcIcon from './icons/npc.svg'
 
-const collectionIcon = L.icon({
+export const collectionIcon = L.icon({
   iconUrl: collectionIconUrl,
   iconSize: [22, 32]
 })
-const collectionCurrent = L.icon({
+export const collectionCurrent = L.icon({
   iconUrl: collectionCurrentUrl,
   iconSize: [22, 32]
 })
-const enemy = L.icon({
+export const enemy = L.icon({
   iconUrl: enemyIcon,
   iconSize: [22, 32]
 })
-const player = L.icon({
+export const player = L.icon({
   iconUrl: playerIcon,
   iconSize: [22, 31]
 })
-const tbox = L.icon({
+export const tbox = L.icon({
   iconUrl: tboxIcon,
   iconSize: [26, 26]
 })
-const salvage = L.icon({
+export const salvage = L.icon({
   iconUrl: salvageIcon,
   iconSize: [22, 32]
 })
-
-export { collectionIcon, collectionCurrent, player, tbox, enemy, salvage }
+export const npc = L.divIcon({
+  html: npcIcon,
+  iconSize: [12, 12],
+  className: null
+})

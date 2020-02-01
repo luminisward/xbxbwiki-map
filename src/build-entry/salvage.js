@@ -14,8 +14,6 @@ async function draw (element) {
   const gmk = await queryJson('Gmk/salvage')
   const point = gmk.filter(point => point.Name === gmkId)[0]
 
-  console.log(point)
-
   const mapId = mapName || point.areas[0]
   const map = await getXb2mapByName(element, mapId)
   map.addMarker(point, { icon })
