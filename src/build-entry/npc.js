@@ -41,7 +41,6 @@ async function draw (element) {
     map = await getXb2mapByName(element, mapId)
 
     const points = gmk.filter(point => point.areas.includes(mapId))
-    console.log(points)
     points.forEach(point => {
       map.addMarker(point, { icon }, point.Name)
     })
